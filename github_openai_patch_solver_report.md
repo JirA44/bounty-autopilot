@@ -1,11 +1,29 @@
 # GitHub OpenAI Patch Solver
 
-Last run: 2026-05-25 22:43 UTC
+Last run: 2026-05-25 23:49 UTC
 
 No online model key is configured, so GitHub Actions did not attempt code generation.
 Eligible candidates were queued for the local Codex solver instead of marking the run as failed.
 
-## 1. Bounty: $50 USD
+## 1. Bounty 5: cross-market state leak — permissionless `pnl_pos_bound_tot` inflation haircuts unrelated users and drains `header.insurance`
+
+- Status: local_fallback_queued
+- Repository: aeyakovenko/percolator-prog
+- Issue: https://github.com/aeyakovenko/percolator-prog/issues/104
+- Patch: not ready
+- Metadata: not ready
+- Message: Online model key missing; local Codex automation should inspect, patch, test, and prepare submission metadata.
+
+## 2. 🎯 Bounty Alert: 11 New Opportunityies found
+
+- Status: local_fallback_queued
+- Repository: dev-kp-eloper/BountyScout
+- Issue: https://github.com/dev-kp-eloper/BountyScout/issues/21
+- Patch: not ready
+- Metadata: not ready
+- Message: Online model key missing; local Codex automation should inspect, patch, test, and prepare submission metadata.
+
+## 3. Bounty: $50 USD
 
 - Status: local_fallback_queued
 - Repository: fredldotme/ISODriveUT
@@ -14,16 +32,7 @@ Eligible candidates were queued for the local Codex solver instead of marking th
 - Metadata: not ready
 - Message: Online model key missing; local Codex automation should inspect, patch, test, and prepare submission metadata.
 
-## 2. Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI
-
-- Status: local_fallback_queued
-- Repository: archestra-ai/archestra
-- Issue: https://github.com/archestra-ai/archestra/issues/4998
-- Patch: not ready
-- Metadata: not ready
-- Message: Online model key missing; local Codex automation should inspect, patch, test, and prepare submission metadata.
-
-## 3. [Feature] Add Integrity Verification (Hash of Executable/Script)
+## 4. [Feature] Add Integrity Verification (Hash of Executable/Script)
 
 - Status: local_fallback_queued
 - Repository: javelin-anticheat/py-workedtask
@@ -32,38 +41,11 @@ Eligible candidates were queued for the local Codex solver instead of marking th
 - Metadata: not ready
 - Message: Online model key missing; local Codex automation should inspect, patch, test, and prepare submission metadata.
 
-## 4. Sample Template for Bounty
-
-- Status: local_fallback_queued
-- Repository: Opty-Fi/defi-adapters
-- Issue: https://github.com/Opty-Fi/defi-adapters/issues/7
-- Patch: not ready
-- Metadata: not ready
-- Message: Online model key missing; local Codex automation should inspect, patch, test, and prepare submission metadata.
-
-## 5. Cross DEX Arbitrage Alert
-
-- Status: local_fallback_queued
-- Repository: daydreamsai/agent-bounties
-- Issue: https://github.com/daydreamsai/agent-bounties/issues/2
-- Patch: not ready
-- Metadata: not ready
-- Message: Online model key missing; local Codex automation should inspect, patch, test, and prepare submission metadata.
-
-## 6. Validate reward generation behavior
-
-- Status: local_fallback_queued
-- Repository: devpool-directory/devpool-directory
-- Issue: https://github.com/devpool-directory/devpool-directory/issues/5887
-- Patch: not ready
-- Metadata: not ready
-- Message: Online model key missing; local Codex automation should inspect, patch, test, and prepare submission metadata.
-
-## 7. BGL PR bounty hunt
+## 5. BGL PR bounty hunt ($10000 overall budget)
 
 - Status: local_fallback_queued
 - Repository: BitgesellOfficial/bitgesell
-- Issue: https://github.com/BitgesellOfficial/bitgesell/issues/32
+- Issue: https://github.com/BitgesellOfficial/bitgesell/issues/39
 - Patch: not ready
 - Metadata: not ready
 - Message: Online model key missing; local Codex automation should inspect, patch, test, and prepare submission metadata.
