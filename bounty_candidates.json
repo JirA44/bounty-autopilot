@@ -1,17 +1,1 @@
-[
-  {
-    "title": "Sample Template for Bounty",
-    "url": "https://github.com/Opty-Fi/defi-adapters/issues/7",
-    "repository_url": "https://github.com/Opty-Fi/defi-adapters",
-    "updated_at": "2026-05-25T17:03:05Z",
-    "score": 11,
-    "amount_hint": "5000 USDC",
-    "reason": "paid/bounty wording, coding scope, fresh update",
-    "source": "volume-expander",
-    "triage_decision": "keep",
-    "triage_reasons": [
-      "competition already visible in comments; still allowed in aggressive mode"
-    ],
-    "linked_prs": []
-  }
-]
+[]
