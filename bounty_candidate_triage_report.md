@@ -1,8 +1,8 @@
 # GitHub Bounty Candidate Triage
 
-Last run: 2026-05-25 16:15 UTC
+Last run: 2026-05-25 16:33 UTC
 
-Kept candidates: 1
+Kept candidates: 0
 
 This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-blocked, or false-positive GitHub bounty issues before worker time is spent. Crowded but still-paid issues are allowed with a score penalty.
 
@@ -37,42 +37,51 @@ This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-block
 - Issue: https://github.com/aeyakovenko/percolator-cli/issues/72
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 5. [Eval 2026-05-25] Infrastructure failure summary — 28/363 attempts failed due to infra issues
+## 5. Request to add memory usage size
 
 - Decision: drop
 - Score: 85 -> 15
-- Issue: https://github.com/Mosi-AI/LiveClawBench/issues/102
+- Issue: https://github.com/probe-rs/probe-rs/issues/4029
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 6. [Bug]: Qwen3-VL-2B-Instruct Geo3K accuracy score lower than SGLang with deterministic sampling
+## 6. on hover remove the border radius
 
 - Decision: drop
 - Score: 85 -> 15
-- Issue: https://github.com/vllm-project/vllm/issues/43602
+- Issue: https://github.com/ethereum/ethereum-org-website/issues/18271
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 7. EV loot bag rewards deprecated hatch
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/issues/24886
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 8. [ Bounty $3k ] [ Research ] Collect and compare AI-generated AGI architecture proposals
-
-- Decision: keep
-- Score: 81 -> 46
-- Issue: https://github.com/aLexzzz430/Cognitive-OS/issues/5
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 9. [Bug] awardRecommendedMerge uses rec.xp_reward from the database without capping to the difficulty-tier maximum, enabling XP inflation
+## 7. join
 
 - Decision: drop
 - Score: 79 -> 9
-- Issue: https://github.com/Coder-s-OG-s/MergeShip/issues/216
+- Issue: https://github.com/Ikalus1988/MisakaNet/issues/92
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 10. [BUG] lint-staged config in package.json is a string instead of a JSON object — pre-commit linting never runs
+## 8. [DASHBOARD] Hardening Status — 2026-05-25
+
+- Decision: drop
+- Score: 79 -> 9
+- Issue: https://github.com/kostasuser01gr/Hackathon-Voice-AI-Support-Dashboard-UI/issues/50
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 9. [App] GitGig
+
+- Decision: drop
+- Score: 73 -> -32
+- Issue: https://github.com/gitcoinco/gitcoin_co_30/issues/401
+- Reason: no clear open paid bounty signal >= $10 found
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 10. [BUG] User approval emails are entirely stubbed out — Resend API call is commented out, users never get notified
+
+- Decision: drop
+- Score: 71 -> -34
+- Issue: https://github.com/ritesh-1918/HELPDESK.AI/issues/121
+- Reason: no clear open paid bounty signal >= $10 found
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 11. [BUG] lint-staged config in package.json is a string instead of a JSON object — pre-commit linting never runs
 
 - Decision: drop
 - Score: 71 -> -34
@@ -80,19 +89,11 @@ This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-block
 - Reason: no clear open paid bounty signal >= $10 found
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 11. [BUG] Missing .dockerignore causes bloated Docker builds — entire repo sent as build context
+## 12. [BUG] Missing .dockerignore causes bloated Docker builds — entire repo sent as build context
 
 - Decision: drop
 - Score: 71 -> -34
 - Issue: https://github.com/ritesh-1918/HELPDESK.AI/issues/122
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 12. [BUG] User approval emails are entirely stubbed out — Resend API call is commented out, users never get notified
-
-- Decision: drop
-- Score: 71 -> -34
-- Issue: https://github.com/ritesh-1918/HELPDESK.AI/issues/121
 - Reason: no clear open paid bounty signal >= $10 found
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
@@ -104,23 +105,30 @@ This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-block
 - Reason: no clear open paid bounty signal >= $10 found
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 14. [Bug] : "Collect Rewards" button comes back after page refresh
+## 14. probe-rs is hardwired to use group plugdev
 
 - Decision: drop
-- Score: 70 -> 0
-- Issue: https://github.com/harshalkurrey/Harshal-World/issues/78
+- Score: 64 -> -6
+- Issue: https://github.com/probe-rs/probe-rs/issues/4025
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 15. Demonic Power
+## 15. [Repo Request] Create repository for GSoC 2026 project: BLT-HackerHouse
 
 - Decision: drop
-- Score: 69 -> -1
-- Issue: https://github.com/chromiecraft/chromiecraft/issues/9579
+- Score: 49 -> -21
+- Issue: https://github.com/OWASP-BLT/BLT/issues/6482
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 16. 扩充赏金组织列表：当前 21 个组织中仅 2 个有活跃赏金
+## 16. [Bug]: clawlancer bounties
 
 - Decision: drop
-- Score: 68 -> -32
-- Issue: https://github.com/FuZoe/PD-Hunter/issues/18
-- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
+- Score: 49 -> -21
+- Issue: https://github.com/openclaw/openclaw/issues/86448
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 17. Onboarding gap: consumers adopt DF gates without enforcing them — make `agent-critic` a required check part of onboarding
+
+- Decision: drop
+- Score: 25 -> -45
+- Issue: https://github.com/momentiq-ai/dark-factory/issues/17
+- Reason: no clear open paid bounty signal >= $10 found
