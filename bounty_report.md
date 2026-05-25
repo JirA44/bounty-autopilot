@@ -1,20 +1,30 @@
 # Bounty Scout Candidates
 
-Last run: 2026-05-25 21:34 UTC
+Last run: 2026-05-25 22:41 UTC
 
 This report filters public GitHub issues for small paid coding opportunities. It is a scout, not a payout guarantee.
 
-## 1. 扩充赏金组织列表：当前 21 个组织中仅 2 个有活跃赏金
+## 1. [SDK] Fix Hardcoded TESTNET Passphrase
 
-- Score: 68
-- Amount hint: $500, $3,500, $10,000, $25
-- Issue: https://github.com/FuZoe/PD-Hunter/issues/18
-- Repository: https://github.com/FuZoe/PD-Hunter
-- Updated: 2026-05-25T13:50:49Z
-- Why it matched: mentions bounty/reward, has visible amount, low discussion volume
+- Score: 43
+- Amount hint: amount not obvious
+- Issue: https://github.com/BCPathway/bc-forge/issues/72
+- Repository: https://github.com/BCPathway/bc-forge
+- Updated: 2026-05-25T21:21:55Z
+- Why it matched: mentions bounty/reward, low discussion volume
 - Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
 
-## 2. [RFC]: Risk Guardian — production safety harness for catastrophic-action prevention in long-running agent loops
+## 2. [Bug] Fix Cargo.lock tracking in .gitignore
+
+- Score: 43
+- Amount hint: amount not obvious
+- Issue: https://github.com/BCPathway/bc-forge/issues/58
+- Repository: https://github.com/BCPathway/bc-forge
+- Updated: 2026-05-25T21:20:58Z
+- Why it matched: mentions bounty/reward, low discussion volume
+- Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
+
+## 3. [RFC]: Risk Guardian — production safety harness for catastrophic-action prevention in long-running agent loops
 
 - Score: 43
 - Amount hint: amount not obvious
@@ -24,52 +34,52 @@ This report filters public GitHub issues for small paid coding opportunities. It
 - Why it matched: mentions bounty/reward, large issue body, low discussion volume
 - Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
 
-## 3. Add XP Multiplier content to Evergreen Thread as festival preview, remove multipliers from bounty board embeds
+## 4. DSR: scale applied before clip; gradient saturates at raw_dsr > 10/scale
 
 - Score: 39
 - Amount hint: amount not obvious
-- Issue: https://github.com/Imaginary-Horizons-Productions/BountyBot/issues/522
-- Repository: https://github.com/Imaginary-Horizons-Productions/BountyBot
-- Updated: 2026-05-25T18:34:11Z
+- Issue: https://github.com/kwojdalski/masters_thesis/issues/177
+- Repository: https://github.com/kwojdalski/masters_thesis
+- Updated: 2026-05-25T21:33:43Z
 - Why it matched: mentions bounty/reward, low discussion volume
 - Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
 
-## 4. Add "evergreen bounty" as Server Goal verb
+## 5. NaN-reward and shape-mismatch early exits never increment skipped_batches
 
 - Score: 39
 - Amount hint: amount not obvious
-- Issue: https://github.com/Imaginary-Horizons-Productions/BountyBot/issues/312
-- Repository: https://github.com/Imaginary-Horizons-Productions/BountyBot
-- Updated: 2026-05-25T18:34:09Z
+- Issue: https://github.com/kwojdalski/masters_thesis/issues/173
+- Repository: https://github.com/kwojdalski/masters_thesis
+- Updated: 2026-05-25T21:32:39Z
 - Why it matched: mentions bounty/reward, low discussion volume
 - Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
 
-## 5. Construct custom image to celebrate completion of Server Goal or Bounty
+## 6. refactor(routes): introduce `/admin/*` translatable routes — 385 hardcoded sites
 
-- Score: 35
+- Score: 39
 - Amount hint: amount not obvious
-- Issue: https://github.com/Imaginary-Horizons-Productions/BountyBot/issues/288
-- Repository: https://github.com/Imaginary-Horizons-Productions/BountyBot
-- Updated: 2026-05-25T18:34:09Z
-- Why it matched: mentions bounty/reward, low discussion volume
+- Issue: https://github.com/fabiodalez-dev/Pinakes/issues/145
+- Repository: https://github.com/fabiodalez-dev/Pinakes
+- Updated: 2026-05-25T21:00:48Z
+- Why it matched: mentions bounty/reward, large issue body, low discussion volume
 - Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
 
-## 6. Progressive Evergreen Bounty Progress
+## 7. Deploy private AI playground with Cloudflare Pages and Access
 
-- Score: 35
-- Amount hint: amount not obvious
-- Issue: https://github.com/Imaginary-Horizons-Productions/BountyBot/issues/280
-- Repository: https://github.com/Imaginary-Horizons-Productions/BountyBot
-- Updated: 2026-05-25T18:34:08Z
-- Why it matched: mentions bounty/reward, low discussion volume
+- Score: 38
+- Amount hint: $0
+- Issue: https://github.com/BrandonTing/vgc_data_wrapper/issues/175
+- Repository: https://github.com/BrandonTing/vgc_data_wrapper
+- Updated: 2026-05-25T21:02:32Z
+- Why it matched: has visible amount, large issue body, low discussion volume
 - Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
 
-## 7. Build Listing Discovery Engine (PWA or React UI)
+## 8. Bounty scout candidates
 
 - Score: 34
-- Amount hint: amount not obvious
-- Issue: https://github.com/Nobayprotocol/Nobay-Protocol/issues/2
-- Repository: https://github.com/Nobayprotocol/Nobay-Protocol
-- Updated: 2026-05-25T16:42:14Z
-- Why it matched: mentions bounty/reward
+- Amount hint: $10.00, $100
+- Issue: https://github.com/asaadnashed/bounty-autopilot/issues/1
+- Repository: https://github.com/asaadnashed/bounty-autopilot
+- Updated: 2026-05-25T21:36:14Z
+- Why it matched: mentions bounty/reward, has visible amount, large issue body, likely claimed: \bclaim\b, low discussion volume
 - Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.

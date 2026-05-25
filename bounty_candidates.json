@@ -1,1 +1,107 @@
-[]
+[
+  {
+    "title": "Bounty: $50 USD",
+    "url": "https://github.com/fredldotme/ISODriveUT/issues/12",
+    "repository_url": "https://github.com/fredldotme/ISODriveUT",
+    "updated_at": "2026-05-25T21:35:34Z",
+    "score": 26,
+    "amount_hint": "$50",
+    "reason": "paid/bounty wording, visible amount, fresh update",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [
+      "competition already visible in comments; still allowed in aggressive mode"
+    ],
+    "linked_prs": []
+  },
+  {
+    "title": "Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI",
+    "url": "https://github.com/archestra-ai/archestra/issues/4998",
+    "repository_url": "https://github.com/archestra-ai/archestra",
+    "updated_at": "2026-05-25T18:21:17Z",
+    "score": 21,
+    "amount_hint": "amount not obvious",
+    "reason": "paid/bounty wording, coding scope, recent issue, fresh update",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [
+      "competition already visible in comments; still allowed in aggressive mode"
+    ],
+    "linked_prs": []
+  },
+  {
+    "title": "[Feature] Add Integrity Verification (Hash of Executable/Script)",
+    "url": "https://github.com/javelin-anticheat/py-workedtask/issues/4",
+    "repository_url": "https://github.com/javelin-anticheat/py-workedtask",
+    "updated_at": "2026-05-25T18:28:30Z",
+    "score": 11,
+    "amount_hint": "amount not obvious",
+    "reason": "paid/bounty wording, coding scope, fresh update",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [
+      "competition already visible in comments; still allowed in aggressive mode"
+    ],
+    "linked_prs": []
+  },
+  {
+    "title": "Sample Template for Bounty",
+    "url": "https://github.com/Opty-Fi/defi-adapters/issues/7",
+    "repository_url": "https://github.com/Opty-Fi/defi-adapters",
+    "updated_at": "2026-05-25T17:03:05Z",
+    "score": 11,
+    "amount_hint": "5000 USDC",
+    "reason": "paid/bounty wording, coding scope, fresh update",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [
+      "competition already visible in comments; still allowed in aggressive mode"
+    ],
+    "linked_prs": []
+  },
+  {
+    "title": "Cross DEX Arbitrage Alert",
+    "url": "https://github.com/daydreamsai/agent-bounties/issues/2",
+    "repository_url": "https://github.com/daydreamsai/agent-bounties",
+    "updated_at": "2026-05-25T15:09:17Z",
+    "score": 5,
+    "amount_hint": "amount not obvious",
+    "reason": "paid/bounty wording, coding scope",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [
+      "competition already visible in comments; still allowed in aggressive mode"
+    ],
+    "linked_prs": []
+  },
+  {
+    "title": "Validate reward generation behavior",
+    "url": "https://github.com/devpool-directory/devpool-directory/issues/5887",
+    "repository_url": "https://github.com/devpool-directory/devpool-directory",
+    "updated_at": "2026-05-25T22:15:01Z",
+    "score": 1,
+    "amount_hint": "amount not obvious",
+    "reason": "paid/bounty wording, fresh update",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [
+      "competition already visible in comments; still allowed in aggressive mode"
+    ],
+    "linked_prs": []
+  },
+  {
+    "title": "BGL PR bounty hunt",
+    "url": "https://github.com/BitgesellOfficial/bitgesell/issues/32",
+    "repository_url": "https://github.com/BitgesellOfficial/bitgesell",
+    "updated_at": "2026-05-25T21:05:22Z",
+    "score": 1,
+    "amount_hint": "$100",
+    "reason": "paid/bounty wording, visible amount, coding scope, busy discussion, fresh update",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [
+      "competition already visible in comments; still allowed in aggressive mode"
+    ],
+    "linked_prs": []
+  }
+]
