@@ -1,6 +1,6 @@
 # Bounty Scout Candidates
 
-Last run: 2026-05-25 14:09 UTC
+Last run: 2026-05-25 16:14 UTC
 
 This report filters public GitHub issues for small paid coding opportunities. It is a scout, not a payout guarantee.
 
@@ -14,22 +14,12 @@ This report filters public GitHub issues for small paid coding opportunities. It
 - Why it matched: mentions bounty/reward, has visible amount, low discussion volume
 - Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
 
-## 2. Document the `reservationExpirationJob` configuration options
+## 2. [Tutorial] Time and Deadlines in Compact: Block Time, Counters & the Uint<16> Problem
 
-- Score: 39
-- Amount hint: amount not obvious
-- Issue: https://github.com/ritik4ever/stellar-bounty-board/issues/342
-- Repository: https://github.com/ritik4ever/stellar-bounty-board
-- Updated: 2026-05-25T13:02:02Z
-- Why it matched: mentions bounty/reward, low discussion volume
-- Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
-
-## 3. GitHub bounty submitter status
-
-- Score: 35
-- Amount hint: amount not obvious
-- Issue: https://github.com/asaadnashed/bounty-autopilot/issues/6
-- Repository: https://github.com/asaadnashed/bounty-autopilot
-- Updated: 2026-05-25T14:01:19Z
-- Why it matched: mentions bounty/reward, low discussion volume
+- Score: 59
+- Amount hint: $500, $700
+- Issue: https://github.com/midnightntwrk/contributor-hub/issues/306
+- Repository: https://github.com/midnightntwrk/contributor-hub
+- Updated: 2026-05-25T07:42:39Z
+- Why it matched: mentions bounty/reward, has visible amount
 - Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
