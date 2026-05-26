@@ -1,12 +1,12 @@
 [
   {
-    "title": "Yield Pool Watcher",
-    "url": "https://github.com/daydreamsai/agent-bounties/issues/6",
-    "repository_url": "https://github.com/daydreamsai/agent-bounties",
-    "updated_at": "2026-05-25T14:02:42Z",
-    "score": 5,
-    "amount_hint": "amount not obvious",
-    "reason": "paid/bounty wording, coding scope",
+    "title": "Bounty: $50 USD",
+    "url": "https://github.com/fredldotme/ISODriveUT/issues/12",
+    "repository_url": "https://github.com/fredldotme/ISODriveUT",
+    "updated_at": "2026-05-25T21:35:34Z",
+    "score": 20,
+    "amount_hint": "$50",
+    "reason": "paid/bounty wording, visible amount",
     "source": "volume-expander",
     "triage_decision": "keep",
     "triage_reasons": [
@@ -15,13 +15,13 @@
     "linked_prs": []
   },
   {
-    "title": "json in mcp server args textarea",
-    "url": "https://github.com/archestra-ai/archestra/issues/3859",
-    "repository_url": "https://github.com/archestra-ai/archestra",
-    "updated_at": "2026-05-25T11:26:01Z",
-    "score": 5,
-    "amount_hint": "amount not obvious",
-    "reason": "paid/bounty wording, coding scope",
+    "title": "Fix extra net label in repro61, or remove trace",
+    "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
+    "repository_url": "https://github.com/tscircuit/schematic-trace-solver",
+    "updated_at": "2026-05-26T04:08:42Z",
+    "score": 1,
+    "amount_hint": "$75",
+    "reason": "paid/bounty wording, visible amount, coding scope, busy discussion, fresh update",
     "source": "volume-expander",
     "triage_decision": "keep",
     "triage_reasons": [

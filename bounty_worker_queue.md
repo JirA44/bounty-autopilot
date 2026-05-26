@@ -1,17 +1,17 @@
 # Bounty Worker Queue
 
-Last built: 2026-05-26 03:42 UTC
+Last built: 2026-05-26 04:41 UTC
 
 Purpose: turn scouting results into a concrete work queue for an agent. Up to 10 candidates are kept so one stale opportunity does not block the whole system. Higher-value, lower-risk items are prioritized first. Do not submit a PR unless the bug is reproduced or the requested change is clearly verified.
 
-## Queue Item 1: Yield Pool Watcher
+## Queue Item 1: Bounty: $50 USD
 
-- Issue: https://github.com/daydreamsai/agent-bounties/issues/6
-- Repository: https://github.com/daydreamsai/agent-bounties
-- Amount hint: amount not obvious
-- Score: 5
-- Work priority: 5.0
-- Match reason: paid/bounty wording, coding scope
+- Issue: https://github.com/fredldotme/ISODriveUT/issues/12
+- Repository: https://github.com/fredldotme/ISODriveUT
+- Amount hint: $50
+- Score: 20
+- Work priority: 25.0
+- Match reason: paid/bounty wording, visible amount
 
 ### Worker Instructions
 
@@ -23,14 +23,14 @@ Purpose: turn scouting results into a concrete work queue for an agent. Up to 10
 6. Submit a focused PR with a short explanation and link it to the bounty issue.
 7. Stop immediately if the issue is vague, already fixed, requires private credentials, or asks for spam/security-abuse behavior.
 
-## Queue Item 2: json in mcp server args textarea
+## Queue Item 2: Fix extra net label in repro61, or remove trace
 
-- Issue: https://github.com/archestra-ai/archestra/issues/3859
-- Repository: https://github.com/archestra-ai/archestra
-- Amount hint: amount not obvious
-- Score: 5
-- Work priority: 5.0
-- Match reason: paid/bounty wording, coding scope
+- Issue: https://github.com/tscircuit/schematic-trace-solver/issues/79
+- Repository: https://github.com/tscircuit/schematic-trace-solver
+- Amount hint: $75
+- Score: 1
+- Work priority: 8.5
+- Match reason: paid/bounty wording, visible amount, coding scope, busy discussion, fresh update
 
 ### Worker Instructions
 

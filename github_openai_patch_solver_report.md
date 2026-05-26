@@ -1,24 +1,24 @@
 # GitHub OpenAI Patch Solver
 
-Last run: 2026-05-26 03:42 UTC
+Last run: 2026-05-26 04:41 UTC
 
 No online model key is configured, so GitHub Actions did not attempt code generation.
 Eligible candidates were queued for the local Codex solver instead of marking the run as failed.
 
-## 1. Yield Pool Watcher
+## 1. Bounty: $50 USD
 
 - Status: local_fallback_queued
-- Repository: daydreamsai/agent-bounties
-- Issue: https://github.com/daydreamsai/agent-bounties/issues/6
+- Repository: fredldotme/ISODriveUT
+- Issue: https://github.com/fredldotme/ISODriveUT/issues/12
 - Patch: not ready
 - Metadata: not ready
 - Message: Online model key missing; local Codex automation should inspect, patch, test, and prepare submission metadata.
 
-## 2. json in mcp server args textarea
+## 2. Fix extra net label in repro61, or remove trace
 
 - Status: local_fallback_queued
-- Repository: archestra-ai/archestra
-- Issue: https://github.com/archestra-ai/archestra/issues/3859
+- Repository: tscircuit/schematic-trace-solver
+- Issue: https://github.com/tscircuit/schematic-trace-solver/issues/79
 - Patch: not ready
 - Metadata: not ready
 - Message: Online model key missing; local Codex automation should inspect, patch, test, and prepare submission metadata.

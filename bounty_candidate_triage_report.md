@@ -1,6 +1,6 @@
 # GitHub Bounty Candidate Triage
 
-Last run: 2026-05-26 03:42 UTC
+Last run: 2026-05-26 04:41 UTC
 
 Kept candidates: 2
 
@@ -30,120 +30,93 @@ This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-block
 - Reason: issue is not open
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 4. [BOUNTY] Claim: <Mobile SERP Tracker - Working Submission ($50 Wave 2)>
+## 4. Bounty 5 — `loss_stale_active` group-wide flag overwritten per-asset (engine `v16.rs:7429`); permissionless drain of `header.insurance` via `WithdrawInsuranceDomain` gate-bypass during loss-stale state
 
 - Decision: drop
-- Score: 75 -> -60
-- Issue: https://github.com/bolivian-peru/marketplace-service-template/issues/463
+- Score: 96 -> -9
+- Issue: https://github.com/aeyakovenko/percolator-prog/issues/106
+- Reason: no clear open paid bounty signal >= $10 found
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 5. [RWF] pallet-child-bounties: unassign_curator leaves cumulative fees inflated
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/paritytech/polkadot-sdk/issues/12192
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 6. [RWF] pallet-child-bounties: parent curator award records caller as child curator
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/paritytech/polkadot-sdk/issues/12190
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 7. [Emoji Reaction] Bounty Claim - 2026-05-25 20:50 UTC
+
+- Decision: drop
+- Score: 69 -> -31
+- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/12345
 - Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
+
+## 8. Bounty: $50 USD
+
+- Decision: keep
+- Score: 55 -> 20
+- Issue: https://github.com/fredldotme/ISODriveUT/issues/12
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 5. [Tutorial] Building a Shielded Token Vault: Deposit, Accumulate & Withdraw
+## 9. Bug Bounty
 
 - Decision: drop
-- Score: 65 -> -35
-- Issue: https://github.com/midnightntwrk/contributor-hub/issues/287
-- Reason: content bounty has AI-content disqualification risk for autonomous work
-
-## 6. [Tutorial] Time and Deadlines in Compact: Block Time, Counters & the Uint<16> Problem
-
-- Decision: drop
-- Score: 65 -> -35
-- Issue: https://github.com/midnightntwrk/contributor-hub/issues/306
-- Reason: content bounty has AI-content disqualification risk for autonomous work
-
-## 7. [Tutorial] Understanding Wallet Sync: Why Your Deploy Fails Before It Starts
-
-- Decision: drop
-- Score: 65 -> -70
-- Issue: https://github.com/midnightntwrk/contributor-hub/issues/300
-- Reason: content bounty has AI-content disqualification risk for autonomous work
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 8. [Tutorial] DApp Connector API: Connecting a Browser dApp to Midnight Wallets
-
-- Decision: drop
-- Score: 65 -> -35
-- Issue: https://github.com/midnightntwrk/contributor-hub/issues/309
-- Reason: content bounty has AI-content disqualification risk for autonomous work
-
-## 9. [Tutorial] Contract-State Accounting vs UTXO Tokens: Two Models for On-Chain Value
-
-- Decision: drop
-- Score: 65 -> -35
-- Issue: https://github.com/midnightntwrk/contributor-hub/issues/302
-- Reason: content bounty has AI-content disqualification risk for autonomous work
-
-## 10. Bug Bounty
-
-- Decision: drop
-- Score: 56 -> -49
+- Score: 48 -> -57
 - Issue: https://github.com/onflow/flow-credit-markets/issues/26
 - Reason: no clear open paid bounty signal >= $10 found
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 11. Create a registration and login script
+## 10. Epic: Notifications update
 
 - Decision: drop
-- Score: 48 -> -57
-- Issue: https://github.com/proof-id/proofid-tech-bounty/issues/1
+- Score: 47 -> -23
+- Issue: https://github.com/OpenPecha/webuddhist-app-community-hub/issues/237
 - Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 12. Tari Universe terminates external xmrig processes on shutdown
+## 11. Upgrade Trading Platform Dashboard & UX/UI to Institutional-Grade Professional Level
 
 - Decision: drop
-- Score: 40 -> -65
-- Issue: https://github.com/tari-project/universe/issues/3204
+- Score: 43 -> -27
+- Issue: https://github.com/tradebacktester/vybee-ai-decor/issues/1
 - Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 13. Build Listing Discovery Engine (PWA or React UI)
+## 12. [Bug] One-sided tree-sitter parse failure scores modified files as full additions or deletions
 
 - Decision: drop
-- Score: 40 -> -65
-- Issue: https://github.com/Nobayprotocol/Nobay-Protocol/issues/2
+- Score: 43 -> -27
+- Issue: https://github.com/entrius/gittensor/issues/1366
 - Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 14. Yield Pool Watcher
+## 13. Feature 16 — Renown Calculation (M6.1)
+
+- Decision: drop
+- Score: 43 -> -27
+- Issue: https://github.com/hearn1/hex-tactical-roguelite/issues/18
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 14. Vault and review Aetherforge Omnispec Prime Hybrid Prime PDF
+
+- Decision: drop
+- Score: 39 -> -31
+- Issue: https://github.com/atlaslattice/manus-artifacts/issues/170
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 15. Fix extra net label in repro61, or remove trace
 
 - Decision: keep
-- Score: 40 -> 5
-- Issue: https://github.com/daydreamsai/agent-bounties/issues/6
+- Score: 36 -> 1
+- Issue: https://github.com/tscircuit/schematic-trace-solver/issues/79
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 15. Feature Request: Multiple PR contributors payout distribution
-
-- Decision: drop
-- Score: 40 -> -65
-- Issue: https://github.com/skndash96/bountic/issues/12
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 16. json in mcp server args textarea
-
-- Decision: keep
-- Score: 40 -> 5
-- Issue: https://github.com/archestra-ai/archestra/issues/3859
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 17. [Bug]: Scroll event leak after scrolling to the top of a text widget
-
-- Decision: drop
-- Score: 40 -> -30
-- Issue: https://github.com/Comfy-Org/ComfyUI_frontend/issues/3990
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 18. Sats to Local Currency | Mexico
-
-- Decision: drop
-- Score: 39 -> -66
-- Issue: https://github.com/sutt/docs/issues/5
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 19. When a user returns `return { ... }` from a route instead of `return ctx.json({ ... })`, throw an error telling them to use `ctx.json`
+## 16. When a user returns `return { ... }` from a route instead of `return ctx.json({ ... })`, throw an error telling them to use `ctx.json`
 
 - Decision: drop
 - Score: 36 -> -69
@@ -151,18 +124,82 @@ This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-block
 - Reason: no clear open paid bounty signal >= $10 found
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 20. [App] BountyPay
+## 17. PPO policy collapses to deterministic within ~30 episodes
 
 - Decision: drop
-- Score: 35 -> -100
-- Issue: https://github.com/gitcoinco/gitcoin_co_30/issues/391
-- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
-- Reason: competition already visible in comments; still allowed in aggressive mode
+- Score: 35 -> -35
+- Issue: https://github.com/clankur/doomer/issues/1
+- Reason: no clear open paid bounty signal >= $10 found
 
-## 21. [App] uBounty
+## 18. Add assertions when implicitly returning from a function
 
 - Decision: drop
-- Score: 35 -> -100
-- Issue: https://github.com/gitcoinco/gitcoin_co_30/issues/390
-- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
+- Score: 34 -> -71
+- Issue: https://github.com/gajus/flow-runtime/issues/2
+- Reason: no clear open paid bounty signal >= $10 found
 - Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 19. [Rule] VERTEX COVER to COMPARATIVE CONTAINMENT
+
+- Decision: drop
+- Score: 31 -> -39
+- Issue: https://github.com/CodingThrust/problem-reductions/issues/385
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 20. Feature Request: Copy rule(s) to Private Workspace
+
+- Decision: keep
+- Score: 30 -> -5
+- Issue: https://github.com/requestly/requestly/issues/3825
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 21. Bootstrap w/ API for sending payment
+
+- Decision: keep
+- Score: 28 -> -7
+- Issue: https://github.com/tscircuit/fake-algora/issues/1
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 22. 实验记录：terminal-rl Qwen3-30B-A3B fresh run (118h, 350 rollout, wandb b0il0mq4) — raw_reward -0.07 → +0.19 50-rollout 均值，runner_fail 0.27%，5 次 grad spike 全 clip-grad 兜底（still running）
+
+- Decision: drop
+- Score: 27 -> -43
+- Issue: https://github.com/HansBug/OpenClaw-RL/issues/14
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 23. BLE 中文API 建设
+
+- Decision: drop
+- Score: 26 -> -44
+- Issue: https://github.com/wybbb123123/BLE_Rock_Paper_Scissors/issues/1
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 24. Improve 3d model loading to avoid laggy browser
+
+- Decision: drop
+- Score: 26 -> -79
+- Issue: https://github.com/tscircuit/3d-viewer/issues/93
+- Reason: no clear open paid bounty signal >= $10 found
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 25. [BUG]: Nested Partial Select returns null on left join if first column value is null
+
+- Decision: drop
+- Score: 16 -> -89
+- Issue: https://github.com/drizzle-team/drizzle-orm/issues/1603
+- Reason: no clear open paid bounty signal >= $10 found
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 26. bug: Rule shows “1 applied filter” even when no filter is applied
+
+- Decision: keep
+- Score: 11 -> -24
+- Issue: https://github.com/requestly/requestly/issues/3826
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 27. Support / add `proxy-server` input mode to fuzz / run checks on live traffic
+
+- Decision: drop
+- Score: 8 -> -62
+- Issue: https://github.com/projectdiscovery/nuclei/issues/4953
+- Reason: no clear open paid bounty signal >= $10 found
