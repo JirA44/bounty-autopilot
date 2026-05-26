@@ -1,12 +1,28 @@
 [
   {
-    "title": "BGL PR bounty hunt",
-    "url": "https://github.com/BitgesellOfficial/bitgesell/issues/32",
-    "repository_url": "https://github.com/BitgesellOfficial/bitgesell",
-    "updated_at": "2026-05-26T06:31:32Z",
-    "score": 3,
-    "amount_hint": "$100",
-    "reason": "mentions bounty/reward, has visible amount, busy thread",
+    "title": "Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI",
+    "url": "https://github.com/archestra-ai/archestra/issues/4998",
+    "repository_url": "https://github.com/archestra-ai/archestra",
+    "updated_at": "2026-05-25T18:21:17Z",
+    "score": 15,
+    "amount_hint": "amount not obvious",
+    "reason": "paid/bounty wording, coding scope, recent issue",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [
+      "competition already visible in comments; still allowed in aggressive mode"
+    ],
+    "linked_prs": []
+  },
+  {
+    "title": "Add durable agent memory for user, team, and organization context across sessions",
+    "url": "https://github.com/archestra-ai/archestra/issues/3837",
+    "repository_url": "https://github.com/archestra-ai/archestra",
+    "updated_at": "2026-05-25T11:29:11Z",
+    "score": 5,
+    "amount_hint": "amount not obvious",
+    "reason": "paid/bounty wording, coding scope",
+    "source": "volume-expander",
     "triage_decision": "keep",
     "triage_reasons": [
       "competition already visible in comments; still allowed in aggressive mode"
