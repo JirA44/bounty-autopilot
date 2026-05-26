@@ -1,8 +1,8 @@
 # GitHub Bounty Candidate Triage
 
-Last run: 2026-05-26 17:30 UTC
+Last run: 2026-05-26 19:38 UTC
 
-Kept candidates: 2
+Kept candidates: 0
 
 This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-blocked, or false-positive GitHub bounty issues before worker time is spent. Crowded but still-paid issues are allowed with a score penalty.
 
@@ -30,205 +30,234 @@ This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-block
 - Reason: issue is not open
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 4. 🎯 Bounty Alert: 14 New Opportunityies found
+## 4. TX CCS: copay not deducted when childcare expense exceeds Board's maximum reimbursement rate
+
+- Decision: drop
+- Score: 110 -> 10
+- Issue: https://github.com/PolicyEngine/policyengine-us/issues/8508
+- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
+
+## 5. /themes ten themed-list titles share one syntactic mold
 
 - Decision: drop
 - Score: 85 -> 15
-- Issue: https://github.com/dev-kp-eloper/BountyScout/issues/24
+- Issue: https://github.com/daretodave/tiered/issues/190
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 5. Emoji Reaction Claim - 5 Reactions
+## 6. perf(run): startup regressed +143% due to bundled-namespace preload (#2127)
 
 - Decision: drop
-- Score: 75 -> -25
-- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/12391
+- Score: 85 -> 15
+- Issue: https://github.com/phel-lang/phel-lang/issues/2182
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 7. [Bug] Late destination-tip snapshots can reject honest BTC payouts
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/entrius/allways/issues/383
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 8. fix: credit_score calculate_average_payment_days divides by zero when no payments recorded
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/astera-hq/Astera/issues/405
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 9. bug(profile,recovery): SENT-record CBOR decode failure + missing aggregator-spent check causes duplicate-token after IPFS-only recovery (§D bob)
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/unicity-sphere/sphere-sdk/issues/280
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 10. fix: pool collateral deposit TTL set inconsistently vs settled collateral TTL
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/astera-hq/Astera/issues/379
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 11. fix: credit score calculate_score does not validate input ranges before computing
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/astera-hq/Astera/issues/378
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 12. Purchase history rework — itemized history with accurate total spent
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/TheKfcBandit/Valorant-Thing/issues/41
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 13. fix: credit score late payment threshold is a hardcoded constant that can't be changed
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/astera-hq/Astera/issues/362
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 14. fix: credit score hardcoded scoring thresholds — impossible to tune without recompile
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/astera-hq/Astera/issues/343
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 15. fix: credit score record_default duplicates record_payment logic — violates DRY
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/astera-hq/Astera/issues/334
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 16. fix: credit score payment history grows unbounded — no pagination or cleanup
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/astera-hq/Astera/issues/330
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 17. Deriver silently marks representation work units `processed` when the embedding save fails on a transient 429 (no retry, no fail-loud → silent memory loss)
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/plastic-labs/honcho/issues/728
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 18. Add a closed integrations registry to give findings a remediation vector
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/AgentWorkforce/burn/issues/462
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 19. RotatingKVCache: partial prefix match guard rejects 99%+ matching cache on DeepSeek V4-Flash, forcing full re-prefill every turn
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/jundot/omlx/issues/1427
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 20. fix(ci): mac-x64 build in release matrix stalls on macos-13 runner queue
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/VivaldiCode/voice-gateway/issues/66
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 21. chore: add pre-commit hook to block direct pushes to main
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/DataStrategist/notes2kg/issues/3
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 22. chore: add pre-commit hook to block direct pushes to main
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/DataStrategist/notes2kg/issues/2
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 23. chore: add pre-commit hook to block direct pushes to main
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/access-social-care/dbt-asc/issues/15
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 24. chore: add pre-commit hook to block direct pushes to main
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/access-social-care/dbt-asc/issues/14
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 25. [A1] DNS migration: eruditis.com GoDaddy → Cloudflare
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/Troubladore/mcp-atlassian/issues/342
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 26. Fix: repay yield is paid from pre-minted contract balance, not from borrower repayment
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/TwinTrustMainstay/Mainstay/issues/632
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 27. PRD: Add a Lisa plugin sync explain command for generated artifact drift
+
+- Decision: drop
+- Score: 79 -> -21
+- Issue: https://github.com/CodySwannGT/lisa/issues/980
 - Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
 
-## 6. Claim MRG Tokens for Bug Bounty Reports - Comment New Bugs Here Before Opening a PR
+## 28. Soroban storage TTL automation for `wraith-names` entries
 
 - Decision: drop
-- Score: 71 -> -34
-- Issue: https://github.com/mergeos-bounties/mergeos/issues/1
+- Score: 79 -> 9
+- Issue: https://github.com/wraith-protocol/contracts/issues/17
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 29. [BUG] Cowork macOS: Gmail and Google Calendar MCP connectors return "The caller does not have permission" on every call for one account; other users on the same Workspace tenant unaffected
+
+- Decision: drop
+- Score: 79 -> 9
+- Issue: https://github.com/anthropics/claude-code/issues/62548
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 30. Создать Node.js Telegram LLM RPG Bot
+
+- Decision: drop
+- Score: 79 -> 9
+- Issue: https://github.com/rumaster/tg-games/issues/1
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 31. Memory rules saved but never applied — Claude Code operates in wrong environment across sessions
+
+- Decision: drop
+- Score: 69 -> -1
+- Issue: https://github.com/anthropics/claude-code/issues/62576
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 32. [App] GitGig
+
+- Decision: drop
+- Score: 58 -> -47
+- Issue: https://github.com/gitcoinco/gitcoin_co_30/issues/401
 - Reason: no clear open paid bounty signal >= $10 found
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 7. [200 MRG] Fix logout bug
+## 33. [post] The other morning, a politician on the radio said young couples...
 
 - Decision: drop
-- Score: 71 -> -34
-- Issue: https://github.com/mergeos-bounties/mergeos/issues/20
+- Score: 49 -> -21
+- Issue: https://github.com/proxima424/westworld/issues/3142
 - Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 8. Add `CopyIcons` button to copy bounty ID and maintainer address
+## 34. [post] Escape? I welded tank parts when the factory was closed, Dmitri,...
 
 - Decision: drop
-- Score: 64 -> -6
-- Issue: https://github.com/ritik4ever/stellar-bounty-board/issues/295
+- Score: 49 -> -21
+- Issue: https://github.com/proxima424/westworld/issues/3093
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 9. Add `React.memo` and `useMemo` to prevent bounty card list re-renders
-
-- Decision: drop
-- Score: 64 -> -6
-- Issue: https://github.com/ritik4ever/stellar-bounty-board/issues/312
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 10. Add `autocannon` load test script for the bounty board backend
-
-- Decision: drop
-- Score: 64 -> -6
-- Issue: https://github.com/ritik4ever/stellar-bounty-board/issues/385
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 11. Add `image lazy loading` and `srcset` for any bounty-related images
-
-- Decision: drop
-- Score: 64 -> -6
-- Issue: https://github.com/ritik4ever/stellar-bounty-board/issues/363
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 12. Add `FAQ.md` for common contributor and maintainer questions
-
-- Decision: drop
-- Score: 64 -> -6
-- Issue: https://github.com/ritik4ever/stellar-bounty-board/issues/336
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 13. Document the `reservationExpirationJob` configuration options
-
-- Decision: drop
-- Score: 64 -> -6
-- Issue: https://github.com/ritik4ever/stellar-bounty-board/issues/342
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 14. Add `GET /api/bounties/:id` with full event history inline
-
-- Decision: drop
-- Score: 47 -> -23
-- Issue: https://github.com/ritik4ever/stellar-bounty-board/issues/367
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 15. Run all SPARQL spec tests
-
-- Decision: drop
-- Score: 46 -> -24
-- Issue: https://github.com/comunica/comunica/issues/721
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 16. [BOUNTY] Register Your AI Agent on the Beacon Relay — External Agent Onboarding (50 RTC)
-
-- Decision: drop
-- Score: 46 -> -24
-- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/162
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 17. Add `expiration` status badge with color coding to BountyCard
-
-- Decision: drop
-- Score: 43 -> -27
-- Issue: https://github.com/ritik4ever/stellar-bounty-board/issues/376
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 18. UpdateAssetLifecycle(ACTIVATE) accepts caller-supplied future now_slot — permanent DoS of all permissionless cranker progress
+## 35. [post] Cash is what I hand over at the grocery store when the card machine...
 
 - Decision: drop
 - Score: 39 -> -31
-- Issue: https://github.com/aeyakovenko/percolator-prog/issues/107
+- Issue: https://github.com/proxima424/westworld/issues/3150
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 19. BGL PR bounty hunt ($10000 overall budget)
-
-- Decision: keep
-- Score: 36 -> 1
-- Issue: https://github.com/BitgesellOfficial/bitgesell/issues/39
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 20. [BOUNTY: 100 RTC] AgentFolio ↔ Beacon Integration Spec + Reference Implementation
-
-- Decision: keep
-- Score: 36 -> 1
-- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/2890
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 21. Paid flow: Stripe success creates paid scan session token
+## 36. [post] Autonomy means not begging for mercy from algorithms tuned to burn...
 
 - Decision: drop
-- Score: 34 -> -71
-- Issue: https://github.com/Priivacy-ai/agent-log-analyzer/issues/27
+- Score: 31 -> -39
+- Issue: https://github.com/proxima424/westworld/issues/3146
 - Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 22. Monetization UX: optimization pack unlock
-
-- Decision: drop
-- Score: 34 -> -36
-- Issue: https://github.com/Priivacy-ai/agent-log-analyzer/issues/24
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 23. Feature Request: Copy rule(s) to Private Workspace
-
-- Decision: keep
-- Score: 30 -> -5
-- Issue: https://github.com/requestly/requestly/issues/3825
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 24. Improve 3d model loading to avoid laggy browser
-
-- Decision: drop
-- Score: 26 -> -79
-- Issue: https://github.com/tscircuit/3d-viewer/issues/93
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 25. Propose/implement a solution to bad layout
-
-- Decision: keep
-- Score: 26 -> -9
-- Issue: https://github.com/tscircuit/matchpack/issues/12
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 26. 帝国数字服务清单 - $1起，接受USDT TRC20支付
-
-- Decision: drop
-- Score: 25 -> -45
-- Issue: https://github.com/jiezishu000/empire-digital-shop/issues/1
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 27. BOUNTY: Convert the endpoints to a smart router like litellm does in python
-
-- Decision: drop
-- Score: 11 -> -94
-- Issue: https://github.com/arakoodev/EdgeChains/issues/286
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 28. Database dumps do not work on large databases
-
-- Decision: drop
-- Score: 11 -> -94
-- Issue: https://github.com/outerbase/starbasedb/issues/59
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 29. Support / add `proxy-server` input mode to fuzz / run checks on live traffic
-
-- Decision: drop
-- Score: 8 -> -62
-- Issue: https://github.com/projectdiscovery/nuclei/issues/4953
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 30. test: improve test performance
-
-- Decision: drop
-- Score: 5 -> -100
-- Issue: https://github.com/spaceandtimefdn/sxt-proof-of-sql/issues/557
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 31. bug: Rule shows “1 applied filter” even when no filter is applied
-
-- Decision: keep
-- Score: 5 -> -30
-- Issue: https://github.com/requestly/requestly/issues/3826
-- Reason: competition already visible in comments; still allowed in aggressive mode
