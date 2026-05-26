@@ -1,17 +1,17 @@
 # Bounty Worker Queue
 
-Last built: 2026-05-26 13:57 UTC
+Last built: 2026-05-26 17:30 UTC
 
 Purpose: turn scouting results into a concrete work queue for an agent. Up to 10 candidates are kept so one stale opportunity does not block the whole system. Higher-value, lower-risk items are prioritized first. Do not submit a PR unless the bug is reproduced or the requested change is clearly verified.
 
-## Queue Item 1: Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI
+## Queue Item 1: BGL PR bounty hunt ($10000 overall budget)
 
-- Issue: https://github.com/archestra-ai/archestra/issues/4998
-- Repository: https://github.com/archestra-ai/archestra
-- Amount hint: amount not obvious
-- Score: 15
-- Work priority: 15.0
-- Match reason: paid/bounty wording, coding scope, recent issue
+- Issue: https://github.com/BitgesellOfficial/bitgesell/issues/39
+- Repository: https://github.com/BitgesellOfficial/bitgesell
+- Amount hint: $10000, $500
+- Score: 1
+- Work priority: 101.0
+- Match reason: paid/bounty wording, visible amount, coding scope, busy discussion, fresh update
 
 ### Worker Instructions
 
@@ -23,14 +23,14 @@ Purpose: turn scouting results into a concrete work queue for an agent. Up to 10
 6. Submit a focused PR with a short explanation and link it to the bounty issue.
 7. Stop immediately if the issue is vague, already fixed, requires private credentials, or asks for spam/security-abuse behavior.
 
-## Queue Item 2: Add durable agent memory for user, team, and organization context across sessions
+## Queue Item 2: [BOUNTY: 100 RTC] AgentFolio ↔ Beacon Integration Spec + Reference Implementation
 
-- Issue: https://github.com/archestra-ai/archestra/issues/3837
-- Repository: https://github.com/archestra-ai/archestra
-- Amount hint: amount not obvious
-- Score: 5
-- Work priority: 5.0
-- Match reason: paid/bounty wording, coding scope
+- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/2890
+- Repository: https://github.com/Scottcjn/rustchain-bounties
+- Amount hint: $20.00
+- Score: 1
+- Work priority: 3.0
+- Match reason: paid/bounty wording, visible amount, coding scope, busy discussion, fresh update
 
 ### Worker Instructions
 

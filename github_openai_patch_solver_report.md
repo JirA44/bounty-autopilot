@@ -1,24 +1,24 @@
 # GitHub OpenAI Patch Solver
 
-Last run: 2026-05-26 13:57 UTC
+Last run: 2026-05-26 17:30 UTC
 
 No online model key is configured, so GitHub Actions did not attempt code generation.
 Eligible candidates were queued for the local Codex solver instead of marking the run as failed.
 
-## 1. Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI
+## 1. BGL PR bounty hunt ($10000 overall budget)
 
 - Status: local_fallback_queued
-- Repository: archestra-ai/archestra
-- Issue: https://github.com/archestra-ai/archestra/issues/4998
+- Repository: BitgesellOfficial/bitgesell
+- Issue: https://github.com/BitgesellOfficial/bitgesell/issues/39
 - Patch: not ready
 - Metadata: not ready
 - Message: Online model key missing; local Codex automation should inspect, patch, test, and prepare submission metadata.
 
-## 2. Add durable agent memory for user, team, and organization context across sessions
+## 2. [BOUNTY: 100 RTC] AgentFolio ↔ Beacon Integration Spec + Reference Implementation
 
 - Status: local_fallback_queued
-- Repository: archestra-ai/archestra
-- Issue: https://github.com/archestra-ai/archestra/issues/3837
+- Repository: Scottcjn/rustchain-bounties
+- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/2890
 - Patch: not ready
 - Metadata: not ready
 - Message: Online model key missing; local Codex automation should inspect, patch, test, and prepare submission metadata.
