@@ -1,29 +1,20 @@
 # GitHub OpenAI Patch Solver
 
-Last run: 2026-05-26 22:46 UTC
+Last run: 2026-05-26 22:51 UTC
 
 No online model key is configured, so GitHub Actions did not attempt code generation.
 Eligible candidates were queued for the local Codex solver instead of marking the run as failed.
 
-## 1. Enhancing Taskflow Scheduling Performance with RL-based Task Graph Optimization
+## 1. Payment Inquiry - Previous Bounty Completions
 
 - Status: local_fallback_queued
-- Repository: numfocus/small-development-grant-proposals
-- Issue: https://github.com/numfocus/small-development-grant-proposals/issues/49
+- Repository: openpango/cinematic-tracker
+- Issue: https://github.com/openpango/cinematic-tracker/issues/4
 - Patch: not ready
 - Metadata: not ready
 - Message: Online model key missing; local Codex automation should inspect, patch, test, and prepare submission metadata.
 
-## 2. Yield Pool Watcher
-
-- Status: local_fallback_queued
-- Repository: daydreamsai/agent-bounties
-- Issue: https://github.com/daydreamsai/agent-bounties/issues/6
-- Patch: not ready
-- Metadata: not ready
-- Message: Online model key missing; local Codex automation should inspect, patch, test, and prepare submission metadata.
-
-## 3. Add durable agent memory for user, team, and organization context across sessions
+## 2. Add durable agent memory for user, team, and organization context across sessions
 
 - Status: local_fallback_queued
 - Repository: archestra-ai/archestra
@@ -32,7 +23,7 @@ Eligible candidates were queued for the local Codex solver instead of marking th
 - Metadata: not ready
 - Message: Online model key missing; local Codex automation should inspect, patch, test, and prepare submission metadata.
 
-## 4. Agent template catalog
+## 3. Agent template catalog
 
 - Status: local_fallback_queued
 - Repository: archestra-ai/archestra

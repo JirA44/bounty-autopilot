@@ -1,25 +1,12 @@
 [
   {
-    "title": "Enhancing Taskflow Scheduling Performance with RL-based Task Graph Optimization",
-    "url": "https://github.com/numfocus/small-development-grant-proposals/issues/49",
-    "repository_url": "https://github.com/numfocus/small-development-grant-proposals",
-    "updated_at": "2026-05-25T11:57:20Z",
-    "score": 65,
-    "amount_hint": "$10000",
-    "reason": "paid/bounty wording, visible amount, coding scope",
-    "source": "volume-expander",
-    "triage_decision": "keep",
-    "triage_reasons": [],
-    "linked_prs": []
-  },
-  {
-    "title": "Yield Pool Watcher",
-    "url": "https://github.com/daydreamsai/agent-bounties/issues/6",
-    "repository_url": "https://github.com/daydreamsai/agent-bounties",
-    "updated_at": "2026-05-25T14:02:42Z",
-    "score": 5,
-    "amount_hint": "amount not obvious",
-    "reason": "paid/bounty wording, coding scope",
+    "title": "Payment Inquiry - Previous Bounty Completions",
+    "url": "https://github.com/openpango/cinematic-tracker/issues/4",
+    "repository_url": "https://github.com/openpango/cinematic-tracker",
+    "updated_at": "2026-05-15T20:38:49Z",
+    "score": 20,
+    "amount_hint": "$152",
+    "reason": "paid/bounty wording, visible amount",
     "source": "volume-expander",
     "triage_decision": "keep",
     "triage_reasons": [

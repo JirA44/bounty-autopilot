@@ -1,6 +1,6 @@
 # Claim Queue
 
-Last built: 2026-05-26 22:46 UTC
+Last built: 2026-05-26 22:51 UTC
 
 Identity: use the owner account `asaadnashed`; do not impersonate another human or use fake accounts.
 
@@ -26,10 +26,10 @@ Identity: use the owner account `asaadnashed`; do not impersonate another human 
 
 ## GitHub
 
-### Enhancing Taskflow Scheduling Performance with RL-based Task Graph Optimization
+### Payment Inquiry - Previous Bounty Completions
 
-- URL: https://github.com/numfocus/small-development-grant-proposals/issues/49
-- Amount: $10000
+- URL: https://github.com/openpango/cinematic-tracker/issues/4
+- Amount: $152
 - Claim comment if rules allow:
 
 ```text
