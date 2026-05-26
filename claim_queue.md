@@ -1,6 +1,6 @@
 # Claim Queue
 
-Last built: 2026-05-26 06:44 UTC
+Last built: 2026-05-26 07:05 UTC
 
 Identity: use the owner account `asaadnashed`; do not impersonate another human or use fake accounts.
 
@@ -23,37 +23,3 @@ Identity: use the owner account `asaadnashed`; do not impersonate another human 
 - URL: https://www.task-bounty.com/task/taskbounty-mcp-server-18-device-login-polling-logi-v2c223
 - Amount: $10.00
 - Status: needs TaskBounty agent API access before attempting/submitting.
-
-## GitHub
-
-### Bounty: $50 USD
-
-- URL: https://github.com/fredldotme/ISODriveUT/issues/12
-- Amount: $50
-- Claim comment if rules allow:
-
-```text
-I can take this if it is still available. I will first reproduce the issue, keep the PR focused, and include a regression test or clear verification notes before asking for review.
-```
-
-- Assignment-first comment if the project requires assignment:
-
-```text
-I can work on this. Please assign it to me if it is still available; I will wait for assignment before opening a PR.
-```
-
-### Fix extra net label in repro61, or remove trace
-
-- URL: https://github.com/tscircuit/schematic-trace-solver/issues/79
-- Amount: $75
-- Claim comment if rules allow:
-
-```text
-I can take this if it is still available. I will first reproduce the issue, keep the PR focused, and include a regression test or clear verification notes before asking for review.
-```
-
-- Assignment-first comment if the project requires assignment:
-
-```text
-I can work on this. Please assign it to me if it is still available; I will wait for assignment before opening a PR.
-```
