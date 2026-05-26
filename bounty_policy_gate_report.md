@@ -1,8 +1,8 @@
 # Bounty Policy Gate
 
-Last run: 2026-05-26 07:05 UTC
+Last run: 2026-05-26 08:23 UTC
 
-Kept candidates: 0
+Kept candidates: 1
 Dropped candidates: 0
 
 This gate removes opportunities whose issue text says the bounty is withdrawn, LLM/AI-ineligible, or requires human coordination before autonomous work.

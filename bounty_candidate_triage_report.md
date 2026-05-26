@@ -1,8 +1,8 @@
 # GitHub Bounty Candidate Triage
 
-Last run: 2026-05-26 07:05 UTC
+Last run: 2026-05-26 08:23 UTC
 
-Kept candidates: 0
+Kept candidates: 1
 
 This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-blocked, or false-positive GitHub bounty issues before worker time is spent. Crowded but still-paid issues are allowed with a score penalty.
 
@@ -30,139 +30,90 @@ This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-block
 - Reason: issue is not open
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 4. B7 bounty (mplaqamf42051ff40a2d) — submission cannot be accepted as-is: account-balance verification fails reproduction
+## 4. Feedback: clarify RETURN_BYTES examples for enterprise payment guardrails
 
 - Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/gregoryford963-sys/stacks-state-verifier/issues/1
+- Score: 39 -> -31
+- Issue: https://github.com/hashgraph/hedera-agent-kit-py/issues/317
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 5. [FEATURE] Add post-scan medicine side effects panel and age-based dosage calculator
+## 5. Sats to Local Currency | Mexico
 
 - Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/RatLoopz/sahidawa-india/issues/638
+- Score: 39 -> -66
+- Issue: https://github.com/sutt/docs/issues/5
 - Reason: no clear open paid bounty signal >= $10 found
+- Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 6. [FEATURE] Smart Vaccine Information & Immunization Tracker
+## 6. BGL PR bounty hunt
+
+- Decision: keep
+- Score: 38 -> 3
+- Issue: https://github.com/BitgesellOfficial/bitgesell/issues/32
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 7. [App] BountyPay
 
 - Decision: drop
-- Score: 79 -> 9
-- Issue: https://github.com/RatLoopz/sahidawa-india/issues/637
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 7. Bounty: 100 MRG - Implement social login
-
-- Decision: drop
-- Score: 79 -> -56
-- Issue: https://github.com/mergeos-bounties/mergeos/issues/2
+- Score: 35 -> -100
+- Issue: https://github.com/gitcoinco/gitcoin_co_30/issues/391
 - Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 8. [50 MRG] AI project evaluation for price suggestion
+## 8. [App] uBounty
 
 - Decision: drop
-- Score: 79 -> -26
-- Issue: https://github.com/mergeos-bounties/mergeos/issues/3
-- Reason: no clear open paid bounty signal >= $10 found
+- Score: 35 -> -100
+- Issue: https://github.com/gitcoinco/gitcoin_co_30/issues/390
+- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 9. Add `service worker` for offline-first bounty list caching
+## 9. Fixing the bounty award system
 
 - Decision: drop
-- Score: 79 -> 9
-- Issue: https://github.com/ritik4ever/stellar-bounty-board/issues/313
+- Score: 35 -> -35
+- Issue: https://github.com/ResearchHub/issues/issues/531
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 10. Add `frontend` bounty creation form with all required fields
+## 10. Create a Bounty Amount Box Issue
 
 - Decision: drop
-- Score: 79 -> 9
-- Issue: https://github.com/ritik4ever/stellar-bounty-board/issues/371
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 11. Add `dark mode` toggle with localStorage persistence
-
-- Decision: drop
-- Score: 79 -> 9
-- Issue: https://github.com/ritik4ever/stellar-bounty-board/issues/298
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 12. Publish Docker images to GHCR on merge to main
-
-- Decision: drop
-- Score: 79 -> 9
-- Issue: https://github.com/ritik4ever/stellar-bounty-board/issues/320
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 13. Add `frontend` reservation flow with Freighter signing
-
-- Decision: drop
-- Score: 79 -> 9
-- Issue: https://github.com/ritik4ever/stellar-bounty-board/issues/372
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 14. Add `amount` display with token decimals normalization
-
-- Decision: drop
-- Score: 79 -> 9
-- Issue: https://github.com/ritik4ever/stellar-bounty-board/issues/377
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 15. Add `GET /api/bounties/by-issue` lookup by repo and issue number
-
-- Decision: drop
-- Score: 79 -> 9
-- Issue: https://github.com/ritik4ever/stellar-bounty-board/issues/258
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 16. [FEATURE] Improve API timeout handling and offline recovery experience
-
-- Decision: drop
-- Score: 73 -> -27
-- Issue: https://github.com/RatLoopz/sahidawa-india/issues/626
+- Score: 35 -> -65
+- Issue: https://github.com/ResearchHub/issues/issues/540
 - Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
 
-## 17. [FEATURE] Move theme toggle button for light/dark mode from footer to header section
+## 11. Sync Issue-Assigned property from GH to LB
 
 - Decision: drop
-- Score: 73 -> 3
-- Issue: https://github.com/RatLoopz/sahidawa-india/issues/624
+- Score: 35 -> -35
+- Issue: https://github.com/Lightning-Bounties/progress-tracker/issues/53
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 18. Add `get_all_bounties` paginated view function to contract
+## 12. Build Listing Discovery Engine (PWA or React UI)
 
 - Decision: drop
-- Score: 73 -> -32
-- Issue: https://github.com/ritik4ever/stellar-bounty-board/issues/213
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 19. B8 bounty (mplaqh8w60b5b1a6146f) — submission needs fixes before acceptance: 3 signal bugs
-
-- Decision: drop
-- Score: 72 -> 2
-- Issue: https://github.com/gregoryford963-sys/stacks-sybil-scorer/issues/1
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 20. [BOUNTY] [level:critical] Add WebSockets Heartbeat and Connection Pooling for Real-Time Ticket Dashboards
-
-- Decision: drop
-- Score: 71 -> -34
-- Issue: https://github.com/ritesh-1918/HELPDESK.AI/issues/167
+- Score: 34 -> -71
+- Issue: https://github.com/Nobayprotocol/Nobay-Protocol/issues/2
 - Reason: no clear open paid bounty signal >= $10 found
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 21. [FEATURE] Add a Back to Top Button for Easier Page Navigation
+## 13. Feature Request: Copy rule(s) to Private Workspace
+
+- Decision: keep
+- Score: 30 -> -5
+- Issue: https://github.com/requestly/requestly/issues/3825
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 14. Support / add `proxy-server` input mode to fuzz / run checks on live traffic
 
 - Decision: drop
-- Score: 65 -> -5
-- Issue: https://github.com/RatLoopz/sahidawa-india/issues/623
+- Score: 8 -> -62
+- Issue: https://github.com/projectdiscovery/nuclei/issues/4953
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 22. [FEATURE] Improve the ui with animation
+## 15. bug: Rule shows “1 applied filter” even when no filter is applied
 
-- Decision: drop
-- Score: 64 -> -6
-- Issue: https://github.com/RatLoopz/sahidawa-india/issues/449
-- Reason: no clear open paid bounty signal >= $10 found
+- Decision: keep
+- Score: 5 -> -30
+- Issue: https://github.com/requestly/requestly/issues/3826
+- Reason: competition already visible in comments; still allowed in aggressive mode
