@@ -1,8 +1,8 @@
 # GitHub Bounty Candidate Triage
 
-Last run: 2026-05-26 22:51 UTC
+Last run: 2026-05-26 23:57 UTC
 
-Kept candidates: 3
+Kept candidates: 6
 
 This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-blocked, or false-positive GitHub bounty issues before worker time is spent. Crowded but still-paid issues are allowed with a score penalty.
 
@@ -30,357 +30,393 @@ This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-block
 - Reason: issue is not open
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 4. Microgrant Proposal: Field verified OpenStreetMap data
+## 4. Define ETS provenance event for Lantern Easter egg reward claims
 
 - Decision: drop
-- Score: 63 -> -37
-- Issue: https://github.com/osmfoundation/ewg_bidding/issues/24
-- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
+- Score: 79 -> 9
+- Issue: https://github.com/ShannonBrayNC/ETS/issues/63
+- Reason: no clear open paid bounty signal >= $10 found
 
-## 5. [App] GitGig
+## 5. V3 Protocol Team
 
 - Decision: drop
-- Score: 58 -> -47
-- Issue: https://github.com/gitcoinco/gitcoin_co_30/issues/401
+- Score: 79 -> 9
+- Issue: https://github.com/yearn/budget/issues/120
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 6. [ Bounty $3k ] [ Research ] Collect and compare AI-generated AGI architecture proposals
+
+- Decision: keep
+- Score: 75 -> 40
+- Issue: https://github.com/aLexzzz430/Cognitive-OS/issues/5
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 7. Design Easter egg reward capture for digital book delivery
+
+- Decision: drop
+- Score: 73 -> -32
+- Issue: https://github.com/ShannonBrayNC/echomedia-website/issues/8
 - Reason: no clear open paid bounty signal >= $10 found
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 6. TSPerf challenge submission: tsperf-vscode
+## 8. Paid flow: Stripe success creates paid scan session token
+
+- Decision: drop
+- Score: 65 -> -40
+- Issue: https://github.com/Priivacy-ai/agent-log-analyzer/issues/27
+- Reason: no clear open paid bounty signal >= $10 found
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 9. Monetization UX: optimization pack unlock
+
+- Decision: drop
+- Score: 65 -> -5
+- Issue: https://github.com/Priivacy-ai/agent-log-analyzer/issues/24
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 10. How to manage state in meteor Vue project with Pinia ORM [PROPOSAL]
+
+- Decision: drop
+- Score: 65 -> -5
+- Issue: https://github.com/CloudByGalaxy/galaxy-community-writers/issues/28
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 11. [PROPOSAL] Handling File Uploads in Node.js using Multer
+
+- Decision: drop
+- Score: 65 -> -5
+- Issue: https://github.com/CloudByGalaxy/galaxy-community-writers/issues/32
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 12. h2134 - Super Pool shares can be inflated by bad debt leading to overflows
+
+- Decision: keep
+- Score: 65 -> 30
+- Issue: https://github.com/sherlock-audit/2024-08-sentiment-v2-judging/issues/266
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 13. pashap9990 - Funding fee will be zero because of precision loss
+
+- Decision: keep
+- Score: 65 -> 65
+- Issue: https://github.com/sherlock-audit/2024-08-velar-artha-judging/issues/72
+
+## 14. pashap9990 - LPs cannot specify min amount received in burn function, causing loss of fund for them
+
+- Decision: keep
+- Score: 65 -> 65
+- Issue: https://github.com/sherlock-audit/2024-08-velar-artha-judging/issues/74
+
+## 15. [Tutorial] Verified Math in ZK Circuits: Division, Exchange Rates & Overflow Protection
+
+- Decision: drop
+- Score: 59 -> -76
+- Issue: https://github.com/midnightntwrk/contributor-hub/issues/298
+- Reason: content bounty has AI-content disqualification risk for autonomous work
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 16. Updating the Developer Hub
 
 - Decision: drop
 - Score: 58 -> -12
-- Issue: https://github.com/algora-io/algora/issues/277
+- Issue: https://github.com/Reqrefusion/FreeCAD-Documentation-Project/issues/329
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 7. Payment Inquiry - Previous Bounty Completions
+## 17. 帝国数字服务清单 - $1起，接受USDT TRC20支付
+
+- Decision: drop
+- Score: 55 -> -15
+- Issue: https://github.com/jiezishu000/empire-digital-shop/issues/1
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 18. Epic: patch survival and patch-yield metrics
+
+- Decision: drop
+- Score: 54 -> -16
+- Issue: https://github.com/Priivacy-ai/agent-log-analyzer/issues/86
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 19. Meeting Summary 06/06/2024
+
+- Decision: drop
+- Score: 54 -> -16
+- Issue: https://github.com/SingularityNet-Ambassador-Program/African-Guild/issues/17
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 20. Laravel template - Quiz App
+
+- Decision: drop
+- Score: 54 -> -16
+- Issue: https://github.com/codesphere-community/templates/issues/5
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 21. AI Code completion tool
+
+- Decision: drop
+- Score: 54 -> -16
+- Issue: https://github.com/codesphere-community/templates/issues/16
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 22. [Reward] HarnessClaw 体验测评（任一场景）
+
+- Decision: drop
+- Score: 50 -> -20
+- Issue: https://github.com/harnessclaw/harnessclaw/issues/43
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 23. External Add-on Documentation
+
+- Decision: drop
+- Score: 48 -> -22
+- Issue: https://github.com/Reqrefusion/FreeCAD-Documentation-Project/issues/331
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 24. Maintaining Macros
+
+- Decision: drop
+- Score: 48 -> -22
+- Issue: https://github.com/Reqrefusion/FreeCAD-Documentation-Project/issues/332
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 25. [P3] 1차 보상 시스템 (채택 보상)
+
+- Decision: drop
+- Score: 48 -> -22
+- Issue: https://github.com/cpagent78/crawler-network/issues/12
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 26. [P3] 크롤러 피드백 API + 학습 로직
+
+- Decision: drop
+- Score: 48 -> -22
+- Issue: https://github.com/cpagent78/crawler-network/issues/13
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 27. Paid install UX: post-Stripe plugin command and rollback instructions
+
+- Decision: drop
+- Score: 48 -> -22
+- Issue: https://github.com/Priivacy-ai/agent-log-analyzer/issues/30
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 28. Cannot create a SAML SSO AuthProvider for AzureAD
+
+- Decision: drop
+- Score: 48 -> -57
+- Issue: https://github.com/baserow/baserow/issues/1673
+- Reason: no clear open paid bounty signal >= $10 found
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 29. Allow automatic periodic snapshotting of applications via automations
+
+- Decision: drop
+- Score: 48 -> -22
+- Issue: https://github.com/baserow/baserow/issues/2783
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 30. Create issues for implementation endpoint
+
+- Decision: drop
+- Score: 48 -> -22
+- Issue: https://github.com/singlesly/bingx-api/issues/26
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 31. Implement listen key validity period
+
+- Decision: drop
+- Score: 48 -> -57
+- Issue: https://github.com/singlesly/bingx-api/issues/24
+- Reason: no clear open paid bounty signal >= $10 found
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 32. Implement deletion listen key
+
+- Decision: drop
+- Score: 48 -> -57
+- Issue: https://github.com/singlesly/bingx-api/issues/25
+- Reason: no clear open paid bounty signal >= $10 found
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 33. [P3] 2차 보상 시스템 (성과 보상)
+
+- Decision: drop
+- Score: 48 -> -22
+- Issue: https://github.com/cpagent78/crawler-network/issues/14
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 34. Reflex template - Twitter clone app
+
+- Decision: drop
+- Score: 48 -> -57
+- Issue: https://github.com/codesphere-community/templates/issues/10
+- Reason: no clear open paid bounty signal >= $10 found
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 35. DLIP-135 2025 Annual Contributors Reward Proposal [3500 USDC]
 
 - Decision: keep
-- Score: 55 -> 20
-- Issue: https://github.com/openpango/cinematic-tracker/issues/4
-- Reason: competition already visible in comments; still allowed in aggressive mode
+- Score: 48 -> 48
+- Issue: https://github.com/Dapp-Learning-DAO/DLIP/issues/137
 
-## 8. Support very large tables in simulator/stress/whopper
-
-- Decision: drop
-- Score: 54 -> -16
-- Issue: https://github.com/tursodatabase/turso/issues/6957
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 9. Support for number forms and number spacing
-
-- Decision: drop
-- Score: 54 -> -16
-- Issue: https://github.com/PHPOffice/PHPWord/issues/2875
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 10. Funded Open Source Contributor Program
-
-- Decision: drop
-- Score: 54 -> -16
-- Issue: https://github.com/HHS/simpler-grants-gov/issues/10059
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 11. Fix typo in Program.cs help text: "elodoria" should be "eldoria"
-
-- Decision: drop
-- Score: 54 -> -16
-- Issue: https://github.com/microsoft/CopilotAdventures/issues/41
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 12. WaterwayMap.org hosting costs
-
-- Decision: drop
-- Score: 54 -> -46
-- Issue: https://github.com/osmfoundation/ewg_bidding/issues/45
-- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
-
-## 13. Microgrant Proposal: OSMAutoDrone
-
-- Decision: drop
-- Score: 54 -> -46
-- Issue: https://github.com/osmfoundation/ewg_bidding/issues/39
-- Reason: issue explicitly indicates no paid bounty or free-only payment status
-
-## 14. MICROGRANT PROPOSAL:OSM-BASED DASHBOARD FOR CLIMATE CHANGE MONITORING IN AFRICA
-
-- Decision: drop
-- Score: 54 -> -16
-- Issue: https://github.com/osmfoundation/ewg_bidding/issues/22
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 15. Microgrant Proposal: Enhancing Drone Tasking Manager for Multi-Drone Support and Operational Refinements
-
-- Decision: drop
-- Score: 54 -> -46
-- Issue: https://github.com/osmfoundation/ewg_bidding/issues/28
-- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
-
-## 16. MicroGrant Proposal : OSMSG
-
-- Decision: drop
-- Score: 54 -> -16
-- Issue: https://github.com/osmfoundation/ewg_bidding/issues/30
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 17. MIcrogrant Proposal: OSMLocalizer
-
-- Decision: drop
-- Score: 54 -> -46
-- Issue: https://github.com/osmfoundation/ewg_bidding/issues/29
-- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
-
-## 18. Microgrant Proposal: OpenStreetMap Before-After Maps Generator
-
-- Decision: drop
-- Score: 54 -> -16
-- Issue: https://github.com/osmfoundation/ewg_bidding/issues/27
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 19. [App] Algora
+## 36. Socket.io template - collaborative draw board
 
 - Decision: drop
 - Score: 48 -> -57
-- Issue: https://github.com/gitcoinco/gitcoin_co_30/issues/395
+- Issue: https://github.com/codesphere-community/templates/issues/8
 - Reason: no clear open paid bounty signal >= $10 found
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 20. Mpdf export can exceed pcre.backtrack_limit
-
-- Decision: drop
-- Score: 48 -> -57
-- Issue: https://github.com/PHPOffice/PHPWord/issues/2876
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 21. Setup Database and Backend Infrastructure
-
-- Decision: drop
-- Score: 48 -> -57
-- Issue: https://github.com/Enemuo-debug/cookbook-website/issues/1
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 22. Add Package Configuration Files for JavaScript and Python Solutions
+## 37. Changing full auto rate temporarily
 
 - Decision: drop
 - Score: 48 -> -22
-- Issue: https://github.com/liubchigo/copilot-adventures-liubchigo/issues/4
+- Issue: https://github.com/WeaponMechanics/WeaponMechanics/issues/269
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 23. Remove bounty & postUserOp event handlers (PaymasterHub contract change)
+## 38. Feedback: custom BaseTool plugin integration for bounty triage agent
 
 - Decision: drop
-- Score: 48 -> -57
-- Issue: https://github.com/poa-box/subgraph-pop/issues/136
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 24. [Bounty Test] Grazer Test - zhuzhushiwojia
-
-- Decision: drop
-- Score: 48 -> -57
-- Issue: https://github.com/Scottcjn/grazer-skill/issues/73
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 25. Microgrant Proposal: Map Review Team
-
-- Decision: drop
-- Score: 48 -> -22
-- Issue: https://github.com/osmfoundation/ewg_bidding/issues/46
+- Score: 47 -> -23
+- Issue: https://github.com/hashgraph/hedera-agent-kit-js/issues/867
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 26. Microgrant Proposal: GeoAI for Maternal Health Risk Mapping in Kenya
+## 39. Add maintainer analytics dashboard page
 
 - Decision: drop
-- Score: 48 -> -22
-- Issue: https://github.com/osmfoundation/ewg_bidding/issues/43
+- Score: 47 -> -23
+- Issue: https://github.com/ritik4ever/stellar-bounty-board/issues/301
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 27. Microgrant Proposal: Campus Guide
-
-- Decision: drop
-- Score: 48 -> -22
-- Issue: https://github.com/osmfoundation/ewg_bidding/issues/23
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 28. Draft: MIcrogrant Proposal- OSMLocalizer
-
-- Decision: drop
-- Score: 48 -> -52
-- Issue: https://github.com/osgeonepal/site/issues/74
-- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
-
-## 29. Payout question: PayPal option for contributor who cannot use Stripe from mainland China
+## 40. AMA Facilitation 28.06.2024
 
 - Decision: drop
 - Score: 44 -> -26
-- Issue: https://github.com/algora-io/algora/issues/270
+- Issue: https://github.com/SingularityNet-Ambassador-Program/African-Guild/issues/34
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 30. Bounty claim pending sponsor reward after merged PR
-
-- Decision: drop
-- Score: 44 -> -56
-- Issue: https://github.com/algora-io/algora/issues/262
-- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
-
-## 31. Primer_paso_TFM
+## 41. Townhall Updates - 25.06.2024
 
 - Decision: drop
 - Score: 44 -> -26
-- Issue: https://github.com/Crimisual00/TMF_VIU/issues/1
+- Issue: https://github.com/SingularityNet-Ambassador-Program/African-Guild/issues/31
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 32. Introduccion TFM
+## 42. [SUGESTION]
 
 - Decision: drop
 - Score: 44 -> -26
-- Issue: https://github.com/Crimisual00/tfg-patricia-suarez/issues/1
+- Issue: https://github.com/SASERP-FIVEM/SASERP/issues/1
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 33. Insulation as Infrastructure: supporting “Dobra Maisternia” in frontline Kharkiv region
+## 43. [SUGESTION] MRPD
 
 - Decision: drop
 - Score: 44 -> -26
-- Issue: https://github.com/maxzalevski/community_spaces/issues/7
+- Issue: https://github.com/SASERP-FIVEM/SASERP/issues/3
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 34. W3I Network Initiative in Action: Building a Sarafu-Based DAO for Regenerative Coordination in Ukraine
+## 44. Apache Beam - TF-IDF analysis and keyword extraction
 
 - Decision: drop
 - Score: 44 -> -26
-- Issue: https://github.com/maxzalevski/grants/issues/2
+- Issue: https://github.com/codesphere-community/templates/issues/14
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 35. Radaria three bunk beds in hostel
+## 45. Permissionless flat SyncMaintenanceFee anchors last_fee_slot to clock and can waive all future maintenance on later open positions
 
 - Decision: drop
-- Score: 44 -> -26
-- Issue: https://github.com/maxzalevski/community_spaces/issues/6
+- Score: 43 -> -27
+- Issue: https://github.com/aeyakovenko/percolator-prog/issues/109
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 36. Add policies / visa letter page
+## 46. Extend the Bounty type with optional UI fields to remove ad-hoc casts
 
 - Decision: drop
-- Score: 44 -> -26
-- Issue: https://github.com/open-life-science/open-life-science.github.io/issues/1108
+- Score: 43 -> -27
+- Issue: https://github.com/boundlessfi/bounties/issues/211
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 37. Meeting [2025-06-06]
+## 47. Enable test's code coverage monitoring
 
 - Decision: drop
-- Score: 44 -> -26
-- Issue: https://github.com/osgeonepal/site/issues/73
+- Score: 40 -> -30
+- Issue: https://github.com/linksplatform/Ranges/issues/36
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 38. Add durable agent memory for user, team, and organization context across sessions
-
-- Decision: keep
-- Score: 40 -> 5
-- Issue: https://github.com/archestra-ai/archestra/issues/3837
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 39. Microgrant Proposal: Redesign of the OSM Apps Catalog to reach a wider audience
-
-- Decision: drop
-- Score: 40 -> -60
-- Issue: https://github.com/osmfoundation/ewg_bidding/issues/31
-- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
-
-## 40. Agent template catalog
-
-- Decision: keep
-- Score: 40 -> 5
-- Issue: https://github.com/archestra-ai/archestra/issues/3858
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 41. Enhancement: Add support for system dark mode via prefers-color-scheme or manual theme toggle
-
-- Decision: drop
-- Score: 40 -> -45
-- Issue: https://github.com/algora-io/algora/issues/222
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: light competition allowed: 1 open competing PR(s)
-- Competing PR: https://github.com/algora-io/algora/pull/294
-
-## 42. Feature Request: Customize list of contributions
-
-- Decision: drop
-- Score: 40 -> -45
-- Issue: https://github.com/algora-io/algora/issues/208
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: light competition allowed: 1 open competing PR(s)
-- Competing PR: https://github.com/algora-io/algora/pull/290
-
-## 43. Set of issues for resolution under the MICROGRANT Program 2026-05
+## 48. [Morty Enhancement] Paid reports with tricks/scripts/insights (reportService.js)
 
 - Decision: drop
 - Score: 40 -> -65
-- Issue: https://github.com/asyncapi/cli/issues/2124
+- Issue: https://github.com/Tambeej/morty-backend/issues/32
 - Reason: no clear open paid bounty signal >= $10 found
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 44. PauseAI.se takes up first place in google
+## 49. bughuntoor - Whale LP providers can open positions on both sides to force users into high fees.
 
 - Decision: drop
 - Score: 40 -> -30
-- Issue: https://github.com/PauseAI/pauseai-website/issues/385
+- Issue: https://github.com/sherlock-audit/2024-08-velar-artha-judging/issues/89
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 45. PHP 8.5 Using null as an array offset is deprecated
+## 50. bughuntoor - First depositor could DoS the pool
 
 - Decision: drop
 - Score: 40 -> -30
-- Issue: https://github.com/PHPOffice/PHPWord/issues/2863
+- Issue: https://github.com/sherlock-audit/2024-08-velar-artha-judging/issues/85
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 46. Microgrant Proposal: StreetComplete as an entry point to OpenStreetMap
+## 51. bughuntoor - Usage of `tx.origin` to determine the user is prone to attacks
 
 - Decision: drop
-- Score: 40 -> -65
-- Issue: https://github.com/osmfoundation/ewg_bidding/issues/34
+- Score: 40 -> -30
+- Issue: https://github.com/sherlock-audit/2024-08-velar-artha-judging/issues/82
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 52. KupiaSec - Not decreasing oracle timestamp validation leads to DoS for protocol users
+
+- Decision: drop
+- Score: 40 -> -30
+- Issue: https://github.com/sherlock-audit/2024-08-velar-artha-judging/issues/79
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 53. KupiaSec - Invalid Redstone oracle payload size prevents the protocol from working properly
+
+- Decision: drop
+- Score: 40 -> -30
+- Issue: https://github.com/sherlock-audit/2024-08-velar-artha-judging/issues/75
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 54. 4gontuk - LPs will withdraw more value than deposited during pegged token de-peg events
+
+- Decision: keep
+- Score: 40 -> 40
+- Issue: https://github.com/sherlock-audit/2024-08-velar-artha-judging/issues/52
+
+## 55. Developer feedback: three friction points when integrating v4 for the first time
+
+- Decision: drop
+- Score: 39 -> -31
+- Issue: https://github.com/hashgraph/hedera-agent-kit-js/issues/836
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 56. HAK v4: Plugin registration order affects tool availability in HederaAgentAPI
+
+- Decision: drop
+- Score: 39 -> -31
+- Issue: https://github.com/hashgraph/hedera-agent-kit-js/issues/834
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 57. Sats to Local Currency | Mexico
+
+- Decision: drop
+- Score: 39 -> -66
+- Issue: https://github.com/sutt/docs/issues/5
 - Reason: no clear open paid bounty signal >= $10 found
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 47. Microgrant Proposal: Underpass stabilization, packaging and testing
+## 58. PartDesign Workbench: Adding Missing Information
 
 - Decision: drop
-- Score: 40 -> -30
-- Issue: https://github.com/osmfoundation/ewg_bidding/issues/42
+- Score: 38 -> -32
+- Issue: https://github.com/Reqrefusion/FreeCAD-Documentation-Project/issues/79
 - Reason: no clear open paid bounty signal >= $10 found
-
-## 48. Microgrant Proposal: Localized Open Geocoder Plugin for Ethiopia and Africa
-
-- Decision: drop
-- Score: 40 -> -30
-- Issue: https://github.com/osmfoundation/ewg_bidding/issues/21
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 49. Microgrant Proposal: AI-Based Feature Extraction from Satellite Imagery for OpenStreetMap (OSM) Enrichment
-
-- Decision: drop
-- Score: 40 -> -60
-- Issue: https://github.com/osmfoundation/ewg_bidding/issues/38
-- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
-
-## 50. Microgrant proposal: Speedwalk
-
-- Decision: drop
-- Score: 40 -> -30
-- Issue: https://github.com/osmfoundation/ewg_bidding/issues/25
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 51. Microgrant Proposal: Data Rescue Pipeline - Preserving Deleted OpenStreetMap Features in OpenHistoricalMap
-
-- Decision: drop
-- Score: 40 -> -30
-- Issue: https://github.com/osmfoundation/ewg_bidding/issues/41
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 52. Microgrant Proposal: Atlas Design System & Modernization of OSM.org
-
-- Decision: drop
-- Score: 40 -> -60
-- Issue: https://github.com/osmfoundation/ewg_bidding/issues/26
-- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
