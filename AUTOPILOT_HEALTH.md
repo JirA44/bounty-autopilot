@@ -1,6 +1,6 @@
 # Autopilot Health
 
-Last run: 2026-05-27 19:40 UTC
+Last run: 2026-05-27 21:25 UTC
 
 Overall: `degraded`
 
@@ -9,11 +9,11 @@ The automation can still scout, solve locally through Codex, submit ready patche
 ## Checks
 
 - `ok` GitHub interaction token: Token available for comments, fork, push, and PR submission.
-- `degraded` Bounty scout scheduler: bounty_worker_queue.md is stale (64 minutes old); dispatch sent.
-- `degraded` GitHub claimer scheduler: github_bounty_claim_report.md is stale (123 minutes old); dispatch sent.
-- `ok` GitHub submitter scheduler: github_bounty_submission_report.md is fresh (2 minutes old).
-- `ok` TaskBounty scout scheduler: taskbounty_report.md is fresh (2 minutes old).
-- `ok` TaskBounty worker scheduler: taskbounty_worker_report.md is fresh (2 minutes old).
+- `ok` Bounty scout scheduler: bounty_worker_queue.md is fresh (28 minutes old).
+- `degraded` GitHub claimer scheduler: github_bounty_claim_report.md is stale (98 minutes old); dispatch sent.
+- `ok` GitHub submitter scheduler: github_bounty_submission_report.md is fresh (0 minutes old).
+- `degraded` TaskBounty scout scheduler: taskbounty_report.md is stale (95 minutes old); dispatch sent.
+- `degraded` TaskBounty worker scheduler: taskbounty_worker_report.md is stale (107 minutes old); dispatch sent.
 - `degraded` Online model solver key: GitHub Actions cannot generate new code patches without a model key. Local Codex automation is configured as the solving fallback.
 - `ok` TaskBounty credentials: TaskBounty API and agent id are available.
 - `ok` GitHub bounty claimer: No claim comments tracked yet.
@@ -22,7 +22,7 @@ The automation can still scout, solve locally through Codex, submit ready patche
 - `ok` GitHub bounty submitter: PRs tracked: 3
 - `ok` TaskBounty worker: Worker report exists.
 - `ok` Ready patch files: GitHub patches: 3; TaskBounty patches: 1.
-- `ok` Candidate feeds: GitHub candidates: 1; TaskBounty candidates: 1.
+- `ok` Candidate feeds: GitHub candidates: 6; TaskBounty candidates: 1.
 
 ## Tracked PRs
 
