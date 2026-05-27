@@ -1,17 +1,17 @@
 # Bounty Worker Queue
 
-Last built: 2026-05-27 00:08 UTC
+Last built: 2026-05-27 02:12 UTC
 
 Purpose: turn scouting results into a concrete work queue for an agent. Up to 10 candidates are kept so one stale opportunity does not block the whole system. Higher-value, lower-risk items are prioritized first. Do not submit a PR unless the bug is reproduced or the requested change is clearly verified.
 
-## Queue Item 1: Validate reward generation behavior
+## Queue Item 1: SecureBanana Algora claims pending settlement path
 
-- Issue: https://github.com/devpool-directory/devpool-directory/issues/5887
-- Repository: https://github.com/devpool-directory/devpool-directory
-- Amount hint: amount not obvious
-- Score: 1
-- Work priority: 1.0
-- Match reason: paid/bounty wording, fresh update
+- Issue: https://github.com/algora-io/algora/issues/303
+- Repository: https://github.com/algora-io/algora
+- Amount hint: $4,311, $430, $780, $350
+- Score: 104
+- Work priority: 204.0
+- Match reason: paid/bounty wording, visible amount, coding scope, low discussion, new issue, fresh update
 
 ### Worker Instructions
 

@@ -1,17 +1,15 @@
 [
   {
-    "title": "Validate reward generation behavior",
-    "url": "https://github.com/devpool-directory/devpool-directory/issues/5887",
-    "repository_url": "https://github.com/devpool-directory/devpool-directory",
-    "updated_at": "2026-05-26T22:26:27Z",
-    "score": 1,
-    "amount_hint": "amount not obvious",
-    "reason": "paid/bounty wording, fresh update",
+    "title": "SecureBanana Algora claims pending settlement path",
+    "url": "https://github.com/algora-io/algora/issues/303",
+    "repository_url": "https://github.com/algora-io/algora",
+    "updated_at": "2026-05-27T00:23:53Z",
+    "score": 104,
+    "amount_hint": "$4,311, $430, $780, $350",
+    "reason": "paid/bounty wording, visible amount, coding scope, low discussion, new issue, fresh update",
     "source": "volume-expander",
     "triage_decision": "keep",
-    "triage_reasons": [
-      "competition already visible in comments; still allowed in aggressive mode"
-    ],
+    "triage_reasons": [],
     "linked_prs": []
   }
 ]
