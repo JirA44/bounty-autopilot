@@ -1,8 +1,8 @@
 # GitHub Bounty Candidate Triage
 
-Last run: 2026-05-27 20:57 UTC
+Last run: 2026-05-27 22:44 UTC
 
-Kept candidates: 6
+Kept candidates: 3
 
 This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-blocked, or false-positive GitHub bounty issues before worker time is spent. Crowded but still-paid issues are allowed with a score penalty.
 
@@ -30,412 +30,331 @@ This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-block
 - Reason: issue is not open
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 4. DOCS: add a PR template for improving PR quality
+## 4. [Support request, not bounty] SecureBanana claims pending settlement path
+
+- Decision: keep
+- Score: 90 -> 90
+- Issue: https://github.com/algora-io/algora/issues/303
+
+## 5. Phishing-gate auto-cancelling legitimate bookings — paid Teams plan, 5 support tickets/emails unanswered
 
 - Decision: drop
 - Score: 79 -> 9
-- Issue: https://github.com/ritesh-1918/HELPDESK.AI/issues/254
+- Issue: https://github.com/calcom/cal.diy/issues/29469
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 5. test : add unit tests for auto_close_service.py utility
+## 6. ARM: Step Over steps inside of function
 
 - Decision: drop
-- Score: 79 -> -26
-- Issue: https://github.com/ritesh-1918/HELPDESK.AI/issues/279
+- Score: 64 -> -6
+- Issue: https://github.com/probe-rs/probe-rs/issues/4030
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 7. Request to add memory usage size
+
+- Decision: drop
+- Score: 64 -> -6
+- Issue: https://github.com/probe-rs/probe-rs/issues/4029
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 8. probe-rs is hardwired to use group plugdev
+
+- Decision: drop
+- Score: 64 -> -6
+- Issue: https://github.com/probe-rs/probe-rs/issues/4025
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 9. Post-merge launch hardening: verify GitHub Pages deploy and remove legacy CogniPrint validation gates
+
+- Decision: drop
+- Score: 64 -> -6
+- Issue: https://github.com/TakoVHS/TakoVHS.github.io/issues/11
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 10. Feature Request: Add probe-rs-tools-aarch64-pc-windows-msvc.zip to release assets for ARM Windows support
+
+- Decision: drop
+- Score: 64 -> -6
+- Issue: https://github.com/probe-rs/probe-rs/issues/4022
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 11. join
+
+- Decision: drop
+- Score: 58 -> -12
+- Issue: https://github.com/Ikalus1988/MisakaNet/issues/92
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 12. [App] GitGig
+
+- Decision: drop
+- Score: 58 -> -47
+- Issue: https://github.com/gitcoinco/gitcoin_co_30/issues/401
 - Reason: no clear open paid bounty signal >= $10 found
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 6. p2pool explanation and sharechain details
+## 13. join
+
+- Decision: drop
+- Score: 58 -> -12
+- Issue: https://github.com/Ikalus1988/MisakaNet/issues/87
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 14. Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI
 
 - Decision: keep
-- Score: 71 -> 36
-- Issue: https://github.com/bitcoin-dot-org/Bitcoin.org/issues/1168
+- Score: 56 -> 21
+- Issue: https://github.com/archestra-ai/archestra/issues/4998
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 7. docs: add pull request template
-
-- Decision: drop
-- Score: 71 -> -34
-- Issue: https://github.com/ritesh-1918/HELPDESK.AI/issues/223
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 8. [BOUNTY] Port over Vore/chomp's vore system and related things ($175+)
+## 15. Payment Inquiry - Previous Bounty Completions
 
 - Decision: keep
-- Score: 69 -> 69
-- Issue: https://github.com/SPLURT-Station/S.P.L.U.R.T-Station-13/issues/444
-
-## 9. 🤝 Nautilus Platform Invitation: Connect Multi-Agent SRE to the Agent Economy
-
-- Decision: drop
-- Score: 68 -> -2
-- Issue: https://github.com/ashrane111/multi-agent-sre/issues/1
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 10. [1500 MRG] AI project evaluation for price suggestion
-
-- Decision: drop
-- Score: 64 -> -41
-- Issue: https://github.com/mergeos-bounties/mergeos/issues/3
-- Reason: no clear open paid bounty signal >= $10 found
+- Score: 55 -> 20
+- Issue: https://github.com/openpango/cinematic-tracker/issues/4
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 11. [FEATURE] Add AI-Generated Weekly Digest Email Report for Admins with Ticket Trends and Team Performance Summary
-
-- Decision: drop
-- Score: 64 -> -36
-- Issue: https://github.com/ritesh-1918/HELPDESK.AI/issues/208
-- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
-
-## 12. Low Handing Fruit Automation
-
-- Decision: keep
-- Score: 61 -> 26
-- Issue: https://github.com/SecureBananaLabs/bug-bounty/issues/743
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 13. [App] Lightning Bounties
-
-- Decision: drop
-- Score: 58 -> -77
-- Issue: https://github.com/gitcoinco/gitcoin_co_30/issues/389
-- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 14. [2000 MRG] Add dashboard payment history after login
-
-- Decision: drop
-- Score: 56 -> -49
-- Issue: https://github.com/mergeos-bounties/mergeos/issues/18
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 15. [2000 MRG] Fix project view after login from dashboard
-
-- Decision: drop
-- Score: 56 -> -14
-- Issue: https://github.com/mergeos-bounties/mergeos/issues/17
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 16. [2000 MRG] Frontend homepage responsive QA and layout breakage check
-
-- Decision: drop
-- Score: 56 -> -49
-- Issue: https://github.com/mergeos-bounties/mergeos/issues/11
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 17. [1500 MRG] Live project creation updates on dashboard and homepage via WebSocket
-
-- Decision: drop
-- Score: 56 -> -49
-- Issue: https://github.com/mergeos-bounties/mergeos/issues/21
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 18. [3000 MRG] Improve create-project flow for new projects and existing bug fixes
-
-- Decision: drop
-- Score: 56 -> -49
-- Issue: https://github.com/mergeos-bounties/mergeos/issues/12
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 19. [FEATURE] Add AI-Powered Ticket Response Time Estimator with SLA Breach Prediction
-
-- Decision: drop
-- Score: 56 -> -14
-- Issue: https://github.com/ritesh-1918/HELPDESK.AI/issues/205
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 20. Chore: Add .editorconfig for consistent coding style across IDEs
-
-- Decision: drop
-- Score: 56 -> -14
-- Issue: https://github.com/ritesh-1918/HELPDESK.AI/issues/212
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 21. Chore: Add a standard CODE_OF_CONDUCT.md guide
-
-- Decision: drop
-- Score: 56 -> -49
-- Issue: https://github.com/ritesh-1918/HELPDESK.AI/issues/213
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 22. [FEATURE] Add Google OAuth
-
-- Decision: drop
-- Score: 56 -> -49
-- Issue: https://github.com/ritesh-1918/HELPDESK.AI/issues/216
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 23. Chore: Setup markdownlint to enforce consistent documentation standards
-
-- Decision: drop
-- Score: 56 -> -49
-- Issue: https://github.com/ritesh-1918/HELPDESK.AI/issues/217
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 24. Decode ISM metadata
-
-- Decision: drop
-- Score: 54 -> -51
-- Issue: https://github.com/hyperlane-xyz/hyperlane-explorer/issues/79
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 25. Claim Reward - Troubleshooting and FAQ
+## 16. Please cut a release
 
 - Decision: drop
 - Score: 54 -> -16
-- Issue: https://github.com/sutt/docs/issues/3
+- Issue: https://github.com/slick/slick/issues/3564
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 26. [App] BountyPay
+## 17. Glasp デプロイパイプライン（CI/CD）
 
 - Decision: drop
-- Score: 48 -> -87
-- Issue: https://github.com/gitcoinco/gitcoin_co_30/issues/391
-- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 27. [App] uBounty
-
-- Decision: drop
-- Score: 48 -> -87
-- Issue: https://github.com/gitcoinco/gitcoin_co_30/issues/390
-- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 28. Sats to Local Currency | Mexico
-
-- Decision: drop
-- Score: 48 -> -57
-- Issue: https://github.com/sutt/docs/issues/5
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 29. [WIKI-PATCH] Add plan-level approvals, scoped trust sessions, and batch receipts for fast online Branch authoring
-
-- Decision: drop
-- Score: 47 -> -88
-- Issue: https://github.com/Jonnyton/Workflow/issues/961
-- Reason: issue explicitly indicates no paid bounty or free-only payment status
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 30. [bug] errorHandler: missing return causes double response after headers sent
-
-- Decision: drop
-- Score: 47 -> -23
-- Issue: https://github.com/SecureBananaLabs/bug-bounty/issues/754
+- Score: 54 -> -16
+- Issue: https://github.com/ktakahiro150397/gas-tweet-archive/issues/7
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 31. Add internationalization (i18n) support
+## 18. GitHub Pages セットアップ（手動操作）
 
 - Decision: drop
-- Score: 46 -> -59
-- Issue: https://github.com/sorosave-protocol/frontend/issues/16
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 32. [BOUNTY] Break the RustChain Mechanism Spec + Falsification Matrix
-
-- Decision: drop
-- Score: 46 -> -59
-- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/356
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 33. Add Hardhat test suite for ListingRegistry.sol
-
-- Decision: drop
-- Score: 46 -> -59
-- Issue: https://github.com/Nobayprotocol/Nobay-Protocol/issues/3
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 34. [FEATURE] Add a Back to Top button
-
-- Decision: drop
-- Score: 46 -> -59
-- Issue: https://github.com/ritesh-1918/HELPDESK.AI/issues/196
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 35. [FEATURE] Make Navbar Sticky and Enable Smooth Scrolling
-
-- Decision: drop
-- Score: 46 -> -59
-- Issue: https://github.com/ritesh-1918/HELPDESK.AI/issues/198
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 36. [FEATURE] Make the homepage fully responsive
-
-- Decision: drop
-- Score: 46 -> -59
-- Issue: https://github.com/ritesh-1918/HELPDESK.AI/issues/200
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 37. [FEATURE] Redesign the authpages for mobile devices
-
-- Decision: drop
-- Score: 46 -> -59
-- Issue: https://github.com/ritesh-1918/HELPDESK.AI/issues/201
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 38. [FEATURE] Create a dedicated About Us page
-
-- Decision: drop
-- Score: 46 -> -24
-- Issue: https://github.com/ritesh-1918/HELPDESK.AI/issues/209
+- Score: 54 -> -16
+- Issue: https://github.com/ktakahiro150397/gas-tweet-archive/issues/6
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 39. [BOUNTY] New "Interact With" option for Harmful content
+## 19. DASHBOARDグラフ設定（テンプレート）
 
 - Decision: drop
-- Score: 44 -> -26
-- Issue: https://github.com/SPLURT-Station/S.P.L.U.R.T-Station-13/issues/1247
+- Score: 54 -> -16
+- Issue: https://github.com/ktakahiro150397/gas-tweet-archive/issues/4
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 40. Sync Issue-Assigned property from GH to LB
+## 20. ダッシュボードキャッシュ計算エンジン
 
 - Decision: drop
-- Score: 44 -> -26
-- Issue: https://github.com/Lightning-Bounties/progress-tracker/issues/53
+- Score: 54 -> -16
+- Issue: https://github.com/ktakahiro150397/gas-tweet-archive/issues/3
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 41. 🤝 Nautilus Platform Invitation: Connect Rust Agent OS to the Agent Economy
+## 21. tweet.js/bookmark.js パーサー実装
 
 - Decision: drop
-- Score: 43 -> -27
-- Issue: https://github.com/ginkida/rustyhand/issues/2
+- Score: 54 -> -16
+- Issue: https://github.com/ktakahiro150397/gas-tweet-archive/issues/2
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 42. Clarify scope and acceptance criteria for Dart port bounty
+## 22. GASメニュー実装 / HTMLアップロードダイアログ
 
 - Decision: drop
-- Score: 43 -> -27
-- Issue: https://github.com/haveno-dex/haveno-ts/issues/435
+- Score: 54 -> -16
+- Issue: https://github.com/ktakahiro150397/gas-tweet-archive/issues/1
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 43. Fixing the bounty award system
+## 23. Many problems when attempting to implement a flash algorithm
 
 - Decision: drop
-- Score: 38 -> -32
-- Issue: https://github.com/ResearchHub/issues/issues/531
+- Score: 54 -> -16
+- Issue: https://github.com/probe-rs/probe-rs/issues/4016
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 44. Create a Bounty Amount Box Issue
+## 24. Test issue
 
 - Decision: drop
-- Score: 38 -> -62
-- Issue: https://github.com/ResearchHub/issues/issues/540
+- Score: 54 -> -16
+- Issue: https://github.com/gacorpoll-ui/test-repo/issues/1
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 25. Cross-ecosystem agent payments: Solana ↔ EVM via ERC-8004 identity
+
+- Decision: drop
+- Score: 54 -> -16
+- Issue: https://github.com/marchantdev/agent-protocol/issues/1
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 26. React Review Audit
+
+- Decision: drop
+- Score: 54 -> -16
+- Issue: https://github.com/sonpt-afk/todolist-intern/issues/1
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 27. React Review Audit
+
+- Decision: drop
+- Score: 54 -> -16
+- Issue: https://github.com/sonpt-afk/FaceIO-saas-authentication/issues/1
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 28. React Review Audit
+
+- Decision: drop
+- Score: 54 -> -16
+- Issue: https://github.com/sonpt-afk/Leadhung-issue-DC-reference/issues/1
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 29. React Review Audit
+
+- Decision: drop
+- Score: 54 -> -16
+- Issue: https://github.com/sonpt-afk/ecommerce-shop/issues/1
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 30. React Review Audit
+
+- Decision: drop
+- Score: 54 -> -46
+- Issue: https://github.com/sonpt-afk/carter-portfolio/issues/3
 - Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
 
-## 45. Inherited Tag Values are not Overwritten [💰$20]
-
-- Decision: keep
-- Score: 36 -> 1
-- Issue: https://github.com/simonmichael/hledger/issues/1950
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 46. Replace ringGeometry with Rectangle Geometry in NodePoints Component
+## 31. React Review Audit
 
 - Decision: drop
-- Score: 36 -> -69
-- Issue: https://github.com/stakwork/sphinx-nav-fiber/issues/2661
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 47. [BOUNTY] Claim: Mobile SERP Tracker, Google Maps Lead Generator, Google Reviews & Business Data API
-
-- Decision: drop
-- Score: 36 -> -99
-- Issue: https://github.com/bolivian-peru/marketplace-service-template/issues/91
+- Score: 54 -> -46
+- Issue: https://github.com/sonpt-afk/face-authentication-project/issues/1
 - Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
-- Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 48. [BOUNTY] 4 eyes marking for the rebase 7$
+## 32. React Review Audit
 
 - Decision: drop
-- Score: 36 -> -34
-- Issue: https://github.com/SPLURT-Station/S.P.L.U.R.T-Station-13/issues/1248
+- Score: 54 -> -46
+- Issue: https://github.com/sonpt-afk/homemade-saas/issues/1
+- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
+
+## 33. React Review Audit
+
+- Decision: drop
+- Score: 54 -> -16
+- Issue: https://github.com/sonpt-afk/askIT-redux-ulti/issues/1
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 49. [BOUNTY] hopefully easy new station biome (30)
-
-- Decision: keep
-- Score: 36 -> 1
-- Issue: https://github.com/SPLURT-Station/S.P.L.U.R.T-Station-13/issues/1156
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 50. Implement a fully functional Admin Panel
-
-- Decision: keep
-- Score: 36 -> 1
-- Issue: https://github.com/SecureBananaLabs/bug-bounty/issues/29
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 51. LIghtning bounties for completed tasks
+## 34. React Review Audit
 
 - Decision: drop
-- Score: 30 -> -40
-- Issue: https://github.com/Cyberpunk-Hardware/Cyberpunk-Hardware/issues/1
+- Score: 54 -> -16
+- Issue: https://github.com/sonpt-afk/AI-app-prontonx/issues/1
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 52. [BOUNTY: 3 RTC] Share elyanlabs.ai Launch on Social Media (With Proof)
+## 35. React Review Audit
 
 - Decision: drop
-- Score: 26 -> -44
-- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/2960
+- Score: 54 -> -46
+- Issue: https://github.com/sonpt-afk/next-blog/issues/1
+- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
+
+## 36. React Review Audit
+
+- Decision: drop
+- Score: 54 -> -16
+- Issue: https://github.com/sonpt-afk/next-dashboard-pp/issues/1
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 53. [BOUNTY: 5 RTC] Post RustChain to Hacker News, Reddit, or Lobsters (With Proof)
+## 37. React Review Audit
 
 - Decision: drop
-- Score: 26 -> -44
-- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/2866
+- Score: 54 -> -16
+- Issue: https://github.com/sonpt-afk/Trip-planner-AI/issues/1
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 54. Add Guide for Converting Sats to Mexican Pesos
+## 38. React Review Audit
 
 - Decision: drop
-- Score: 24 -> -46
-- Issue: https://github.com/sutt/docs/issues/4
+- Score: 54 -> -16
+- Issue: https://github.com/sonpt-afk/atlas-forge-noob/issues/1
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 55. Add section: Posting and solving bounties for GitBook / Wikis
+## 39. React Review Audit
 
 - Decision: drop
-- Score: 24 -> -46
-- Issue: https://github.com/sutt/docs/issues/2
+- Score: 54 -> -16
+- Issue: https://github.com/sonpt-afk/generative-ui-with-copilotkit/issues/1
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 56. Claim MRG Tokens for Bug Bounty Reports - Comment New Bugs Here Before Opening a PR
+## 40. React Review Audit
 
 - Decision: drop
-- Score: 21 -> -84
-- Issue: https://github.com/mergeos-bounties/mergeos/issues/1
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 57. Jest unit test needs to be added for react admin app
-
-- Decision: drop
-- Score: 18 -> -52
-- Issue: https://github.com/avored/avored-rust-cms/issues/247
+- Score: 54 -> -16
+- Issue: https://github.com/sonpt-afk/podcastLibraryApp/issues/1
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 58. Core Lightning: Add Commando / lnsocket API support
+## 41. React Review Audit
 
 - Decision: drop
-- Score: 16 -> -54
-- Issue: https://github.com/ZeusLN/zeus/issues/1068
+- Score: 54 -> -16
+- Issue: https://github.com/sonpt-afk/Trello-Python-SQL-Redis/issues/1
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 42. React Review Audit
+
+- Decision: drop
+- Score: 54 -> -16
+- Issue: https://github.com/sonpt-afk/dc-project-issue-manager/issues/2
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 43. React Review Audit
+
+- Decision: drop
+- Score: 54 -> -16
+- Issue: https://github.com/sonpt-afk/trello-clone-byson/issues/1
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 44. React Review Audit
+
+- Decision: drop
+- Score: 54 -> -16
+- Issue: https://github.com/sonpt-afk/TQD-advanced-trello/issues/1
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 45. React Review Audit
+
+- Decision: drop
+- Score: 54 -> -16
+- Issue: https://github.com/sonpt-afk/next-AI-startup-landingpage/issues/1
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 46. React Review Audit
+
+- Decision: drop
+- Score: 54 -> -16
+- Issue: https://github.com/sonpt-afk/jira-issue-manager/issues/1
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 47. React Review Audit
+
+- Decision: drop
+- Score: 54 -> -16
+- Issue: https://github.com/sonpt-afk/next-ai-note-generator/issues/1
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 48. React Review Audit
+
+- Decision: drop
+- Score: 54 -> -46
+- Issue: https://github.com/sonpt-afk/shopee-clone-dtd/issues/1
+- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
+
+## 49. React Review Audit
+
+- Decision: drop
+- Score: 54 -> -16
+- Issue: https://github.com/sonpt-afk/bieu-mau-aipt-clone/issues/1
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 50. React Review Audit
+
+- Decision: drop
+- Score: 54 -> -16
+- Issue: https://github.com/sonpt-afk/GO-FULLSTACK/issues/1
 - Reason: no clear open paid bounty signal >= $10 found
