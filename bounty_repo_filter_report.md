@@ -1,10 +1,10 @@
 # Bounty Repository Filter
 
-Last run: 2026-05-27 17:33 UTC
+Last run: 2026-05-27 18:35 UTC
 
-Input candidates: 44
-Kept candidates: 43
-Dropped candidates: 1
+Input candidates: 60
+Kept candidates: 56
+Dropped candidates: 4
 
 This filter removes known false-positive, unsafe, self-tracking, stale, or overcrowded bounty sources before expensive triage/solver work runs.
 
@@ -14,4 +14,22 @@ This filter removes known false-positive, unsafe, self-tracking, stale, or overc
 
 - Repository: calcom/cal.com
 - Issue: https://github.com/calcom/cal.com/issues/1985
+- Reason: known stale/crowded bounty issue
+
+### 2. TaskBounty candidates
+
+- Repository: asaadnashed/bounty-autopilot
+- Issue: https://github.com/asaadnashed/bounty-autopilot/issues/11
+- Reason: known false-positive or unsafe bounty source
+
+### 3. Bounty scout candidates
+
+- Repository: asaadnashed/bounty-autopilot
+- Issue: https://github.com/asaadnashed/bounty-autopilot/issues/12
+- Reason: known false-positive or unsafe bounty source
+
+### 4. PACT Protocol — Trustless Agent Commerce Infrastructure on FVM (Open Grant)
+
+- Repository: filecoin-project/devgrants
+- Issue: https://github.com/filecoin-project/devgrants/issues/2081
 - Reason: known stale/crowded bounty issue

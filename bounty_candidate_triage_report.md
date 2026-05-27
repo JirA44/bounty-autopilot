@@ -1,8 +1,8 @@
 # GitHub Bounty Candidate Triage
 
-Last run: 2026-05-27 17:33 UTC
+Last run: 2026-05-27 18:36 UTC
 
-Kept candidates: 0
+Kept candidates: 1
 
 This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-blocked, or false-positive GitHub bounty issues before worker time is spent. Crowded but still-paid issues are allowed with a score penalty.
 
@@ -30,286 +30,382 @@ This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-block
 - Reason: issue is not open
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 4. [Bug]: [BUG BOUNTY] Connecting the Meta Earth account and the X social account
+## 4. Hardening: fix cost tracking, broken test import, and depth-config audit items
+
+- Decision: drop
+- Score: 110 -> 40
+- Issue: https://github.com/harishkanna-019/revgent-v3/issues/11
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 5. Looker tables missing data
 
 - Decision: drop
 - Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/109
+- Issue: https://github.com/solema247/Mutual-Aid-Portal/issues/59
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 5. Mautic 6 plugin update can fail with TypeError when plugin metadata is missing
+## 6. P2: dispatch_tick silently swallows push_leads per-lead errors when email lookup misses
 
 - Decision: drop
 - Score: 85 -> 15
-- Issue: https://github.com/mautic/mautic/issues/16170
+- Issue: https://github.com/DanLika/LeadDataScraper/issues/367
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 6. [BUG BOUNTY] [Medium] [wNFT] TotalSupply Not Enforced as Practical Cap -- Class Creator Can Set MaxUint64 Enabling Unlimited Minting
+## 7. [infra] Staging deploy takes ~21 min end-to-end; cut to under 10 on test/docs-only PRs
 
 - Decision: drop
 - Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/106
+- Issue: https://github.com/brownm09/lifting-logbook/issues/358
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 7. [BUG BOUNTY] [High] [Cross-Module] Irrecoverable Deadlock: Unbonded Region + Fixed Deposits + Ante Handler Creates Permanent Fund Lock With No Recovery Path
+## 8. Verify 2026-05-27 deploys: trialing-sub recon, Pendiente subs-only, late-payment-on-cancelled-sub, Enviar por email
 
 - Decision: drop
 - Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/104
+- Issue: https://github.com/joseamtalavera/beworking-orchestration/issues/228
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 8. [BUG BOUNTY] [High] [wstaking/kyc] TransferKycRegion Double-Counts Delegation on Target Validator -- Accounting Drift Blocks Future Delegations
+## 9. SQL deadlocks in EntityRepository bulk methods — default Serializable isolation in TransactionScope
 
 - Decision: drop
 - Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/103
+- Issue: https://github.com/nopSolutions/nopCommerce/issues/8212
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 9. [BUG BOUNTY] [Critical] [Cross-Module] UnBondRegion Empties OperatorAddress Causing Fee AnteHandler to Block ALL Transactions for Region Users -- Permanent Fund Lock
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/102
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 10. [BUG BOUNTY] [High] [DelayedAck] HandleFraud Marks Packets REVERTED Even When Refund Fails -- Permanent Token Loss on Fraud Reversion
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/101
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 11. [BUG BOUNTY] [Medium] [Upgrades] v2_0_14 Upgrade Handler Pre-Sets fromVM to Current Versions -- All Module Store Migrations Silently Skipped
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/100
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 12. [BUG BOUNTY] [Medium] [wNFT] Permissionless NFT Class Creation Enables Namespace Squatting Against System-Reserved Class IDs and User Deception
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/99
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 13. [BUG BOUNTY] [Medium] [Sequencer] ReplaceProposer Missing Cross-Rollapp Validation -- Permanent DoS on Proposer Rotation via Invalid Replacement Record
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/98
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 14. [BUG BOUNTY] [High] [Sequencer] ProcSequencerByPendingStates Sets Unbonding Status Without Queue Registration -- Permanent Fund Lock for Replaced Proposers
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/96
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 15. [BUG BOUNTY] [Medium] [bridgingfee] Silent Fee Bypass When Fee Transfer Fails -- Attacker Can Avoid All Bridging Fees Indefinitely
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/94
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 16. [BUG BOUNTY] [Medium] [wstaking] transferDeposit Blocks All KYC Region Transfers If Target Region Has ANY Inactive Fixed Deposit Config
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/92
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 17. [BUG BOUNTY] [Medium] [eIBC] UpdateDemandOrder Silently Accepts Zero Fee on String Parse Failure -- Order Fee Can Be Set to Zero
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/91
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 18. [BUG BOUNTY] [Medium] [wstaking] Fixed Deposit Solvency Check Only Validates Single-Block Interest Obligation -- Multiple Deposits Can Exceed Treasury's Payment Capacity
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/90
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 19. [BUG BOUNTY] [Medium] [wstaking] WithdrawFromRegion Granted Address Can Drain Entire Treasury in Single TX -- No Rate Limit or Reserved Balance Check
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/89
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 20. [BUG BOUNTY] [Medium] [wstaking] RemoveMeidNFT Uses Wrong Prefix Key -- Orphaned Region Index Entries Never Cleaned Up
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/88
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 21. [BUG BOUNTY] [Medium] [megroup/ante] Free Gas MsgJoinGroup Enables Zero-Cost Treasury Drain via Sybil KYC Accounts
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/87
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 22. [BUG BOUNTY] [Medium] [wdistri] AllocateBlockReward Int64 Overflow -- Silent Reward Corruption for Large Fee Collector Balances
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/86
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 23. [BUG BOUNTY] [High] [Gravity] GetCurrentRelayerSet Division by Zero Panic -- Node Crash When All Relayers Have Zero Power
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/85
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 24. [BUG BOUNTY] [High] [wstaking] Interest Paid Before Accounting Check -- DelegateInterest Ledger Permanently Diverges from Treasury Balance
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/82
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 25. [BUG BOUNTY] [High] [Rollapp] FreezeClientState Height Parameters Swapped -- RevisionNumber and RevisionHeight Reversed in Fraud Handler
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/81
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 26. [BUG BOUNTY] [High] [Gravity] IncreaseBridgeFee Missing Sender Authorization -- Any User Can Modify Another User's Pending Bridge Transaction Fee
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/80
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 27. [BUG BOUNTY] [Critical] [wstaking] Region Treasury Insolvency via Concurrent Interest Withdrawals in Same Block
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/79
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 28. [BUG BOUNTY] [Critical] [wstaking] Interest Rate Manipulation via Delegate/Undelegate StartHeight Reset -- Accumulated Rewards Theft or Loss
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/78
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 29. 🎯 Bounty Alert: 11 New Opportunityies found
+## 10. Decompose 16 oversize Python source files to clear the file-size allowlist
 
 - Decision: drop
 - Score: 85 -> -15
-- Issue: https://github.com/dev-kp-eloper/BountyScout/issues/31
+- Issue: https://github.com/jwbron/egg/issues/2817
 - Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
 
-## 30. [BUG BOUNTY] [Low] [Gravity] No Minimum Block Interval Between Relayer Set Updates -- Rapid Rotation Can Destabilize Bridge
+## 11. Plan phase: architect owns slice composition; risk_analyst becomes dual-role reviewer; reviewer_plan NACKs oversized slices
 
 - Decision: drop
 - Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/65
+- Issue: https://github.com/jwbron/egg/issues/2809
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 31. [BUG BOUNTY] [Low] [Gravity] SlashTimes Counter Reset on AddDelegate Enables Indefinite Slashing Evasion
+## 12. PEND-83 — Hierarchical pages: pill display consistency + dedicated child-pages tree on the page view
 
 - Decision: drop
 - Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/64
+- Issue: https://github.com/jfolcini/agaric/issues/89
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 32. [BUG BOUNTY] [Low] [wgov] Votes Deleted During KV Store Iteration -- Iterator May Skip Entries
+## 13. [E14.5] e2e: Stripe webhook events (B7–B14)
 
 - Decision: drop
 - Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/63
+- Issue: https://github.com/sniffins-mcmuggins/murals/issues/111
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 33. [BUG BOUNTY] [Low] [wstaking] Validator Operator Address Silently Overwritten Without Conflict Detection in BondRegion
+## 14. [BUG-106] wiki read truncates large documents silently — large-document review is broken for all connector users
 
 - Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/62
+- Score: 79 -> -21
+- Issue: https://github.com/Jonnyton/Workflow/issues/1087
+- Reason: issue explicitly indicates no paid bounty or free-only payment status
+
+## 15. [WIKI-DESIGN] Souled-universe consolidation program — finish the substrate's half-built universe/soul/permission surfaces into one finite domain-neutral architecture
+
+- Decision: drop
+- Score: 71 -> -29
+- Issue: https://github.com/Jonnyton/Workflow/issues/1090
+- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
+
+## 16. bug: scheduled runs ignore per-agent execution_timeout_seconds (canary S-03 + E-01 surfaced)
+
+- Decision: drop
+- Score: 70 -> 0
+- Issue: https://github.com/Abilityai/trinity/issues/913
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 34. [BUG BOUNTY] [Medium] [wgov] Proposal Execution Ordering Bug -- Earlier Proposal's Side Effects Can Influence Later Proposal's Tally
+## 17. Invoice cannot be marked as paid - Failed to mark bill as paid
 
 - Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/59
+- Score: 69 -> -1
+- Issue: https://github.com/otherworld-dev/Budget/issues/222
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 35. [BUG BOUNTY] [Medium] [wgov] Quorum Calculation Divides by Validator Count Instead of Total Bonded Stake
+## 18. 扩充赏金组织列表：当前 21 个组织中仅 2 个有活跃赏金
 
 - Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/58
+- Score: 68 -> -32
+- Issue: https://github.com/FuZoe/PD-Hunter/issues/18
+- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
+
+## 19. Microgrant Proposal: Field verified OpenStreetMap data
+
+- Decision: drop
+- Score: 63 -> -37
+- Issue: https://github.com/osmfoundation/ewg_bidding/issues/24
+- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
+
+## 20. Low Handing Fruit Automation
+
+- Decision: keep
+- Score: 61 -> 26
+- Issue: https://github.com/SecureBananaLabs/bug-bounty/issues/743
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 21. qa-review: double-review in single turn regression — idempotency guard (mika#695) not preventing duplicate pr review posts
+
+- Decision: drop
+- Score: 60 -> -10
+- Issue: https://github.com/senara-solutions/mika/issues/736
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 36. [BUG BOUNTY] [High] [Gravity] BSC USDT/USDC Decimal Conversion Incorrectly Scales by Factor of 10^12 -- Fund Loss on Both Mint and Unlock
+## 22. P0: Fix RL simulator objective activation after post-1448 smoke remains territory=2/kills=0
 
 - Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/54
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 37. [BUG BOUNTY] [Medium] [wstaking] SendInviteReward Does Not Call SetInviterReward -- Duplicate Reward Payments Possible If Called Multiple Times
-
-- Decision: drop
-- Score: 79 -> 9
-- Issue: https://github.com/openmetaearth/me-hub/issues/95
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 38. [BUG BOUNTY] [Critical] [Gravity] State Corruption on CancelOutgoingTxBatch Failure -- Duplicated Transactions in Pool and Batch
-
-- Decision: drop
-- Score: 79 -> -26
-- Issue: https://github.com/openmetaearth/me-hub/issues/50
+- Score: 56 -> -49
+- Issue: https://github.com/lanyusea/screeps/issues/1450
 - Reason: no clear open paid bounty signal >= $10 found
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 39. [Bug]: BUG BOUNTY
+## 23. AGENTMEMORY_SECRET enables api-auth middleware that also rejects internal worker callbacks, silently halting consolidation pipeline (v0.9.20)
 
 - Decision: drop
-- Score: 71 -> -34
-- Issue: https://github.com/openmetaearth/me-hub/issues/108
+- Score: 54 -> -16
+- Issue: https://github.com/rohitg00/agentmemory/issues/518
 - Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 40. [500 MRG] Test and fix login/logout modal responsive behavior
+## 24. Fix helm chart dependencies on Bitnami images
 
 - Decision: drop
-- Score: 51 -> -54
-- Issue: https://github.com/mergeos-bounties/mergeos/issues/13
+- Score: 54 -> -16
+- Issue: https://github.com/bcgov/MFIN-Data-Catalogue/issues/680
 - Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 41. docs: README missing quick-start command for macOS users
+## 25. Bug: UpcomingPayments Shows Fake Data and "Pay Now" Button Does Nothing
+
+- Decision: drop
+- Score: 54 -> -16
+- Issue: https://github.com/BlockHaven-Labs/esustellar/issues/51
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 26. WaterwayMap.org hosting costs
+
+- Decision: drop
+- Score: 54 -> -46
+- Issue: https://github.com/osmfoundation/ewg_bidding/issues/45
+- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
+
+## 27. Microgrant Proposal: OSMAutoDrone
+
+- Decision: drop
+- Score: 54 -> -46
+- Issue: https://github.com/osmfoundation/ewg_bidding/issues/39
+- Reason: issue explicitly indicates no paid bounty or free-only payment status
+
+## 28. MICROGRANT PROPOSAL:OSM-BASED DASHBOARD FOR CLIMATE CHANGE MONITORING IN AFRICA
+
+- Decision: drop
+- Score: 54 -> -16
+- Issue: https://github.com/osmfoundation/ewg_bidding/issues/22
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 29. Microgrant Proposal: Enhancing Drone Tasking Manager for Multi-Drone Support and Operational Refinements
+
+- Decision: drop
+- Score: 54 -> -46
+- Issue: https://github.com/osmfoundation/ewg_bidding/issues/28
+- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
+
+## 30. MicroGrant Proposal : OSMSG
+
+- Decision: drop
+- Score: 54 -> -16
+- Issue: https://github.com/osmfoundation/ewg_bidding/issues/30
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 31. MIcrogrant Proposal: OSMLocalizer
+
+- Decision: drop
+- Score: 54 -> -46
+- Issue: https://github.com/osmfoundation/ewg_bidding/issues/29
+- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
+
+## 32. Microgrant Proposal: OpenStreetMap Before-After Maps Generator
+
+- Decision: drop
+- Score: 54 -> -16
+- Issue: https://github.com/osmfoundation/ewg_bidding/issues/27
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 33. docs: README missing quick-start command for macOS users
 
 - Decision: drop
 - Score: 49 -> -21
 - Issue: https://github.com/Scottcjn/Rustchain/issues/6414
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 42. bug: /api/miners returns 2 miners but /epoch reports 21 enrolled_miners
+## 34. perf(ci): build.yml optimization plan — parallelism, caching, and redundancy removal
 
 - Decision: drop
 - Score: 49 -> -21
-- Issue: https://github.com/Scottcjn/Rustchain/issues/6412
+- Issue: https://github.com/aws-samples/sample-autonomous-cloud-coding-agents/issues/201
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 43. Importers for foreign score writers; here: Encore
+## 35. [Discussion] Optimizer-strength fairness in Table 1: SkillOpt uses GPT-5.5 as optimizer while several baselines (GEPA, Trace2Skill, EvoSkill) are self-contained by design
 
 - Decision: drop
-- Score: 30 -> -75
-- Issue: https://github.com/musescore/MuseScore/issues/24341
+- Score: 49 -> -21
+- Issue: https://github.com/microsoft/SkillOpt/issues/12
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 36. Phase-2 follow-on for Epic #2041: per-runtime fleet-review skill wrappers
+
+- Decision: drop
+- Score: 49 -> -21
+- Issue: https://github.com/chf3198/megingjord-harness/issues/2285
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 37. Phase-2 follow-on for Epic #2041: fleet-red-team workflow operator runbook
+
+- Decision: drop
+- Score: 49 -> -21
+- Issue: https://github.com/chf3198/megingjord-harness/issues/2284
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 38. Microgrant Proposal: Map Review Team
+
+- Decision: drop
+- Score: 48 -> -22
+- Issue: https://github.com/osmfoundation/ewg_bidding/issues/46
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 39. Microgrant Proposal: GeoAI for Maternal Health Risk Mapping in Kenya
+
+- Decision: drop
+- Score: 48 -> -22
+- Issue: https://github.com/osmfoundation/ewg_bidding/issues/43
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 40. Microgrant Proposal: Campus Guide
+
+- Decision: drop
+- Score: 48 -> -22
+- Issue: https://github.com/osmfoundation/ewg_bidding/issues/23
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 41. Draft: MIcrogrant Proposal- OSMLocalizer
+
+- Decision: drop
+- Score: 48 -> -52
+- Issue: https://github.com/osgeonepal/site/issues/74
+- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
+
+## 42. [BUG] Desktop app Google Drive connector flow routes to signup page, creates duplicate account under same email and locks paid Max subscriber
+
+- Decision: drop
+- Score: 46 -> -24
+- Issue: https://github.com/anthropics/claude-code/issues/51002
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 43. [Blueprint] Strange scroll bar
+
+- Decision: drop
+- Score: 46 -> -119
+- Issue: https://github.com/stakwork/sphinx-nav-fiber/issues/2315
+- Reason: no clear open paid bounty signal >= $10 found
+- Reason: light competition allowed: 4 open competing PR(s)
+- Reason: competition already visible in comments; still allowed in aggressive mode
+- Competing PR: https://github.com/stakwork/sphinx-nav-fiber/pull/3020
+- Competing PR: https://github.com/stakwork/sphinx-nav-fiber/pull/3004
+- Competing PR: https://github.com/stakwork/sphinx-nav-fiber/pull/2999
+- Competing PR: https://github.com/stakwork/sphinx-nav-fiber/pull/2991
+
+## 44. NuGet package signing for Fleans.Application.Abstractions / Fleans.Worker / Fleans.Plugins.RestCaller
+
+- Decision: drop
+- Score: 46 -> -24
+- Issue: https://github.com/nightBaker/fleans/issues/458
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 45. Insulation as Infrastructure: supporting “Dobra Maisternia” in frontline Kharkiv region
+
+- Decision: drop
+- Score: 44 -> -26
+- Issue: https://github.com/maxzalevski/community_spaces/issues/7
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 46. W3I Network Initiative in Action: Building a Sarafu-Based DAO for Regenerative Coordination in Ukraine
+
+- Decision: drop
+- Score: 44 -> -26
+- Issue: https://github.com/maxzalevski/grants/issues/2
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 47. Radaria three bunk beds in hostel
+
+- Decision: drop
+- Score: 44 -> -26
+- Issue: https://github.com/maxzalevski/community_spaces/issues/6
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 48. Add policies / visa letter page
+
+- Decision: drop
+- Score: 44 -> -26
+- Issue: https://github.com/open-life-science/open-life-science.github.io/issues/1108
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 49. Meeting [2025-06-06]
+
+- Decision: drop
+- Score: 44 -> -26
+- Issue: https://github.com/osgeonepal/site/issues/73
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 50. Microgrant Proposal: Redesign of the OSM Apps Catalog to reach a wider audience
+
+- Decision: drop
+- Score: 40 -> -60
+- Issue: https://github.com/osmfoundation/ewg_bidding/issues/31
+- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
+
+## 51. Set of issues for resolution under the MICROGRANT Program 2026-05
+
+- Decision: drop
+- Score: 40 -> -65
+- Issue: https://github.com/asyncapi/cli/issues/2124
 - Reason: no clear open paid bounty signal >= $10 found
 - Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 52. PauseAI.se takes up first place in google
+
+- Decision: drop
+- Score: 40 -> -30
+- Issue: https://github.com/PauseAI/pauseai-website/issues/385
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 53. Microgrant Proposal: StreetComplete as an entry point to OpenStreetMap
+
+- Decision: drop
+- Score: 40 -> -65
+- Issue: https://github.com/osmfoundation/ewg_bidding/issues/34
+- Reason: no clear open paid bounty signal >= $10 found
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 54. Microgrant Proposal: Underpass stabilization, packaging and testing
+
+- Decision: drop
+- Score: 40 -> -30
+- Issue: https://github.com/osmfoundation/ewg_bidding/issues/42
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 55. Microgrant Proposal: Localized Open Geocoder Plugin for Ethiopia and Africa
+
+- Decision: drop
+- Score: 40 -> -30
+- Issue: https://github.com/osmfoundation/ewg_bidding/issues/21
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 56. Microgrant Proposal: AI-Based Feature Extraction from Satellite Imagery for OpenStreetMap (OSM) Enrichment
+
+- Decision: drop
+- Score: 40 -> -60
+- Issue: https://github.com/osmfoundation/ewg_bidding/issues/38
+- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
