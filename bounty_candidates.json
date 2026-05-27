@@ -1,9 +1,22 @@
 [
   {
+    "title": "[Support request, not bounty] SecureBanana claims pending settlement path",
+    "url": "https://github.com/algora-io/algora/issues/303",
+    "repository_url": "https://github.com/algora-io/algora",
+    "updated_at": "2026-05-27T09:51:30Z",
+    "score": 96,
+    "amount_hint": "$4,311, $430, $780, $350",
+    "reason": "paid/bounty wording, visible amount, coding scope, new issue, fresh update",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [],
+    "linked_prs": []
+  },
+  {
     "title": "Low Handing Fruit Automation",
     "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743",
     "repository_url": "https://github.com/SecureBananaLabs/bug-bounty",
-    "updated_at": "2026-05-27T09:32:54Z",
+    "updated_at": "2026-05-27T11:47:35Z",
     "score": 61,
     "amount_hint": "$700",
     "reason": "paid/bounty wording, visible amount, coding scope, new issue, fresh update",
