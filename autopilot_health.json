@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27 14:02 UTC",
+  "updated_at": "2026-05-27 17:31 UTC",
   "overall": "degraded",
   "checks": [
     {
@@ -10,27 +10,27 @@
     {
       "name": "Bounty scout scheduler",
       "status": "degraded",
-      "detail": "bounty_worker_queue.md is stale (119 minutes old); dispatch sent."
+      "detail": "bounty_worker_queue.md is stale (81 minutes old); dispatch sent."
     },
     {
       "name": "GitHub claimer scheduler",
       "status": "degraded",
-      "detail": "github_bounty_claim_report.md is stale (198 minutes old); dispatch sent."
+      "detail": "github_bounty_claim_report.md is stale (193 minutes old); dispatch sent."
     },
     {
       "name": "GitHub submitter scheduler",
       "status": "degraded",
-      "detail": "github_bounty_submission_report.md is stale (202 minutes old); dispatch sent."
+      "detail": "github_bounty_submission_report.md is stale (195 minutes old); dispatch sent."
     },
     {
       "name": "TaskBounty scout scheduler",
       "status": "degraded",
-      "detail": "taskbounty_report.md is stale (146 minutes old); dispatch sent."
+      "detail": "taskbounty_report.md is stale (167 minutes old); dispatch sent."
     },
     {
       "name": "TaskBounty worker scheduler",
       "status": "degraded",
-      "detail": "taskbounty_worker_report.md is stale (203 minutes old); dispatch sent."
+      "detail": "taskbounty_worker_report.md is stale (198 minutes old); dispatch sent."
     },
     {
       "name": "Online model solver key",
@@ -45,7 +45,7 @@
     {
       "name": "GitHub bounty claimer",
       "status": "ok",
-      "detail": "No claim comments tracked yet."
+      "detail": "Comments tracked: 1"
     },
     {
       "name": "GitHub patch solver report",
@@ -64,7 +64,7 @@
     },
     {
       "name": "TaskBounty worker",
-      "status": "degraded",
+      "status": "ok",
       "detail": "Worker report exists."
     },
     {
@@ -83,5 +83,7 @@
     "https://github.com/orchestration-agent/AgentOrchestration/pull/98",
     "https://github.com/orchestration-agent/AgentOrchestration/pull/99"
   ],
-  "tracked_comments": []
+  "tracked_comments": [
+    "https://github.com/algora-io/algora/issues/303#issuecomment-4550793176"
+  ]
 }
