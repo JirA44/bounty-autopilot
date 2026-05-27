@@ -1,6 +1,6 @@
 # Bounty Scout Candidates
 
-Last run: 2026-05-27 04:49 UTC
+Last run: 2026-05-27 06:39 UTC
 
 This report filters public GitHub issues for small paid coding opportunities. It is a scout, not a payout guarantee.
 
@@ -14,7 +14,37 @@ This report filters public GitHub issues for small paid coding opportunities. It
 - Why it matched: mentions bounty/reward, has visible amount
 - Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
 
-## 2. [500 MRG] Test and fix login/logout modal responsive behavior
+## 2. [Data API] Data Freshness & Provenance Verification API (TDD PRD)
+
+- Score: 67
+- Amount hint: amount not obvious
+- Issue: https://github.com/daydreamsai/lucid-agents/issues/184
+- Repository: https://github.com/daydreamsai/lucid-agents
+- Updated: 2026-05-27T03:28:00Z
+- Why it matched: mentions bounty/reward, has visible amount
+- Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
+
+## 3. [Data API] Geo Demand Pulse Index for Agent Buyers (TDD PRD)
+
+- Score: 67
+- Amount hint: amount not obvious
+- Issue: https://github.com/daydreamsai/lucid-agents/issues/182
+- Repository: https://github.com/daydreamsai/lucid-agents
+- Updated: 2026-05-27T03:27:15Z
+- Why it matched: mentions bounty/reward, has visible amount
+- Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
+
+## 4. [Data API] Sanctions & PEP Exposure Intelligence API (TDD PRD)
+
+- Score: 67
+- Amount hint: amount not obvious
+- Issue: https://github.com/daydreamsai/lucid-agents/issues/185
+- Repository: https://github.com/daydreamsai/lucid-agents
+- Updated: 2026-05-27T03:23:54Z
+- Why it matched: mentions bounty/reward, has visible amount
+- Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
+
+## 5. [500 MRG] Test and fix login/logout modal responsive behavior
 
 - Score: 51
 - Amount hint: Reward
@@ -26,102 +56,62 @@ This report filters public GitHub issues for small paid coding opportunities. It
 - Why it matched: mentions bounty/reward, low discussion volume
 - Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
 
-## 3. [Bug]: KYC invite reward can be paid repeatedly for the same invitee
+## 6. [FEATURE] Implement Multi-Language Ticket Support with Auto-Translation Pipeline using HuggingFace NLP
 
-- Score: 39
+- Score: 47
 - Amount hint: amount not obvious
-- Issue: https://github.com/openmetaearth/me-hub/issues/11
-- Repository: https://github.com/openmetaearth/me-hub
-- Updated: 2026-05-27T04:33:53Z
-- Why it matched: mentions bounty/reward, large issue body, low discussion volume
-- Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
-
-## 4. Sats to Local Currency | Mexico
-
-- Score: 39
-- Amount hint: amount not obvious
-- Issue: https://github.com/sutt/docs/issues/5
-- Repository: https://github.com/sutt/docs
-- Updated: 2026-05-21T12:48:20Z
+- Issue: https://github.com/ritesh-1918/HELPDESK.AI/issues/206
+- Repository: https://github.com/ritesh-1918/HELPDESK.AI
+- Updated: 2026-05-27T05:53:56Z
 - Why it matched: mentions bounty/reward, low discussion volume
 - Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
 
-## 5. BGL PR bounty hunt
+## 7. [FEATURE] Add Voice-to-Ticket Feature: Speech Recognition Pipeline for Hands-Free Support Request Submission
+
+- Score: 47
+- Amount hint: amount not obvious
+- Issue: https://github.com/ritesh-1918/HELPDESK.AI/issues/207
+- Repository: https://github.com/ritesh-1918/HELPDESK.AI
+- Updated: 2026-05-27T05:50:56Z
+- Why it matched: mentions bounty/reward, low discussion volume
+- Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
+
+## 8. [FEATURE] Build Medicine Photo Upload Component using Cloudinary Media API
+
+- Score: 43
+- Amount hint: amount not obvious
+- Issue: https://github.com/RatLoopz/sahidawa-india/issues/424
+- Repository: https://github.com/RatLoopz/sahidawa-india
+- Updated: 2026-05-27T03:41:43Z
+- Why it matched: mentions bounty/reward, low discussion volume
+- Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
+
+## 9. [FEATURE]: Improve focus styling and add ref forwarding to EmptyState
+
+- Score: 39
+- Amount hint: amount not obvious
+- Issue: https://github.com/RatLoopz/sahidawa-india/issues/709
+- Repository: https://github.com/RatLoopz/sahidawa-india
+- Updated: 2026-05-27T06:09:58Z
+- Why it matched: mentions bounty/reward, low discussion volume
+- Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
+
+## 10. [FEATURE] <Brief description>Implementing Dynamic Hero Section
+
+- Score: 39
+- Amount hint: amount not obvious
+- Issue: https://github.com/RatLoopz/sahidawa-india/issues/519
+- Repository: https://github.com/RatLoopz/sahidawa-india
+- Updated: 2026-05-27T03:41:40Z
+- Why it matched: mentions bounty/reward, low discussion volume
+- Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
+
+## 11. Integration: Arch Tools MCP — 58 real-world tools for Lucid agents
 
 - Score: 38
-- Amount hint: $100
-- Issue: https://github.com/BitgesellOfficial/bitgesell/issues/32
-- Repository: https://github.com/BitgesellOfficial/bitgesell
-- Updated: 2026-05-26T06:31:32Z
-- Why it matched: mentions bounty/reward, has visible amount, busy thread
-- Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
-
-## 6. Add dark theme support
-
-- Score: 35
-- Amount hint: amount not obvious
-- Issue: https://github.com/CodeBountyOrg/taskforge-demo/issues/1
-- Repository: https://github.com/CodeBountyOrg/taskforge-demo
-- Updated: 2026-05-27T04:47:17Z
-- Why it matched: mentions bounty/reward, low discussion volume
-- Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
-
-## 7. [App] BountyPay
-
-- Score: 35
-- Amount hint: amount not obvious
-- Issue: https://github.com/gitcoinco/gitcoin_co_30/issues/391
-- Repository: https://github.com/gitcoinco/gitcoin_co_30
-- Updated: 2026-05-25T12:45:15Z
-- Why it matched: mentions bounty/reward, low discussion volume
-- Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
-
-## 8. [App] uBounty
-
-- Score: 35
-- Amount hint: 402, usd
-- Issue: https://github.com/gitcoinco/gitcoin_co_30/issues/390
-- Repository: https://github.com/gitcoinco/gitcoin_co_30
-- Updated: 2026-05-25T12:45:10Z
-- Why it matched: mentions bounty/reward, low discussion volume
-- Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
-
-## 9. Fixing the bounty award system
-
-- Score: 35
-- Amount hint: amount not obvious
-- Issue: https://github.com/ResearchHub/issues/issues/531
-- Repository: https://github.com/ResearchHub/issues
-- Updated: 2026-01-20T06:50:39Z
-- Why it matched: mentions bounty/reward, low discussion volume
-- Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
-
-## 10. Create a Bounty Amount Box Issue
-
-- Score: 35
-- Amount hint: amount not obvious
-- Issue: https://github.com/ResearchHub/issues/issues/540
-- Repository: https://github.com/ResearchHub/issues
-- Updated: 2026-01-20T06:50:37Z
-- Why it matched: mentions bounty/reward, low discussion volume
-- Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
-
-## 11. Sync Issue-Assigned property from GH to LB
-
-- Score: 35
-- Amount hint: amount not obvious
-- Issue: https://github.com/Lightning-Bounties/progress-tracker/issues/53
-- Repository: https://github.com/Lightning-Bounties/progress-tracker
-- Updated: 2025-05-08T13:14:16Z
-- Why it matched: mentions bounty/reward, low discussion volume
-- Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
-
-## 12. [BOUNTY $10] Multi-Dimensional Quality Scoring for Structured Outputs
-
-- Score: 34
-- Amount hint: $10, $2, BOUNTY $10
-- Issue: https://github.com/Mint-Claw/content-split/issues/1
-- Repository: https://github.com/Mint-Claw/content-split
-- Updated: 2026-05-27T03:40:22Z
-- Why it matched: mentions bounty/reward, has visible amount, busy thread
+- Amount hint: 402 USD
+- Issue: https://github.com/daydreamsai/lucid-agents/issues/1605
+- Repository: https://github.com/daydreamsai/lucid-agents
+- Updated: 2026-05-27T04:53:45Z
+- Why it matched: has visible amount, low discussion volume
 - Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
