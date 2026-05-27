@@ -1,6 +1,6 @@
 # Claim Queue
 
-Last built: 2026-05-26 23:57 UTC
+Last built: 2026-05-27 00:08 UTC
 
 Identity: use the owner account `asaadnashed`; do not impersonate another human or use fake accounts.
 
@@ -23,53 +23,3 @@ Identity: use the owner account `asaadnashed`; do not impersonate another human 
 - URL: https://www.task-bounty.com/task/taskbounty-mcp-server-18-device-login-polling-logi-v2c223
 - Amount: $10.00
 - Status: needs TaskBounty agent API access before attempting/submitting.
-
-## GitHub
-
-### pashap9990 - Funding fee will be zero because of precision loss
-
-- URL: https://github.com/sherlock-audit/2024-08-velar-artha-judging/issues/72
-- Amount: $50,000
-- Claim comment if rules allow:
-
-```text
-I can take this if it is still available. I will first reproduce the issue, keep the PR focused, and include a regression test or clear verification notes before asking for review.
-```
-
-- Assignment-first comment if the project requires assignment:
-
-```text
-I can work on this. Please assign it to me if it is still available; I will wait for assignment before opening a PR.
-```
-
-### pashap9990 - LPs cannot specify min amount received in burn function, causing loss of fund for them
-
-- URL: https://github.com/sherlock-audit/2024-08-velar-artha-judging/issues/74
-- Amount: $2, $2500, $15,000, $12,500,
-- Claim comment if rules allow:
-
-```text
-I can take this if it is still available. I will first reproduce the issue, keep the PR focused, and include a regression test or clear verification notes before asking for review.
-```
-
-- Assignment-first comment if the project requires assignment:
-
-```text
-I can work on this. Please assign it to me if it is still available; I will wait for assignment before opening a PR.
-```
-
-### DLIP-135 2025 Annual Contributors Reward Proposal [3500 USDC]
-
-- URL: https://github.com/Dapp-Learning-DAO/DLIP/issues/137
-- Amount: 3500 USDC
-- Claim comment if rules allow:
-
-```text
-I can take this if it is still available. I will first reproduce the issue, keep the PR focused, and include a regression test or clear verification notes before asking for review.
-```
-
-- Assignment-first comment if the project requires assignment:
-
-```text
-I can work on this. Please assign it to me if it is still available; I will wait for assignment before opening a PR.
-```
