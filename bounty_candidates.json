@@ -11,20 +11,5 @@
     "triage_decision": "keep",
     "triage_reasons": [],
     "linked_prs": []
-  },
-  {
-    "title": "Low Handing Fruit Automation",
-    "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743",
-    "repository_url": "https://github.com/SecureBananaLabs/bug-bounty",
-    "updated_at": "2026-05-27T11:47:35Z",
-    "score": 61,
-    "amount_hint": "$700",
-    "reason": "paid/bounty wording, visible amount, coding scope, new issue, fresh update",
-    "source": "volume-expander",
-    "triage_decision": "keep",
-    "triage_reasons": [
-      "competition already visible in comments; still allowed in aggressive mode"
-    ],
-    "linked_prs": []
   }
 ]

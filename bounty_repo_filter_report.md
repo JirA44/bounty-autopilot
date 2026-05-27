@@ -1,10 +1,10 @@
 # Bounty Repository Filter
 
-Last run: 2026-05-27 12:02 UTC
+Last run: 2026-05-27 14:04 UTC
 
-Input candidates: 60
-Kept candidates: 53
-Dropped candidates: 7
+Input candidates: 46
+Kept candidates: 43
+Dropped candidates: 3
 
 This filter removes known false-positive, unsafe, self-tracking, stale, or overcrowded bounty sources before expensive triage/solver work runs.
 
@@ -26,28 +26,4 @@ This filter removes known false-positive, unsafe, self-tracking, stale, or overc
 
 - Repository: asaadnashed/bounty-autopilot
 - Issue: https://github.com/asaadnashed/bounty-autopilot/issues/15
-- Reason: known false-positive or unsafe bounty source
-
-### 4. [ Bounty $3k ] [ API ] Fix database.py models use autoincrement integer IDs exposing count
-
-- Repository: ClankerNation/OpenAgents
-- Issue: https://github.com/ClankerNation/OpenAgents/issues/122
-- Reason: known false-positive or unsafe bounty source
-
-### 5. [ Bounty $8k ] [ Solidity ] Fix ChainlinkAdapter doesn't support multi-hop price derivation
-
-- Repository: ClankerNation/OpenAgents
-- Issue: https://github.com/ClankerNation/OpenAgents/issues/133
-- Reason: known false-positive or unsafe bounty source
-
-### 6. [ Laravel ] Add rate limiting middleware to web routes and fix session driver fallback
-
-- Repository: UnsafeLabs/Bounty-Hunters
-- Issue: https://github.com/UnsafeLabs/Bounty-Hunters/issues/749
-- Reason: known false-positive or unsafe bounty source
-
-### 7. [ Bounty $3k ] [ Solidity ] Add permit2 support to all token interaction contracts — mainnet prep
-
-- Repository: ClankerNation/OpenAgents
-- Issue: https://github.com/ClankerNation/OpenAgents/issues/175
 - Reason: known false-positive or unsafe bounty source
