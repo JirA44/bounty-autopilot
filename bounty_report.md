@@ -1,25 +1,25 @@
 # Bounty Scout Candidates
 
-Last run: 2026-05-27 22:41 UTC
+Last run: 2026-05-27 23:48 UTC
 
 This report filters public GitHub issues for small paid coding opportunities. It is a scout, not a payout guarantee.
 
-## 1. [BUG] Extra usage enabled but Claude Code is fully locked (no input box) after weekly limit
+## 1. 🎯 Bounty Alert: 4 New Opportunityies found
 
-- Score: 42
-- Amount hint: $75, $69.90, $20, $5.80
-- Issue: https://github.com/anthropics/claude-code/issues/46812
-- Repository: https://github.com/anthropics/claude-code
-- Updated: 2026-05-27T22:35:44Z
-- Why it matched: has visible amount, low discussion volume
+- Score: 39
+- Amount hint: amount not obvious
+- Issue: https://github.com/dev-kp-eloper/BountyScout/issues/34
+- Repository: https://github.com/dev-kp-eloper/BountyScout
+- Updated: 2026-05-27T22:43:23Z
+- Why it matched: mentions bounty/reward, low discussion volume
 - Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
 
-## 2. Typography overhaul: replace Geist with premium pair (and fix not-loading bug)
+## 2. GitHub bounty submitter status
 
-- Score: 38
-- Amount hint: $640
-- Issue: https://github.com/hudsor01/hds-website/issues/229
-- Repository: https://github.com/hudsor01/hds-website
-- Updated: 2026-05-27T22:31:46Z
-- Why it matched: has visible amount, low discussion volume
+- Score: 35
+- Amount hint: amount not obvious
+- Issue: https://github.com/asaadnashed/bounty-autopilot/issues/14
+- Repository: https://github.com/asaadnashed/bounty-autopilot
+- Updated: 2026-05-27T23:03:14Z
+- Why it matched: mentions bounty/reward, low discussion volume
 - Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.

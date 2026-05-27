@@ -1,6 +1,6 @@
 # Claim Queue
 
-Last built: 2026-05-27 23:14 UTC
+Last built: 2026-05-27 23:50 UTC
 
 Identity: use the owner account `asaadnashed`; do not impersonate another human or use fake accounts.
 
@@ -14,10 +14,10 @@ Identity: use the owner account `asaadnashed`; do not impersonate another human 
 
 ## GitHub
 
-### [Support request, not bounty] SecureBanana claims pending settlement path
+### 🎯 Bounty Alert: 6 New Opportunityies found
 
-- URL: https://github.com/algora-io/algora/issues/303
-- Amount: $4,311, $430, $780, $350
+- URL: https://github.com/dev-kp-eloper/BountyScout/issues/33
+- Amount: $200, $175
 - Claim comment if rules allow:
 
 ```text
@@ -30,10 +30,26 @@ I can take this if it is still available. I will first reproduce the issue, keep
 I can work on this. Please assign it to me if it is still available; I will wait for assignment before opening a PR.
 ```
 
-### Payment Inquiry - Previous Bounty Completions
+### [BUG] User creation accepts empty payloads and client-controlled IDs
 
-- URL: https://github.com/openpango/cinematic-tracker/issues/4
-- Amount: $152
+- URL: https://github.com/SecureBananaLabs/bug-bounty/issues/979
+- Amount: $50
+- Claim comment if rules allow:
+
+```text
+I can take this if it is still available. I will first reproduce the issue, keep the PR focused, and include a regression test or clear verification notes before asking for review.
+```
+
+- Assignment-first comment if the project requires assignment:
+
+```text
+I can work on this. Please assign it to me if it is still available; I will wait for assignment before opening a PR.
+```
+
+### [$3000 bounty] BYD port
+
+- URL: https://github.com/commaai/opendbc/issues/2017
+- Amount: $3000
 - Claim comment if rules allow:
 
 ```text

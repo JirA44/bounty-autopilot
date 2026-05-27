@@ -1,25 +1,55 @@
 [
   {
-    "title": "[Support request, not bounty] SecureBanana claims pending settlement path",
-    "url": "https://github.com/algora-io/algora/issues/303",
-    "repository_url": "https://github.com/algora-io/algora",
-    "updated_at": "2026-05-27T09:51:30Z",
-    "score": 90,
-    "amount_hint": "$4,311, $430, $780, $350",
-    "reason": "paid/bounty wording, visible amount, coding scope, new issue",
+    "title": "🎯 Bounty Alert: 6 New Opportunityies found",
+    "url": "https://github.com/dev-kp-eloper/BountyScout/issues/33",
+    "repository_url": "https://github.com/dev-kp-eloper/BountyScout",
+    "updated_at": "2026-05-27T20:23:19Z",
+    "score": 110,
+    "amount_hint": "$200, $175",
+    "reason": "paid/bounty wording, visible amount, coding scope, no discussion yet, new issue, fresh update",
     "source": "volume-expander",
     "triage_decision": "keep",
     "triage_reasons": [],
     "linked_prs": []
   },
   {
-    "title": "Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI",
-    "url": "https://github.com/archestra-ai/archestra/issues/4998",
-    "repository_url": "https://github.com/archestra-ai/archestra",
-    "updated_at": "2026-05-27T19:17:03Z",
-    "score": 21,
-    "amount_hint": "amount not obvious",
-    "reason": "paid/bounty wording, coding scope, recent issue, fresh update",
+    "title": "[BUG] User creation accepts empty payloads and client-controlled IDs",
+    "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/979",
+    "repository_url": "https://github.com/SecureBananaLabs/bug-bounty",
+    "updated_at": "2026-05-27T21:54:04Z",
+    "score": 95,
+    "amount_hint": "$50",
+    "reason": "paid/bounty wording, visible amount, coding scope, no discussion yet, new issue, fresh update",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [
+      "light competition allowed: 1 open competing PR(s)"
+    ],
+    "linked_prs": [
+      "https://github.com/SecureBananaLabs/bug-bounty/pull/982"
+    ]
+  },
+  {
+    "title": "[$3000 bounty] BYD port",
+    "url": "https://github.com/commaai/opendbc/issues/2017",
+    "repository_url": "https://github.com/commaai/opendbc",
+    "updated_at": "2026-05-27T23:42:38Z",
+    "score": 61,
+    "amount_hint": "$3000",
+    "reason": "paid/bounty wording, visible amount, fresh update",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [],
+    "linked_prs": []
+  },
+  {
+    "title": "Low Handing Fruit Automation",
+    "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743",
+    "repository_url": "https://github.com/SecureBananaLabs/bug-bounty",
+    "updated_at": "2026-05-27T23:34:42Z",
+    "score": 26,
+    "amount_hint": "$700",
+    "reason": "paid/bounty wording, visible amount, coding scope, busy discussion, new issue, fresh update",
     "source": "volume-expander",
     "triage_decision": "keep",
     "triage_reasons": [
@@ -28,13 +58,13 @@
     "linked_prs": []
   },
   {
-    "title": "Payment Inquiry - Previous Bounty Completions",
-    "url": "https://github.com/openpango/cinematic-tracker/issues/4",
-    "repository_url": "https://github.com/openpango/cinematic-tracker",
-    "updated_at": "2026-05-15T20:38:49Z",
-    "score": 20,
-    "amount_hint": "$152",
-    "reason": "paid/bounty wording, visible amount",
+    "title": "Written Content: OpenUI's React Renderer Explained: How Progressive Hydration Works with Streamed Model Output",
+    "url": "https://github.com/thesysdev/openui-creator-program/issues/3",
+    "repository_url": "https://github.com/thesysdev/openui-creator-program",
+    "updated_at": "2026-05-27T23:30:07Z",
+    "score": 11,
+    "amount_hint": "amount not obvious",
+    "reason": "paid/bounty wording, coding scope, fresh update",
     "source": "volume-expander",
     "triage_decision": "keep",
     "triage_reasons": [
