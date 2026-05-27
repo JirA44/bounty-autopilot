@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27 21:25 UTC",
+  "updated_at": "2026-05-27 22:54 UTC",
   "overall": "degraded",
   "checks": [
     {
@@ -10,27 +10,27 @@
     {
       "name": "Bounty scout scheduler",
       "status": "ok",
-      "detail": "bounty_worker_queue.md is fresh (28 minutes old)."
+      "detail": "bounty_worker_queue.md is fresh (10 minutes old)."
     },
     {
       "name": "GitHub claimer scheduler",
       "status": "degraded",
-      "detail": "github_bounty_claim_report.md is stale (98 minutes old); dispatch sent."
+      "detail": "github_bounty_claim_report.md is stale (82 minutes old); dispatch sent."
     },
     {
       "name": "GitHub submitter scheduler",
-      "status": "ok",
-      "detail": "github_bounty_submission_report.md is fresh (0 minutes old)."
+      "status": "degraded",
+      "detail": "github_bounty_submission_report.md is stale (89 minutes old); dispatch sent."
     },
     {
       "name": "TaskBounty scout scheduler",
       "status": "degraded",
-      "detail": "taskbounty_report.md is stale (95 minutes old); dispatch sent."
+      "detail": "taskbounty_report.md is stale (62 minutes old); dispatch sent."
     },
     {
       "name": "TaskBounty worker scheduler",
       "status": "degraded",
-      "detail": "taskbounty_worker_report.md is stale (107 minutes old); dispatch sent."
+      "detail": "taskbounty_worker_report.md is stale (85 minutes old); dispatch sent."
     },
     {
       "name": "Online model solver key",
@@ -45,7 +45,7 @@
     {
       "name": "GitHub bounty claimer",
       "status": "ok",
-      "detail": "No claim comments tracked yet."
+      "detail": "Comments tracked: 1"
     },
     {
       "name": "GitHub patch solver report",
@@ -75,7 +75,7 @@
     {
       "name": "Candidate feeds",
       "status": "ok",
-      "detail": "GitHub candidates: 6; TaskBounty candidates: 1."
+      "detail": "GitHub candidates: 3; TaskBounty candidates: 1."
     }
   ],
   "tracked_prs": [
@@ -83,5 +83,7 @@
     "https://github.com/orchestration-agent/AgentOrchestration/pull/98",
     "https://github.com/orchestration-agent/AgentOrchestration/pull/99"
   ],
-  "tracked_comments": []
+  "tracked_comments": [
+    "https://github.com/SPLURT-Station/S.P.L.U.R.T-Station-13/issues/444#issuecomment-4558801564"
+  ]
 }
