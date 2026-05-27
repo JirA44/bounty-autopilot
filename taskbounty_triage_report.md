@@ -1,37 +1,14 @@
 # TaskBounty Triage
 
-Last run: 2026-05-27 06:27 UTC
+Last run: 2026-05-27 10:39 UTC
 
 This report filters scouted TaskBounty tasks before solver time is spent.
 
-## 1. Add a test harness and run it in CI
+## 1. [$5] Coverage Uplift Starter — eliottreich/taskbounty-dogfood-tiny-utils
 
-- Decision: blocked
-- Score adjustment: -60
+- Decision: candidate
+- Score adjustment: 5
 - Issue: not available
 - Repository: not available
-- Reason: no GitHub issue URL exposed
-
-## 2. Fix: Flows not working when using celery rabitmq and redis
-
-- Decision: blocked
-- Score adjustment: -60
-- Issue: not available
-- Repository: not available
-- Reason: no GitHub issue URL exposed
-
-## 3. Device-login polling logic is duplicated and the deviceLogin() fallback is dead/divergent
-
-- Decision: blocked
-- Score adjustment: -60
-- Issue: not available
-- Repository: not available
-- Reason: no GitHub issue URL exposed
-
-## 4. Resolve 3 moderate npm audit advisories in transitive deps
-
-- Decision: blocked
-- Score adjustment: -60
-- Issue: not available
-- Repository: not available
-- Reason: no GitHub issue URL exposed
+- Reason: funded TaskBounty feed item; let worker request access before blocking
+- Reason: no public GitHub issue URL exposed before access
