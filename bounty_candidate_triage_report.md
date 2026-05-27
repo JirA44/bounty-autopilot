@@ -1,8 +1,8 @@
 # GitHub Bounty Candidate Triage
 
-Last run: 2026-05-27 16:10 UTC
+Last run: 2026-05-27 17:33 UTC
 
-Kept candidates: 2
+Kept candidates: 0
 
 This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-blocked, or false-positive GitHub bounty issues before worker time is spent. Crowded but still-paid issues are allowed with a score penalty.
 
@@ -30,380 +30,286 @@ This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-block
 - Reason: issue is not open
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 4. [price-oracle] Whitelisted tokens frozen at an inflated constant → phantom multi-billion TVL (PEPE, wOptiDoge)
+## 4. [Bug]: [BUG BOUNTY] Connecting the Meta Earth account and the X social account
 
 - Decision: drop
-- Score: 95 -> -5
-- Issue: https://github.com/velodrome-finance/indexer/issues/786
-- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
-
-## 5. Quiet-lead $5 PayPal order board
-
-- Decision: drop
-- Score: 94 -> 24
-- Issue: https://github.com/trungcodeer/quiet-lead-follow-up/issues/1
+- Score: 85 -> 15
+- Issue: https://github.com/openmetaearth/me-hub/issues/109
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 6. [BUG BOUNTY] [High] [Cross-Module] Irrecoverable Deadlock: Unbonded Region + Fixed Deposits + Ante Handler Creates Permanent Fund Lock With No Recovery Path
+## 5. Mautic 6 plugin update can fail with TypeError when plugin metadata is missing
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/mautic/mautic/issues/16170
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 6. [BUG BOUNTY] [Medium] [wNFT] TotalSupply Not Enforced as Practical Cap -- Class Creator Can Set MaxUint64 Enabling Unlimited Minting
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/openmetaearth/me-hub/issues/106
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 7. [BUG BOUNTY] [High] [Cross-Module] Irrecoverable Deadlock: Unbonded Region + Fixed Deposits + Ante Handler Creates Permanent Fund Lock With No Recovery Path
 
 - Decision: drop
 - Score: 85 -> 15
 - Issue: https://github.com/openmetaearth/me-hub/issues/104
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 7. [BUG BOUNTY] [Medium] [wstaking] SendInviteReward Does Not Call SetInviterReward -- Duplicate Reward Payments Possible If Called Multiple Times
+## 8. [BUG BOUNTY] [High] [wstaking/kyc] TransferKycRegion Double-Counts Delegation on Target Validator -- Accounting Drift Blocks Future Delegations
 
 - Decision: drop
 - Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/95
+- Issue: https://github.com/openmetaearth/me-hub/issues/103
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 8. [BUG BOUNTY] [Medium] [wstaking] transferDeposit Blocks All KYC Region Transfers If Target Region Has ANY Inactive Fixed Deposit Config
+## 9. [BUG BOUNTY] [Critical] [Cross-Module] UnBondRegion Empties OperatorAddress Causing Fee AnteHandler to Block ALL Transactions for Region Users -- Permanent Fund Lock
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/openmetaearth/me-hub/issues/102
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 10. [BUG BOUNTY] [High] [DelayedAck] HandleFraud Marks Packets REVERTED Even When Refund Fails -- Permanent Token Loss on Fraud Reversion
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/openmetaearth/me-hub/issues/101
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 11. [BUG BOUNTY] [Medium] [Upgrades] v2_0_14 Upgrade Handler Pre-Sets fromVM to Current Versions -- All Module Store Migrations Silently Skipped
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/openmetaearth/me-hub/issues/100
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 12. [BUG BOUNTY] [Medium] [wNFT] Permissionless NFT Class Creation Enables Namespace Squatting Against System-Reserved Class IDs and User Deception
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/openmetaearth/me-hub/issues/99
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 13. [BUG BOUNTY] [Medium] [Sequencer] ReplaceProposer Missing Cross-Rollapp Validation -- Permanent DoS on Proposer Rotation via Invalid Replacement Record
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/openmetaearth/me-hub/issues/98
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 14. [BUG BOUNTY] [High] [Sequencer] ProcSequencerByPendingStates Sets Unbonding Status Without Queue Registration -- Permanent Fund Lock for Replaced Proposers
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/openmetaearth/me-hub/issues/96
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 15. [BUG BOUNTY] [Medium] [bridgingfee] Silent Fee Bypass When Fee Transfer Fails -- Attacker Can Avoid All Bridging Fees Indefinitely
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/openmetaearth/me-hub/issues/94
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 16. [BUG BOUNTY] [Medium] [wstaking] transferDeposit Blocks All KYC Region Transfers If Target Region Has ANY Inactive Fixed Deposit Config
 
 - Decision: drop
 - Score: 85 -> 15
 - Issue: https://github.com/openmetaearth/me-hub/issues/92
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 9. [BUG BOUNTY] [Medium] [wstaking] RemoveMeidNFT Uses Wrong Prefix Key -- Orphaned Region Index Entries Never Cleaned Up
+## 17. [BUG BOUNTY] [Medium] [eIBC] UpdateDemandOrder Silently Accepts Zero Fee on String Parse Failure -- Order Fee Can Be Set to Zero
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/openmetaearth/me-hub/issues/91
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 18. [BUG BOUNTY] [Medium] [wstaking] Fixed Deposit Solvency Check Only Validates Single-Block Interest Obligation -- Multiple Deposits Can Exceed Treasury's Payment Capacity
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/openmetaearth/me-hub/issues/90
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 19. [BUG BOUNTY] [Medium] [wstaking] WithdrawFromRegion Granted Address Can Drain Entire Treasury in Single TX -- No Rate Limit or Reserved Balance Check
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/openmetaearth/me-hub/issues/89
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 20. [BUG BOUNTY] [Medium] [wstaking] RemoveMeidNFT Uses Wrong Prefix Key -- Orphaned Region Index Entries Never Cleaned Up
 
 - Decision: drop
 - Score: 85 -> 15
 - Issue: https://github.com/openmetaearth/me-hub/issues/88
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 10. [BUG BOUNTY] [Medium] [megroup/ante] Free Gas MsgJoinGroup Enables Zero-Cost Treasury Drain via Sybil KYC Accounts
+## 21. [BUG BOUNTY] [Medium] [megroup/ante] Free Gas MsgJoinGroup Enables Zero-Cost Treasury Drain via Sybil KYC Accounts
 
 - Decision: drop
 - Score: 85 -> 15
 - Issue: https://github.com/openmetaearth/me-hub/issues/87
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 11. [BUG BOUNTY] [Medium] [wdistri] AllocateBlockReward Int64 Overflow -- Silent Reward Corruption for Large Fee Collector Balances
+## 22. [BUG BOUNTY] [Medium] [wdistri] AllocateBlockReward Int64 Overflow -- Silent Reward Corruption for Large Fee Collector Balances
 
 - Decision: drop
 - Score: 85 -> 15
 - Issue: https://github.com/openmetaearth/me-hub/issues/86
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 12. [BUG BOUNTY] [High] [wstaking] Interest Paid Before Accounting Check -- DelegateInterest Ledger Permanently Diverges from Treasury Balance
+## 23. [BUG BOUNTY] [High] [Gravity] GetCurrentRelayerSet Division by Zero Panic -- Node Crash When All Relayers Have Zero Power
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/openmetaearth/me-hub/issues/85
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 24. [BUG BOUNTY] [High] [wstaking] Interest Paid Before Accounting Check -- DelegateInterest Ledger Permanently Diverges from Treasury Balance
 
 - Decision: drop
 - Score: 85 -> 15
 - Issue: https://github.com/openmetaearth/me-hub/issues/82
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 13. [BUG BOUNTY] [Critical] [wstaking] Interest Rate Manipulation via Delegate/Undelegate StartHeight Reset -- Accumulated Rewards Theft or Loss
+## 25. [BUG BOUNTY] [High] [Rollapp] FreezeClientState Height Parameters Swapped -- RevisionNumber and RevisionHeight Reversed in Fraud Handler
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/openmetaearth/me-hub/issues/81
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 26. [BUG BOUNTY] [High] [Gravity] IncreaseBridgeFee Missing Sender Authorization -- Any User Can Modify Another User's Pending Bridge Transaction Fee
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/openmetaearth/me-hub/issues/80
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 27. [BUG BOUNTY] [Critical] [wstaking] Region Treasury Insolvency via Concurrent Interest Withdrawals in Same Block
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/openmetaearth/me-hub/issues/79
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 28. [BUG BOUNTY] [Critical] [wstaking] Interest Rate Manipulation via Delegate/Undelegate StartHeight Reset -- Accumulated Rewards Theft or Loss
 
 - Decision: drop
 - Score: 85 -> 15
 - Issue: https://github.com/openmetaearth/me-hub/issues/78
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 14. [runtime]: bind prover-chosen nonce to SP1 BEEFY proofs for uncle dedup
+## 29. 🎯 Bounty Alert: 11 New Opportunityies found
+
+- Decision: drop
+- Score: 85 -> -15
+- Issue: https://github.com/dev-kp-eloper/BountyScout/issues/31
+- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
+
+## 30. [BUG BOUNTY] [Low] [Gravity] No Minimum Block Interval Between Relayer Set Updates -- Rapid Rotation Can Destabilize Bridge
 
 - Decision: drop
 - Score: 85 -> 15
-- Issue: https://github.com/polytope-labs/hyperbridge/issues/923
+- Issue: https://github.com/openmetaearth/me-hub/issues/65
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 15. [T10] Final Testing and Debugging
+## 31. [BUG BOUNTY] [Low] [Gravity] SlashTimes Counter Reset on AddDelegate Enables Indefinite Slashing Evasion
 
 - Decision: drop
 - Score: 85 -> 15
-- Issue: https://github.com/agntdev/habittrackerbot/issues/10
+- Issue: https://github.com/openmetaearth/me-hub/issues/64
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 16. Stripe / 微信支付 webhook 接入
+## 32. [BUG BOUNTY] [Low] [wgov] Votes Deleted During KV Store Iteration -- Iterator May Skip Entries
 
 - Decision: drop
 - Score: 85 -> 15
-- Issue: https://github.com/CadanHu/data-analyse-system/issues/14
+- Issue: https://github.com/openmetaearth/me-hub/issues/63
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 17. Build invoice payment reminder sender
+## 33. [BUG BOUNTY] [Low] [wstaking] Validator Operator Address Silently Overwritten Without Conflict Detection in BondRegion
 
 - Decision: drop
 - Score: 85 -> 15
-- Issue: https://github.com/Stellar-split/split-app/issues/125
+- Issue: https://github.com/openmetaearth/me-hub/issues/62
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 18. Implement VotePanel Component — Real Voting Logic
+## 34. [BUG BOUNTY] [Medium] [wgov] Proposal Execution Ordering Bug -- Earlier Proposal's Side Effects Can Influence Later Proposal's Tally
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/openmetaearth/me-hub/issues/59
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 35. [BUG BOUNTY] [Medium] [wgov] Quorum Calculation Divides by Validator Count Instead of Total Bonded Stake
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/openmetaearth/me-hub/issues/58
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 36. [BUG BOUNTY] [High] [Gravity] BSC USDT/USDC Decimal Conversion Incorrectly Scales by Factor of 10^12 -- Fund Loss on Both Mint and Unlock
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/openmetaearth/me-hub/issues/54
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 37. [BUG BOUNTY] [Medium] [wstaking] SendInviteReward Does Not Call SetInviterReward -- Duplicate Reward Payments Possible If Called Multiple Times
 
 - Decision: drop
 - Score: 79 -> 9
-- Issue: https://github.com/StellarGrant/StellarGrant-fe/issues/337
+- Issue: https://github.com/openmetaearth/me-hub/issues/95
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 19. design: harness-as-policy learning architecture — Phase 3+ roadmap post-#673
+## 38. [BUG BOUNTY] [Critical] [Gravity] State Corruption on CancelOutgoingTxBatch Failure -- Duplicated Transactions in Pool and Batch
 
 - Decision: drop
 - Score: 79 -> -26
-- Issue: https://github.com/Jinn-Network/mono/issues/689
+- Issue: https://github.com/openmetaearth/me-hub/issues/50
 - Reason: no clear open paid bounty signal >= $10 found
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 20. [P1] Reputation rewards are no-ops
+## 39. [Bug]: BUG BOUNTY
 
 - Decision: drop
-- Score: 79 -> 9
-- Issue: https://github.com/phash/voidSector/issues/528
+- Score: 71 -> -34
+- Issue: https://github.com/openmetaearth/me-hub/issues/108
 - Reason: no clear open paid bounty signal >= $10 found
-
-## 21. Phishing-gate auto-cancelling legitimate bookings — paid Teams plan, 5 support tickets/emails unanswered
-
-- Decision: drop
-- Score: 79 -> 9
-- Issue: https://github.com/calcom/cal.diy/issues/29469
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 22. Bug Report: API rate limiting returns 500 instead of 429
-
-- Decision: drop
-- Score: 73 -> 3
-- Issue: https://github.com/chrizbo/agentics-beyond-code/issues/166
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 23. consensus: cascading clock-skew enables liveness degradation and chain-time drift under current block-timestamp validation
-
-- Decision: drop
-- Score: 64 -> -6
-- Issue: https://github.com/harmony-one/harmony/issues/5047
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 24. T-014 · Test helper `setup_paid_order` is not reused consistently
-
-- Decision: drop
-- Score: 64 -> -6
-- Issue: https://github.com/devEunicee/pulsar-contracts/issues/44
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 25. Low Handing Fruit Automation
-
-- Decision: keep
-- Score: 61 -> -124
-- Issue: https://github.com/SecureBananaLabs/bug-bounty/issues/743
-- Reason: light competition allowed: 10 open competing PR(s)
 - Reason: competition already visible in comments; still allowed in aggressive mode
-- Competing PR: https://github.com/SecureBananaLabs/bug-bounty/pull/747
-- Competing PR: https://github.com/SecureBananaLabs/bug-bounty/pull/765
-- Competing PR: https://github.com/SecureBananaLabs/bug-bounty/pull/781
-- Competing PR: https://github.com/SecureBananaLabs/bug-bounty/pull/788
-- Competing PR: https://github.com/SecureBananaLabs/bug-bounty/pull/810
 
-## 26. PMSS source audit: find attempt-without-verify logging patterns (state-change commands that log intent but not kernel-level outcome)
+## 40. [500 MRG] Test and fix login/logout modal responsive behavior
 
 - Decision: drop
-- Score: 56 -> -14
-- Issue: https://github.com/MagnaCapax/PMSS/issues/595
+- Score: 51 -> -54
+- Issue: https://github.com/mergeos-bounties/mergeos/issues/13
 - Reason: no clear open paid bounty signal >= $10 found
-
-## 27. [3000 MRG] Implement public and logged-in notifications
-
-- Decision: drop
-- Score: 56 -> -74
-- Issue: https://github.com/mergeos-bounties/mergeos/issues/19
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: light competition allowed: 4 open competing PR(s)
-- Competing PR: https://github.com/mergeos-bounties/mergeos/pull/66
-- Competing PR: https://github.com/mergeos-bounties/mergeos/pull/50
-- Competing PR: https://github.com/mergeos-bounties/mergeos/pull/72
-- Competing PR: https://github.com/mergeos-bounties/mergeos/pull/39
-
-## 28. [3000 MRG] Improve create-project flow for new projects and existing bug fixes
-
-- Decision: drop
-- Score: 56 -> -184
-- Issue: https://github.com/mergeos-bounties/mergeos/issues/12
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: light competition allowed: 9 open competing PR(s)
 - Reason: competition already visible in comments; still allowed in aggressive mode
-- Competing PR: https://github.com/mergeos-bounties/mergeos/pull/65
-- Competing PR: https://github.com/mergeos-bounties/mergeos/pull/72
-- Competing PR: https://github.com/mergeos-bounties/mergeos/pull/57
-- Competing PR: https://github.com/mergeos-bounties/mergeos/pull/33
-- Competing PR: https://github.com/mergeos-bounties/mergeos/pull/24
 
-## 29. Bug: manage_hub contract — staking.rs calculate_pending_rewards uses integer division causing reward loss
-
-- Decision: drop
-- Score: 54 -> -16
-- Issue: https://github.com/Hub-Assist/Hub-Assist/issues/215
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 30. meta: create project roadmap (v2.0 vision)
-
-- Decision: drop
-- Score: 54 -> -16
-- Issue: https://github.com/chernistry/RightLayout/issues/48
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 31. 信用点购物点击领取信用点点歪了
+## 41. docs: README missing quick-start command for macOS users
 
 - Decision: drop
 - Score: 49 -> -21
-- Issue: https://github.com/MaaEnd/MaaEnd/issues/3207
+- Issue: https://github.com/Scottcjn/Rustchain/issues/6414
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 32. Project Limit Request: ingestr
+## 42. bug: /api/miners returns 2 miners but /epoch reports 21 enrolled_miners
 
 - Decision: drop
 - Score: 49 -> -21
-- Issue: https://github.com/pypi/support/issues/10798
+- Issue: https://github.com/Scottcjn/Rustchain/issues/6412
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 33. json in mcp server args textarea
-
-- Decision: keep
-- Score: 46 -> -19
-- Issue: https://github.com/archestra-ai/archestra/issues/3859
-- Reason: light competition allowed: 2 open competing PR(s)
-- Reason: competition already visible in comments; still allowed in aggressive mode
-- Competing PR: https://github.com/archestra-ai/archestra/pull/5082
-- Competing PR: https://github.com/archestra-ai/archestra/pull/4591
-
-## 34. [BUG] Desktop app Google Drive connector flow routes to signup page, creates duplicate account under same email and locks paid Max subscriber
+## 43. Importers for foreign score writers; here: Encore
 
 - Decision: drop
-- Score: 46 -> -24
-- Issue: https://github.com/anthropics/claude-code/issues/51002
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 35. move scalability jobs to private pull-through cache and re-enable private clusters
-
-- Decision: drop
-- Score: 40 -> -30
-- Issue: https://github.com/kubernetes/test-infra/issues/34701
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 36. Account recovery request
-
-- Decision: drop
-- Score: 39 -> -31
-- Issue: https://github.com/pypi/support/issues/10799
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 37. Account recovery request
-
-- Decision: drop
-- Score: 39 -> -31
-- Issue: https://github.com/pypi/support/issues/10797
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 38. [Achievement] Documenter - Improve Docs in 3+ Repos - 3 RTC
-
-- Decision: drop
-- Score: 36 -> -69
-- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/521
+- Score: 30 -> -75
+- Issue: https://github.com/musescore/MuseScore/issues/24341
 - Reason: no clear open paid bounty signal >= $10 found
 - Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 39. Validate reward generation behavior
-
-- Decision: keep
-- Score: 36 -> 1
-- Issue: https://github.com/devpool-directory/devpool-directory/issues/5887
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 40. When a user returns `return { ... }` from a route instead of `return ctx.json({ ... })`, throw an error telling them to use `ctx.json`
-
-- Decision: drop
-- Score: 36 -> -69
-- Issue: https://github.com/tscircuit/winterspec/issues/30
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 41. Fix extra trace lines in post-processing step
-
-- Decision: keep
-- Score: 36 -> 1
-- Issue: https://github.com/tscircuit/schematic-trace-solver/issues/78
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 42. Stellar payment-link / invoice flow
-
-- Decision: drop
-- Score: 34 -> -36
-- Issue: https://github.com/wraith-protocol/demo/issues/7
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 43. [Achievement] Explorer - PRs to 3+ Repos - 3 RTC
-
-- Decision: drop
-- Score: 26 -> -79
-- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/519
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 44. Fix failing CI checks for React Native, Rust, and Soroban pipelines
-
-- Decision: drop
-- Score: 26 -> -44
-- Issue: https://github.com/Fracverse/zaps/issues/229
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 45. Re-enable cargo test in CI (stellar-xdr arbitrary version mismatch)
-
-- Decision: drop
-- Score: 24 -> -81
-- Issue: https://github.com/Miracle656/veil/issues/100
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 46. Claim MRG Tokens for Bug Bounty Reports - Comment New Bugs Here Before Opening a PR
-
-- Decision: drop
-- Score: 21 -> -84
-- Issue: https://github.com/mergeos-bounties/mergeos/issues/1
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 47. Mint Authorization Framework & Multi-Signature Approval
-
-- Decision: drop
-- Score: 16 -> -54
-- Issue: https://github.com/kellymusk/Aframp-backend/issues/213
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 48. Database Sharding & Read Replica Strategy
-
-- Decision: drop
-- Score: 16 -> -54
-- Issue: https://github.com/kellymusk/Aframp-backend/issues/398
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 49. Production-trial postmortem: M-001 (trial #1 of 3 per F-2-155)
-
-- Decision: drop
-- Score: 16 -> -89
-- Issue: https://github.com/Nish-Project/Nish/issues/68
-- Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 50. Write Getting Started Guide
-
-- Decision: drop
-- Score: 16 -> -54
-- Issue: https://github.com/Soroban-Cookbook/Soroban-Cookbook-/issues/180
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 51. Create Quick Reference Guide
-
-- Decision: drop
-- Score: 16 -> -54
-- Issue: https://github.com/Soroban-Cookbook/Soroban-Cookbook-/issues/190
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 52. [BUG] Cannot purchase API credits - card approved by bank (3DS passed) but Stripe declines
-
-- Decision: drop
-- Score: 16 -> -54
-- Issue: https://github.com/anthropics/claude-code/issues/45361
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 53. [Feature] Global Pro Unlock for users with personal API keys
-
-- Decision: drop
-- Score: 16 -> -54
-- Issue: https://github.com/SATYAM-PRATIBHAN/arcmindAI/issues/154
-- Reason: no clear open paid bounty signal >= $10 found
