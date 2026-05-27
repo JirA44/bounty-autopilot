@@ -4,20 +4,13 @@
     "url": "https://www.task-bounty.com/task/coverage-uplift-starter-eliottreich-taskbounty-dog-4ug8k7",
     "task_id": "37703bba-8af5-4068-b438-fad88c87ae40",
     "amount_hint": "$5",
-    "score": 45,
+    "score": 40,
     "source": "bounties-feed",
     "reason": "TaskBounty paid task",
     "summary": "Coverage Uplift Starter package on eliottreich/taskbounty-dogfood-tiny-utils. Target 80% line coverage, sandbox-verified.",
     "github_repo_url": "",
     "github_issue_url": "",
     "status": "OPEN",
-    "submission_count": null,
-    "triage_decision": "candidate",
-    "triage_score_adjustment": 5,
-    "triage_reasons": [
-      "funded TaskBounty feed item; let worker request access before blocking",
-      "no public GitHub issue URL exposed before access"
-    ],
-    "linked_prs": []
+    "submission_count": null
   }
 ]
