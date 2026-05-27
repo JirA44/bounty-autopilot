@@ -1,10 +1,10 @@
 # Bounty Repository Filter
 
-Last run: 2026-05-27 19:41 UTC
+Last run: 2026-05-27 20:56 UTC
 
 Input candidates: 60
-Kept candidates: 59
-Dropped candidates: 1
+Kept candidates: 58
+Dropped candidates: 2
 
 This filter removes known false-positive, unsafe, self-tracking, stale, or overcrowded bounty sources before expensive triage/solver work runs.
 
@@ -15,3 +15,9 @@ This filter removes known false-positive, unsafe, self-tracking, stale, or overc
 - Repository: calcom/cal.com
 - Issue: https://github.com/calcom/cal.com/issues/1985
 - Reason: known stale/crowded bounty issue
+
+### 2. Bounty scout candidates
+
+- Repository: asaadnashed/bounty-autopilot
+- Issue: https://github.com/asaadnashed/bounty-autopilot/issues/12
+- Reason: known false-positive or unsafe bounty source

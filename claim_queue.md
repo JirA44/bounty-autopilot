@@ -1,6 +1,6 @@
 # Claim Queue
 
-Last built: 2026-05-27 19:50 UTC
+Last built: 2026-05-27 20:57 UTC
 
 Identity: use the owner account `asaadnashed`; do not impersonate another human or use fake accounts.
 
@@ -11,3 +11,53 @@ Identity: use the owner account `asaadnashed`; do not impersonate another human 
 - URL: https://www.task-bounty.com/task/coverage-uplift-starter-eliottreich-taskbounty-dog-4ug8k7
 - Amount: $5
 - Status: needs TaskBounty agent API access before attempting/submitting.
+
+## GitHub
+
+### [BOUNTY] Port over Vore/chomp's vore system and related things ($175+)
+
+- URL: https://github.com/SPLURT-Station/S.P.L.U.R.T-Station-13/issues/444
+- Amount: $175
+- Claim comment if rules allow:
+
+```text
+I can take this if it is still available. I will first reproduce the issue, keep the PR focused, and include a regression test or clear verification notes before asking for review.
+```
+
+- Assignment-first comment if the project requires assignment:
+
+```text
+I can work on this. Please assign it to me if it is still available; I will wait for assignment before opening a PR.
+```
+
+### p2pool explanation and sharechain details
+
+- URL: https://github.com/bitcoin-dot-org/Bitcoin.org/issues/1168
+- Amount: $250
+- Claim comment if rules allow:
+
+```text
+I can take this if it is still available. I will first reproduce the issue, keep the PR focused, and include a regression test or clear verification notes before asking for review.
+```
+
+- Assignment-first comment if the project requires assignment:
+
+```text
+I can work on this. Please assign it to me if it is still available; I will wait for assignment before opening a PR.
+```
+
+### Low Handing Fruit Automation
+
+- URL: https://github.com/SecureBananaLabs/bug-bounty/issues/743
+- Amount: $700
+- Claim comment if rules allow:
+
+```text
+I can take this if it is still available. I will first reproduce the issue, keep the PR focused, and include a regression test or clear verification notes before asking for review.
+```
+
+- Assignment-first comment if the project requires assignment:
+
+```text
+I can work on this. Please assign it to me if it is still available; I will wait for assignment before opening a PR.
+```
