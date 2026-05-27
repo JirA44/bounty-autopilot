@@ -1,17 +1,36 @@
 # Bounty Worker Queue
 
-Last built: 2026-05-27 14:04 UTC
+Last built: 2026-05-27 16:10 UTC
 
 Purpose: turn scouting results into a concrete work queue for an agent. Up to 10 candidates are kept so one stale opportunity does not block the whole system. Higher-value, lower-risk items are prioritized first. Do not submit a PR unless the bug is reproduced or the requested change is clearly verified.
 
-## Queue Item 1: [Support request, not bounty] SecureBanana claims pending settlement path
+## Queue Item 1: Fix extra trace lines in post-processing step
 
-- Issue: https://github.com/algora-io/algora/issues/303
-- Repository: https://github.com/algora-io/algora
-- Amount hint: $4,311, $430, $780, $350
-- Score: 96
-- Work priority: 196.0
-- Match reason: paid/bounty wording, visible amount, coding scope, new issue, fresh update
+- Issue: https://github.com/tscircuit/schematic-trace-solver/issues/78
+- Repository: https://github.com/tscircuit/schematic-trace-solver
+- Amount hint: $75
+- Score: 1
+- Work priority: 8.5
+- Match reason: paid/bounty wording, visible amount, coding scope, busy discussion, fresh update
+
+### Worker Instructions
+
+1. Open the issue and confirm the bounty is still active.
+2. Read the repository contribution rules.
+3. Clone or fork the repository only if the issue is still open and not already solved.
+4. Reproduce the bug or identify the smallest requested change.
+5. Add or update tests when practical.
+6. Submit a focused PR with a short explanation and link it to the bounty issue.
+7. Stop immediately if the issue is vague, already fixed, requires private credentials, or asks for spam/security-abuse behavior.
+
+## Queue Item 2: Validate reward generation behavior
+
+- Issue: https://github.com/devpool-directory/devpool-directory/issues/5887
+- Repository: https://github.com/devpool-directory/devpool-directory
+- Amount hint: amount not obvious
+- Score: 1
+- Work priority: 1.0
+- Match reason: paid/bounty wording, fresh update
 
 ### Worker Instructions
 

@@ -1,6 +1,6 @@
 # Claim Queue
 
-Last built: 2026-05-27 14:44 UTC
+Last built: 2026-05-27 16:10 UTC
 
 Identity: use the owner account `asaadnashed`; do not impersonate another human or use fake accounts.
 
@@ -14,10 +14,10 @@ Identity: use the owner account `asaadnashed`; do not impersonate another human 
 
 ## GitHub
 
-### [Support request, not bounty] SecureBanana claims pending settlement path
+### Fix extra trace lines in post-processing step
 
-- URL: https://github.com/algora-io/algora/issues/303
-- Amount: $4,311, $430, $780, $350
+- URL: https://github.com/tscircuit/schematic-trace-solver/issues/78
+- Amount: $75
 - Claim comment if rules allow:
 
 ```text
