@@ -1,70 +1,27 @@
 [
   {
-    "title": "SecureBanana Algora claims pending settlement path",
-    "url": "https://github.com/algora-io/algora/issues/303",
-    "repository_url": "https://github.com/algora-io/algora",
-    "updated_at": "2026-05-27T04:55:17Z",
-    "score": 96,
-    "amount_hint": "$4,311, $430, $780, $350",
+    "title": "Low Handing Fruit Automation",
+    "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743",
+    "repository_url": "https://github.com/SecureBananaLabs/bug-bounty",
+    "updated_at": "2026-05-27T06:56:32Z",
+    "score": 61,
+    "amount_hint": "$700",
     "reason": "paid/bounty wording, visible amount, coding scope, new issue, fresh update",
     "source": "volume-expander",
     "triage_decision": "keep",
-    "triage_reasons": [],
-    "linked_prs": []
-  },
-  {
-    "title": "[BOUNTY $10] Multi-Dimensional Quality Scoring for Structured Outputs",
-    "url": "https://github.com/Mint-Claw/content-split/issues/1",
-    "repository_url": "https://github.com/Mint-Claw/content-split",
-    "updated_at": "2026-05-27T03:40:22Z",
-    "score": 36,
-    "amount_hint": "$10, $2",
-    "reason": "paid/bounty wording, visible amount, coding scope, fresh update",
-    "source": "volume-expander",
-    "triage_decision": "keep",
     "triage_reasons": [
       "competition already visible in comments; still allowed in aggressive mode"
     ],
     "linked_prs": []
   },
   {
-    "title": "Help us translate Hugin Messenger!",
-    "url": "https://github.com/kryptokrona/hugin-native/issues/13",
-    "repository_url": "https://github.com/kryptokrona/hugin-native",
-    "updated_at": "2026-05-27T06:25:36Z",
-    "score": 34,
-    "amount_hint": "$20",
-    "reason": "paid/bounty wording, visible amount, low discussion, fresh update",
-    "source": "volume-expander",
-    "triage_decision": "keep",
-    "triage_reasons": [
-      "competition already visible in comments; still allowed in aggressive mode"
-    ],
-    "linked_prs": []
-  },
-  {
-    "title": "Implement a fully functional Admin Panel",
-    "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/29",
-    "repository_url": "https://github.com/SecureBananaLabs/bug-bounty",
-    "updated_at": "2026-05-27T05:10:21Z",
-    "score": 1,
-    "amount_hint": "$500",
-    "reason": "paid/bounty wording, visible amount, coding scope, busy discussion, fresh update",
-    "source": "volume-expander",
-    "triage_decision": "keep",
-    "triage_reasons": [
-      "competition already visible in comments; still allowed in aggressive mode"
-    ],
-    "linked_prs": []
-  },
-  {
-    "title": "Fix formatCurrency and parseCurrency bugs",
-    "url": "https://github.com/Bu1ldTh3Futur3/bounty-hunter-test/issues/1",
-    "repository_url": "https://github.com/Bu1ldTh3Futur3/bounty-hunter-test",
-    "updated_at": "2026-05-27T02:31:26Z",
-    "score": 1,
-    "amount_hint": "$100, $100.00, $50",
-    "reason": "paid/bounty wording, visible amount, coding scope, busy discussion, fresh update",
+    "title": "Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI",
+    "url": "https://github.com/archestra-ai/archestra/issues/4998",
+    "repository_url": "https://github.com/archestra-ai/archestra",
+    "updated_at": "2026-05-25T18:21:17Z",
+    "score": 15,
+    "amount_hint": "amount not obvious",
+    "reason": "paid/bounty wording, coding scope, recent issue",
     "source": "volume-expander",
     "triage_decision": "keep",
     "triage_reasons": [
