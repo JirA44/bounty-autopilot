@@ -18,16 +18,16 @@
         "ts"
       ],
       "sample_files": [
-        "vitest.config.ts",
         ".gitignore",
         "package.json",
-        "tsconfig.json",
         "README.md",
+        "vitest.config.ts",
+        "tsconfig.json",
         "src/money.ts",
         "src/strings.test.ts",
-        "src/arrays.ts",
+        "src/strings.ts",
         "src/dates.ts",
-        "src/strings.ts"
+        "src/arrays.ts"
       ]
     },
     "submission_id": null,
