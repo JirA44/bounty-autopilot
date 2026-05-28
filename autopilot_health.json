@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27 23:53 UTC",
+  "updated_at": "2026-05-28 01:30 UTC",
   "overall": "degraded",
   "checks": [
     {
@@ -9,28 +9,28 @@
     },
     {
       "name": "Bounty scout scheduler",
-      "status": "ok",
-      "detail": "bounty_worker_queue.md is fresh (3 minutes old)."
+      "status": "degraded",
+      "detail": "bounty_worker_queue.md is stale (100 minutes old); dispatch sent."
     },
     {
       "name": "GitHub claimer scheduler",
       "status": "degraded",
-      "detail": "github_bounty_claim_report.md is stale (50 minutes old); dispatch sent."
+      "detail": "github_bounty_claim_report.md is stale (80 minutes old); dispatch sent."
     },
     {
       "name": "GitHub submitter scheduler",
       "status": "degraded",
-      "detail": "github_bounty_submission_report.md is stale (50 minutes old); dispatch sent."
+      "detail": "github_bounty_submission_report.md is stale (81 minutes old); dispatch sent."
     },
     {
       "name": "TaskBounty scout scheduler",
-      "status": "ok",
-      "detail": "taskbounty_report.md is fresh (39 minutes old)."
+      "status": "degraded",
+      "detail": "taskbounty_report.md is stale (74 minutes old); dispatch sent."
     },
     {
       "name": "TaskBounty worker scheduler",
       "status": "degraded",
-      "detail": "taskbounty_worker_report.md is stale (55 minutes old); dispatch sent."
+      "detail": "taskbounty_worker_report.md is stale (86 minutes old); dispatch sent."
     },
     {
       "name": "Online model solver key",
@@ -45,7 +45,7 @@
     {
       "name": "GitHub bounty claimer",
       "status": "ok",
-      "detail": "Comments tracked: 1"
+      "detail": "Comments tracked: 3"
     },
     {
       "name": "GitHub patch solver report",
@@ -84,6 +84,8 @@
     "https://github.com/orchestration-agent/AgentOrchestration/pull/99"
   ],
   "tracked_comments": [
-    "https://github.com/algora-io/algora/issues/303#issuecomment-4550793176"
+    "https://github.com/SecureBananaLabs/bug-bounty/issues/979#issuecomment-4559646266",
+    "https://github.com/commaai/opendbc/issues/2017#issuecomment-4559645983",
+    "https://github.com/dev-kp-eloper/BountyScout/issues/33#issuecomment-4559646108"
   ]
 }
