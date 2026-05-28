@@ -4,10 +4,33 @@
     "title": "[$5] Coverage Uplift Starter — eliottreich/taskbounty-dogfood-tiny-utils",
     "amount_hint": "$5",
     "task_url": "https://www.task-bounty.com/task/coverage-uplift-starter-eliottreich-taskbounty-dog-4ug8k7",
-    "status": "access_failed_429",
-    "repo_url": null,
-    "repo_profile": null,
+    "status": "workspace_prepared",
+    "repo_url": "https://github.com/eliottreich/taskbounty-dogfood-tiny-utils",
+    "repo_profile": {
+      "markers": {
+        "package.json": true,
+        "pyproject.toml": false,
+        "requirements.txt": false,
+        "Cargo.toml": false,
+        "go.mod": false
+      },
+      "languages": [
+        "ts"
+      ],
+      "sample_files": [
+        ".gitignore",
+        "package.json",
+        "README.md",
+        "vitest.config.ts",
+        "tsconfig.json",
+        "src/money.ts",
+        "src/strings.test.ts",
+        "src/strings.ts",
+        "src/dates.ts",
+        "src/arrays.ts"
+      ]
+    },
     "submission_id": null,
-    "message": "{\"error\":{\"message\":\"Access grant limit reached for this task (max 10 per 24h)\"}}"
+    "message": "Repo access succeeded and workspace profile was generated. No patch file exists yet."
   }
 ]
