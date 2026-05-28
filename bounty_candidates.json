@@ -1,11 +1,24 @@
 [
   {
-    "title": "Size to close is not well formatted, sometimes",
-    "url": "https://github.com/capofficial/client/issues/11",
-    "repository_url": "https://github.com/capofficial/client",
-    "updated_at": "2026-05-28T07:38:04Z",
+    "title": "🎯 Bounty Alert: 6 New Opportunityies found",
+    "url": "https://github.com/dev-kp-eloper/BountyScout/issues/33",
+    "repository_url": "https://github.com/dev-kp-eloper/BountyScout",
+    "updated_at": "2026-05-27T23:53:34Z",
+    "score": 98,
+    "amount_hint": "$200, $175",
+    "reason": "paid/bounty wording, visible amount, coding scope, low discussion, new issue",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [],
+    "linked_prs": []
+  },
+  {
+    "title": "Telegram Analytics and Monitoring ($1,200)",
+    "url": "https://github.com/Spectral-Finance/lux/issues/67",
+    "repository_url": "https://github.com/Spectral-Finance/lux",
+    "updated_at": "2026-05-28T08:15:37Z",
     "score": 36,
-    "amount_hint": "$20",
+    "amount_hint": "$1,200",
     "reason": "paid/bounty wording, visible amount, coding scope, fresh update",
     "source": "volume-expander",
     "triage_decision": "keep",
@@ -15,13 +28,28 @@
     "linked_prs": []
   },
   {
-    "title": "More thorough benchmarks [$200]",
-    "url": "https://github.com/QuantumSavory/QuantumSavory.jl/issues/131",
-    "repository_url": "https://github.com/QuantumSavory/QuantumSavory.jl",
-    "updated_at": "2026-05-28T07:31:12Z",
+    "title": "Twitter API Core Integration ($2,500)",
+    "url": "https://github.com/Spectral-Finance/lux/issues/58",
+    "repository_url": "https://github.com/Spectral-Finance/lux",
+    "updated_at": "2026-05-28T07:26:18Z",
     "score": 36,
-    "amount_hint": "$200",
+    "amount_hint": "$2,500",
     "reason": "paid/bounty wording, visible amount, coding scope, fresh update",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [
+      "competition already visible in comments; still allowed in aggressive mode"
+    ],
+    "linked_prs": []
+  },
+  {
+    "title": "Rust Core Integration Setup $500",
+    "url": "https://github.com/Spectral-Finance/lux/issues/94",
+    "repository_url": "https://github.com/Spectral-Finance/lux",
+    "updated_at": "2026-05-28T08:15:34Z",
+    "score": 26,
+    "amount_hint": "$500",
+    "reason": "paid/bounty wording, visible amount, fresh update",
     "source": "volume-expander",
     "triage_decision": "keep",
     "triage_reasons": [
@@ -45,13 +73,13 @@
     "linked_prs": []
   },
   {
-    "title": "[Feature] Add Integrity Verification (Hash of Executable/Script)",
-    "url": "https://github.com/javelin-anticheat/py-workedtask/issues/4",
-    "repository_url": "https://github.com/javelin-anticheat/py-workedtask",
-    "updated_at": "2026-05-28T01:40:11Z",
-    "score": 5,
-    "amount_hint": "amount not obvious",
-    "reason": "paid/bounty wording, coding scope",
+    "title": "LLM Provider Abstraction Layer $600",
+    "url": "https://github.com/Spectral-Finance/lux/issues/99",
+    "repository_url": "https://github.com/Spectral-Finance/lux",
+    "updated_at": "2026-05-28T07:03:04Z",
+    "score": 26,
+    "amount_hint": "$600",
+    "reason": "paid/bounty wording, visible amount, fresh update",
     "source": "volume-expander",
     "triage_decision": "keep",
     "triage_reasons": [
@@ -60,28 +88,13 @@
     "linked_prs": []
   },
   {
-    "title": "Whitespace is allowed within Header names, should be an Invalid header",
-    "url": "https://github.com/urllib3/urllib3/issues/1362",
-    "repository_url": "https://github.com/urllib3/urllib3",
-    "updated_at": "2026-05-28T05:51:02Z",
-    "score": 1,
+    "title": "Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI",
+    "url": "https://github.com/archestra-ai/archestra/issues/4998",
+    "repository_url": "https://github.com/archestra-ai/archestra",
+    "updated_at": "2026-05-27T19:17:03Z",
+    "score": 15,
     "amount_hint": "amount not obvious",
-    "reason": "paid/bounty wording, fresh update",
-    "source": "volume-expander",
-    "triage_decision": "keep",
-    "triage_reasons": [
-      "competition already visible in comments; still allowed in aggressive mode"
-    ],
-    "linked_prs": []
-  },
-  {
-    "title": "Implement a fully functional Admin Panel",
-    "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/29",
-    "repository_url": "https://github.com/SecureBananaLabs/bug-bounty",
-    "updated_at": "2026-05-28T02:55:01Z",
-    "score": 1,
-    "amount_hint": "$500",
-    "reason": "paid/bounty wording, visible amount, coding scope, busy discussion, fresh update",
+    "reason": "paid/bounty wording, coding scope, recent issue",
     "source": "volume-expander",
     "triage_decision": "keep",
     "triage_reasons": [

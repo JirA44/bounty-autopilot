@@ -1,6 +1,6 @@
 # Claim Queue
 
-Last built: 2026-05-28 08:41 UTC
+Last built: 2026-05-28 09:41 UTC
 
 Identity: use the owner account `asaadnashed`; do not impersonate another human or use fake accounts.
 
@@ -14,10 +14,10 @@ Identity: use the owner account `asaadnashed`; do not impersonate another human 
 
 ## GitHub
 
-### Size to close is not well formatted, sometimes
+### 🎯 Bounty Alert: 6 New Opportunityies found
 
-- URL: https://github.com/capofficial/client/issues/11
-- Amount: $20
+- URL: https://github.com/dev-kp-eloper/BountyScout/issues/33
+- Amount: $200, $175
 - Claim comment if rules allow:
 
 ```text
@@ -30,10 +30,10 @@ I can take this if it is still available. I will first reproduce the issue, keep
 I can work on this. Please assign it to me if it is still available; I will wait for assignment before opening a PR.
 ```
 
-### More thorough benchmarks [$200]
+### Telegram Analytics and Monitoring ($1,200)
 
-- URL: https://github.com/QuantumSavory/QuantumSavory.jl/issues/131
-- Amount: $200
+- URL: https://github.com/Spectral-Finance/lux/issues/67
+- Amount: $1,200
 - Claim comment if rules allow:
 
 ```text
@@ -46,10 +46,10 @@ I can take this if it is still available. I will first reproduce the issue, keep
 I can work on this. Please assign it to me if it is still available; I will wait for assignment before opening a PR.
 ```
 
-### Rust Component Definition Support $500
+### Twitter API Core Integration ($2,500)
 
-- URL: https://github.com/Spectral-Finance/lux/issues/103
-- Amount: $500
+- URL: https://github.com/Spectral-Finance/lux/issues/58
+- Amount: $2,500
 - Claim comment if rules allow:
 
 ```text

@@ -1,35 +1,15 @@
 # Bounty Scout Candidates
 
-Last run: 2026-05-28 07:44 UTC
+Last run: 2026-05-28 09:39 UTC
 
 This report filters public GitHub issues for small paid coding opportunities. It is a scout, not a payout guarantee.
 
-## 1. Introducing Haveno2Dart: A Native Dart/Flutter Port of haveno-ts with Tor SOCKS5 Support
+## 1. pflow report: make summary.md self-contained and surface headline numbers inline
 
-- Score: 47
-- Amount hint: amount not obvious
-- Issue: https://github.com/haveno-dex/haveno-ts/issues/436
-- Repository: https://github.com/haveno-dex/haveno-ts
-- Updated: 2026-05-28T07:30:06Z
-- Why it matched: mentions bounty/reward, low discussion volume
-- Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
-
-## 2. 🌐 Invitation: Deploy your NanoSwarm agents on Nautilus — A2A hosting platform with economic infrastructure
-
-- Score: 47
-- Amount hint: amount not obvious
-- Issue: https://github.com/Mahopanda/NanoSwarm/issues/1
-- Repository: https://github.com/Mahopanda/NanoSwarm
-- Updated: 2026-05-27T22:39:46Z
-- Why it matched: mentions bounty/reward, low discussion volume
-- Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
-
-## 3. Clarify scope and acceptance criteria for Dart port bounty
-
-- Score: 43
-- Amount hint: amount not obvious
-- Issue: https://github.com/haveno-dex/haveno-ts/issues/435
-- Repository: https://github.com/haveno-dex/haveno-ts
-- Updated: 2026-05-28T07:27:05Z
-- Why it matched: mentions bounty/reward, low discussion volume
+- Score: 34
+- Amount hint: $0.0687, $0.00
+- Issue: https://github.com/spinje/pflow/issues/435
+- Repository: https://github.com/spinje/pflow
+- Updated: 2026-05-28T09:09:04Z
+- Why it matched: has visible amount, large issue body, low discussion volume
 - Next action: inspect repo, confirm bounty rules, reproduce issue, submit a focused PR only if the fix is real.
