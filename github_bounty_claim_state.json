@@ -42,19 +42,19 @@
     },
     "https://github.com/commaai/opendbc/issues/2017": {
       "comment_url": "https://github.com/commaai/opendbc/issues/2017#issuecomment-4559645983",
-      "updated_at": "2026-05-27 23:53 UTC",
-      "status": "claimed"
+      "updated_at": "2026-05-28 00:10 UTC",
+      "status": "already_claimed"
     },
     "https://github.com/dev-kp-eloper/BountyScout/issues/33": {
       "comment_url": "https://github.com/dev-kp-eloper/BountyScout/issues/33#issuecomment-4559646108",
-      "updated_at": "2026-05-27 23:53 UTC",
-      "status": "claimed"
+      "updated_at": "2026-05-28 00:10 UTC",
+      "status": "already_claimed"
     },
     "https://github.com/SecureBananaLabs/bug-bounty/issues/979": {
       "comment_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/979#issuecomment-4559646266",
-      "updated_at": "2026-05-27 23:53 UTC",
-      "status": "claimed"
+      "updated_at": "2026-05-28 00:10 UTC",
+      "status": "already_claimed"
     }
   },
-  "updated_at": "2026-05-27 23:53 UTC"
+  "updated_at": "2026-05-28 00:10 UTC"
 }
