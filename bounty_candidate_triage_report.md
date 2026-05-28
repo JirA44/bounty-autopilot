@@ -1,8 +1,8 @@
 # GitHub Bounty Candidate Triage
 
-Last run: 2026-05-28 14:53 UTC
+Last run: 2026-05-28 16:48 UTC
 
-Kept candidates: 0
+Kept candidates: 2
 
 This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-blocked, or false-positive GitHub bounty issues before worker time is spent. Crowded but still-paid issues are allowed with a score penalty.
 
@@ -30,96 +30,96 @@ This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-block
 - Reason: issue is not open
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 4. IMDb /list/ pages hard-blocked (403) — options for resuming canonical list imports
+## 4. Potential paid-work-before-settlement issue in x402 tool routes
 
 - Decision: drop
 - Score: 110 -> 40
-- Issue: https://github.com/razrfly/cinegraph/issues/1002
+- Issue: https://github.com/mokwathedeveloper/Agent-Paywall-Router/issues/1
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 5. 🎯 Bounty Alert: 8 New Opportunityies found
+## 5. perf(ingest): parallelize per-listing scrape+score within a page using a thread pool
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/glitchwerks/job-matcher/issues/560
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 6. [Chapter 5] 결제 취소(환불) 기능 구현
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/gone09-sketch/sparta-payment-system/issues/21
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 7. Potential settlement-ordering issue: AI service executes before payment settlement
+
+- Decision: drop
+- Score: 85 -> -15
+- Issue: https://github.com/basileus-labs/x402-api-gateway/issues/1
+- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
+
+## 8. auto-recap: prompt passed via argv (E2BIG) — 72 silent spawn failures from large README
+
+- Decision: drop
+- Score: 85 -> 15
+- Issue: https://github.com/Kohei-Wada/knowledge-gardener/issues/19
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 9. 🎯 Bounty Alert: 8 New Opportunityies found
 
 - Decision: drop
 - Score: 85 -> -15
 - Issue: https://github.com/dev-kp-eloper/BountyScout/issues/38
 - Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
 
-## 6. embedder Dockerfile: 'apk del ... || true' silences future package-rename failures
+## 10. Non-numeric input at main menu / ticket prompts crashes program
 
 - Decision: drop
 - Score: 85 -> 15
-- Issue: https://github.com/petersimmons1972/factvault/issues/172
+- Issue: https://github.com/bushidocodes/west-point-train-station/issues/22
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 7. Claude Code dependency contract + automated regression tests
+## 11. Claude Code dependency contract + automated regression tests
 
 - Decision: drop
 - Score: 85 -> 15
 - Issue: https://github.com/coalesce-labs/catalyst/issues/1165
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 8. [High] [KYC/Wstaking] Invite Reward Extraction — Dead Code Deduplication Guard + Remove→Approve Double-Spend
+## 12. RadzenTabs component's SelectTab method is not exception-safe
 
 - Decision: drop
 - Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/313
+- Issue: https://github.com/radzenhq/radzen-blazor/issues/2558
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 9. [Bug]:Log in to claim your reward in Vietnamese.
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/312
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 10. [Bug]: App Freezes After Clicking “Claim Reward” Button Multiple Times
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/308
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 11. LLM의 에이전틱 도구 사용 (Agentic Tool Use) 연구 종합 분석
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/roomedia/ax-trend/issues/700
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 12. [BUG] DashScope Rerank: spring.ai.dashscope.rerank.options.model 配置不生效，始终使用默认 gte-rerank
+## 13. [BUG] DashScope Rerank: spring.ai.dashscope.rerank.options.model 配置不生效，始终使用默认 gte-rerank
 
 - Decision: drop
 - Score: 85 -> 15
 - Issue: https://github.com/alibaba/spring-ai-alibaba/issues/4663
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 13. obsi: tap-to-shoot — replace Auto-Shoot with action-button-release firing
+## 14. Potential paid asset access issue: asset data routes bypass payment enforcement
 
 - Decision: drop
 - Score: 85 -> 15
-- Issue: https://github.com/adamico/aijam3/issues/17
+- Issue: https://github.com/0xAlchemist1411/x402-agent/issues/2
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 14. [BUG BOUNTY] [Medium] [WStaking] MsgRemoveRegion returns success without authorization or state changes
+## 15. [BUG BOUNTY] [Medium] [Gas/WBank] DAO fee receivers bypass blocked module-account protection
 
 - Decision: drop
 - Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/300
+- Issue: https://github.com/openmetaearth/me-hub/issues/298
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 15. [BUG BOUNTY] [Medium] [Wmint/WStaking] Halving-boundary staking rewards use the previous period rate for the first new-period block
+## 16. Memoize re-render scope in the workspace Ink runtime
 
 - Decision: drop
 - Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/296
+- Issue: https://github.com/gfargo/coco/issues/1079
 - Reason: no clear open paid bounty signal >= $10 found
-
-## 16. Design: Total writeup after 200-day sim validation (canonical state)
-
-- Decision: drop
-- Score: 85 -> -15
-- Issue: https://github.com/dolphinigle/airaider/issues/2
-- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
 
 ## 17. [BUG BOUNTY] [Medium] [Wmint/WStaking] Staking rewards continue accruing after the wmint supply cap stops minting
 
@@ -128,12 +128,12 @@ This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-block
 - Issue: https://github.com/openmetaearth/me-hub/issues/292
 - Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
 
-## 18. [WINTERGRASP]Spirit ressurection timers
+## 18. Potential settlement gating issue: paid MCP callback runs before settlement
 
 - Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/azerothcore/azerothcore-wotlk/issues/26006
-- Reason: no clear open paid bounty signal >= $10 found
+- Score: 85 -> -15
+- Issue: https://github.com/microchipgnu/MCPay/issues/43
+- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
 
 ## 19. Image upload endpoint accepts arbitrary file types with no MIME validation, forwarding them to paid AI vision APIs
 
@@ -142,196 +142,43 @@ This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-block
 - Issue: https://github.com/ln-tc999/ai-trading/issues/7
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 20. [BUG BOUNTY] [Medium] [MEGroup/KYC] Higher KYC levels are rejected from group membership because the check requires exactly level 2
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/284
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 21. [BUG BOUNTY] [Critical] [gravity/wstaking/wmint/bridgingfee] 10+ Panic DoS Vectors — Permanent Chain Halt
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/276
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 22. OOM error
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/InternLM/CapRL/issues/18
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 23. [T09] Test the app
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/agntdev/mtonga-sentiment/issues/9
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 24. [T08] Display live results
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/agntdev/mtonga-sentiment/issues/8
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 25. [T05] Connect to TON API
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/agntdev/mtonga-sentiment/issues/5
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 26. Improve SEO with AEO skill
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/JoseParrenoGarcia/newsletter-engine/issues/17
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 27. [BUG BOUNTY] [Medium] [KYC/WStaking] Duplicate invite reward payouts via KYC level cycling
+## 20. Fully-paid invoice (Balance Rs 0.00) still displays 'Unpaid' status
 
 - Decision: drop
 - Score: 85 -> -15
-- Issue: https://github.com/openmetaearth/me-hub/issues/193
+- Issue: https://github.com/tachyoniclabs/autoerp-support/issues/3
 - Reason: issue explicitly indicates no paid bounty or free-only payment status
 
-## 28. [BUG BOUNTY] [Medium] [ante] Malformed auth_info fee payer/granter triggers ante panic before fee validation
+## 21. [ Bounty $3k ] [ Research ] Collect and compare AI-generated AGI architecture proposals
+
+- Decision: keep
+- Score: 81 -> 46
+- Issue: https://github.com/aLexzzz430/Cognitive-OS/issues/5
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 22. openai-codex subscription backend returns HTTP 200 with response.output=None, causing Slack/cron failures
 
 - Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/178
+- Score: 79 -> -26
+- Issue: https://github.com/NousResearch/hermes-agent/issues/33976
 - Reason: no clear open paid bounty signal >= $10 found
+- Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 29. streamable_http: early response.aclose() poisons keepalive connection, causes ~260ms latency on every subsequent tool call
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/modelcontextprotocol/python-sdk/issues/2707
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 30. Replace musl tarballs with AppImage + DEB + RPM for x86_64 and aarch64 Linux
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/cardano-foundation/moog/issues/119
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 31. Implement User Achievement Badges Display
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/degenspot/BACKit-onStellar/issues/223
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 32. [moltbook] FAILED: @monty_cmr10_research on "Calibration Is Just Learning To Lie To Your Evaluator More C"
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/tobyrowland/update_ai_analysis/issues/1192
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 33. [BUG BOUNTY] [High] [DelayedAck/eIBC] Fraud Handler Double-Refunds EIBC Fulfiller for ON_ACK Packets -- Escrow Fund Drain
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/272
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 34. [BUG BOUNTY] [High] [Wasm/wstaking] Wasm Contracts Can Delegate Without KYC to Experience Region -- Automated Reward Extraction
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/271
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 35. Desktop app: Bypass Permissions mode flips to Accept Edits on first prompt (M5 / macOS 26.5)
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/anthropics/claude-code/issues/63097
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 36. Open question: somatic maintenance not paid in metabolise phase
-
-- Decision: drop
-- Score: 85 -> -15
-- Issue: https://github.com/samthorold/explorers/issues/227
-- Reason: issue explicitly indicates no paid bounty or free-only payment status
-
-## 37. [BUG BOUNTY] [High] [eIBC/Fraud] Fulfilled receive orders are not compensated when fraud reverts the packet
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/244
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 38. Minor fix
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/lwplugins/lw-lms/issues/14
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 39. [post] I watch the news from Ukraine the way my mother watches the weather...
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/proxima424/westworld/issues/4205
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 40. Epic: Browser Fetch Router daily-use reliability
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/seungpyoson/browser-fetch-router/issues/10
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 41. [Wintergrasp] Can change faction while Wintergrasp is in progress
+## 23. [Bug] Timeout extensions verify miner-controlled fulfilled amount instead of canonical payout, so underpaid txs can delay slashing
 
 - Decision: drop
 - Score: 79 -> 9
-- Issue: https://github.com/chromiecraft/chromiecraft/issues/9593
+- Issue: https://github.com/entrius/allways/issues/403
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 42. [Rogue] Poison damage slightly overtuned
-
-- Decision: drop
-- Score: 79 -> 9
-- Issue: https://github.com/chromiecraft/chromiecraft/issues/9595
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 43. Using INVSAVE does not really save player's inventory
-
-- Decision: drop
-- Score: 79 -> 9
-- Issue: https://github.com/Zrips/CMI/issues/10286
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 44. Roadmap: Next-generation music platform execution plan
-
-- Decision: drop
-- Score: 79 -> 9
-- Issue: https://github.com/akoita/resonate/issues/1004
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 45. [BUG]
+## 24. [BUG]
 
 - Decision: drop
 - Score: 79 -> 9
 - Issue: https://github.com/anthropics/claude-code/issues/63115
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 46. module 'verifiers' has no attribute 'ConfigSource'
-
-- Decision: drop
-- Score: 79 -> 9
-- Issue: https://github.com/PrimeIntellect-ai/lab-cookbook/issues/13
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 47. [Bug](nereids) distributionPrune doesn't slice nereidsPrunedTabletIds per partition
+## 25. [Bug](nereids) distributionPrune doesn't slice nereidsPrunedTabletIds per partition
 
 - Decision: drop
 - Score: 79 -> -26
@@ -339,14 +186,14 @@ This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-block
 - Reason: no clear open paid bounty signal >= $10 found
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 48. Strategia: position sizing con Kelly Criterion e analisi fondamentale stock
+## 26. perf: Inefficient O(N log N) global sort in content recommender
 
 - Decision: drop
 - Score: 79 -> 9
-- Issue: https://github.com/andreaschiona/uscrooge-trading-app/issues/57
+- Issue: https://github.com/leonagoel/hybrid-recommender/issues/643
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 49. Add React app action to record an offline team fee payment
+## 27. Add React app action to record an offline team fee payment
 
 - Decision: drop
 - Score: 79 -> -56
@@ -354,72 +201,206 @@ This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-block
 - Reason: issue explicitly indicates no paid bounty or free-only payment status
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 50. [Test] student-enrollment.service.spec.ts has no tests — enrollment logic is untested
-
-- Decision: drop
-- Score: 79 -> 9
-- Issue: https://github.com/Gen-x-academy/chainVerse-frontend/issues/450
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 51. `list_log_streams()` raises `ValidationError` because LogStreamSettingsAws.eventSourceName regex is missing the quantifier
-
-- Decision: drop
-- Score: 79 -> 9
-- Issue: https://github.com/okta/okta-sdk-python/issues/549
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 52. `rentAgent` overcharges customers by treating their full `msg.value` as paid rent without refund
-
-- Decision: drop
-- Score: 79 -> 9
-- Issue: https://github.com/ZhangJinHaHaHa/AgentLens/issues/10
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 53. 完了演出の可変報酬化：固定パーティクルをランダム演出に置き換え
+## 28. Potential challenge-binding issue: nonce lookup can authorize a different current tool
 
 - Decision: drop
 - Score: 75 -> 5
-- Issue: https://github.com/keeeboooo/script/issues/66
+- Issue: https://github.com/QuinnYates/tomopay-gateway/issues/3
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 54. 💎 Fixed Reward Distribution Splitter
+## 29. Potential settlement-ordering issue: delegate agent executes before settlement
 
 - Decision: drop
 - Score: 75 -> 5
-- Issue: https://github.com/StellarFlow-Network/stellarflow-contracts/issues/283
+- Issue: https://github.com/Trustdev-eth/a2a-x402/issues/1
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 55. Feature request: Badges/achivements
+## 30. Potential settlement gating issue: paid tool callback runs before settlement
+
+- Decision: drop
+- Score: 75 -> -25
+- Issue: https://github.com/cloudflare/agents/issues/1603
+- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
+
+## 31. Potential paid-cookie scope issue: auth_token is not bound to route or payment context
 
 - Decision: drop
 - Score: 75 -> 5
-- Issue: https://github.com/Monkopedia/health-disconnect/issues/19
+- Issue: https://github.com/cloudflare/mpp-proxy/issues/24
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 56. Consolidate parallel loader hierarchies in linkml-runtime and linkml.validator
+## 32. Potential payment-session binding issue: recent receiver transfer is accepted for a reference
 
 - Decision: drop
 - Score: 75 -> 5
-- Issue: https://github.com/linkml/linkml/issues/3579
+- Issue: https://github.com/homebrewroboticsclub/Ros-X402-Node/issues/5
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 57. [Talent] Shaman - Static Shock and non Melee Abilities
+## 33. Start me up! Week 1
 
 - Decision: drop
-- Score: 75 -> 5
-- Issue: https://github.com/chromiecraft/chromiecraft/issues/9594
+- Score: 70 -> 0
+- Issue: https://github.com/malon7782/gsoc-blog-2026/issues/5
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 58. feat(rpc): getmininginfo should include current block subsidy
+## 34. ci: add nix-community/cache-nix-action for store-path caching across cold runs
 
 - Decision: drop
-- Score: 75 -> 5
-- Issue: https://github.com/pearl-research-labs/pearl/issues/123
+- Score: 69 -> -1
+- Issue: https://github.com/dannyfaris/nix-config/issues/61
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 59. [T10] Deploy the app
+## 35. [Hiring] Full-Stack Developer — React Native + NestJS — Paid $3-7K
 
 - Decision: drop
-- Score: 75 -> 5
-- Issue: https://github.com/agntdev/mtonga-sentiment/issues/10
+- Score: 65 -> -5
+- Issue: https://github.com/hrahatyesayan-stack/vetpet/issues/1
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 36. LICENSE funding model — UI/forms are incomplete despite schema being ready
+
+- Decision: drop
+- Score: 64 -> -6
+- Issue: https://github.com/Practitionist/familiarise_web/issues/756
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 37. Phishing-gate auto-cancelling legitimate bookings — paid Teams plan, 5 support tickets/emails unanswered
+
+- Decision: drop
+- Score: 64 -> -6
+- Issue: https://github.com/calcom/cal.diy/issues/29469
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 38. Docs site live at curio-core-docs.pages.dev (first cut, will improve)
+
+- Decision: drop
+- Score: 64 -> -6
+- Issue: https://github.com/Reiers/curio-core/issues/66
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 39. Add indicators like MA, RSI, MACD, etc.
+
+- Decision: keep
+- Score: 61 -> 26
+- Issue: https://github.com/capofficial/client/issues/16
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 40. bug: Nitrate activation code reuse cannot be distinguished from invalid codes (misleading error)
+
+- Decision: drop
+- Score: 60 -> -10
+- Issue: https://github.com/penpot/penpot/issues/9624
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 41. When a customer has a credit it is tagged as non paid in customer account
+
+- Decision: drop
+- Score: 54 -> -16
+- Issue: https://github.com/openfoodfoundation/openfoodnetwork/issues/14197
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 42. feat(submissions): add guided source-backed submission wizard
+
+- Decision: drop
+- Score: 54 -> -16
+- Issue: https://github.com/JSONbored/awesome-claude/issues/444
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 43. PEP 541 Request: adminA / admina transfer with owner consent
+
+- Decision: drop
+- Score: 49 -> -21
+- Issue: https://github.com/pypi/support/issues/10814
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 44. Agent runs fall back to openrouter despite model.provider=custom in config.yaml
+
+- Decision: drop
+- Score: 46 -> -24
+- Issue: https://github.com/NousResearch/hermes-agent/issues/12146
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 45. Improve test coverage for cmd/fleet/serve.go
+
+- Decision: drop
+- Score: 46 -> -59
+- Issue: https://github.com/fleetdm/fleet/issues/33370
+- Reason: no clear open paid bounty signal >= $10 found
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 46. NuGet package signing for Fleans.Application.Abstractions / Fleans.Worker / Fleans.Plugins.RestCaller
+
+- Decision: drop
+- Score: 46 -> -24
+- Issue: https://github.com/nightBaker/fleans/issues/458
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 47. Add BountyClient + ContractClient + wire-format types after chain v0.4.0 lands
+
+- Decision: drop
+- Score: 43 -> -27
+- Issue: https://github.com/ligate-io/ligate-js/issues/46
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 48. I purchased additional Codex credits but still can't use it.
+
+- Decision: drop
+- Score: 41 -> -29
+- Issue: https://github.com/openai/codex/issues/19830
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 49. Widget Looses Thumbnail - I want Paid Support ( Please )
+
+- Decision: drop
+- Score: 40 -> -30
+- Issue: https://github.com/seazon/FeedMe/issues/137
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 50. [Backend] Implement loyalty program backend
+
+- Decision: drop
+- Score: 39 -> -31
+- Issue: https://github.com/Lex-Studios/Stellar-Spend/issues/501
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 51. Add bounty + contract surfaces after chain v0.4.0 lands
+
+- Decision: drop
+- Score: 39 -> -31
+- Issue: https://github.com/ligate-io/ligate-api/issues/77
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 52. Account recovery request
+
+- Decision: drop
+- Score: 39 -> -31
+- Issue: https://github.com/pypi/support/issues/10813
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 53. Account recovery request
+
+- Decision: drop
+- Score: 39 -> -31
+- Issue: https://github.com/pypi/support/issues/10811
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 54. Account recovery request
+
+- Decision: drop
+- Score: 39 -> -31
+- Issue: https://github.com/pypi/support/issues/10810
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 55. [Cross-platform Collaboration] Nautilus: Agent Economic Infrastructure + Partnership Proposal
+
+- Decision: drop
+- Score: 35 -> -35
+- Issue: https://github.com/wanxingai/LightAgent/issues/41
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 56. GeneralFailure("Authentication throttled. Wait a minute and try again.")
+
+- Decision: drop
+- Score: 35 -> -35
+- Issue: https://github.com/himmelblau-idm/himmelblau/issues/1414
 - Reason: no clear open paid bounty signal >= $10 found
