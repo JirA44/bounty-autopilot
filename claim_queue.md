@@ -1,6 +1,6 @@
 # Claim Queue
 
-Last built: 2026-05-28 09:41 UTC
+Last built: 2026-05-28 11:27 UTC
 
 Identity: use the owner account `asaadnashed`; do not impersonate another human or use fake accounts.
 
@@ -14,42 +14,10 @@ Identity: use the owner account `asaadnashed`; do not impersonate another human 
 
 ## GitHub
 
-### 🎯 Bounty Alert: 6 New Opportunityies found
+### 🎯 Bounty Alert: 13 New Opportunityies found
 
-- URL: https://github.com/dev-kp-eloper/BountyScout/issues/33
-- Amount: $200, $175
-- Claim comment if rules allow:
-
-```text
-I can take this if it is still available. I will first reproduce the issue, keep the PR focused, and include a regression test or clear verification notes before asking for review.
-```
-
-- Assignment-first comment if the project requires assignment:
-
-```text
-I can work on this. Please assign it to me if it is still available; I will wait for assignment before opening a PR.
-```
-
-### Telegram Analytics and Monitoring ($1,200)
-
-- URL: https://github.com/Spectral-Finance/lux/issues/67
-- Amount: $1,200
-- Claim comment if rules allow:
-
-```text
-I can take this if it is still available. I will first reproduce the issue, keep the PR focused, and include a regression test or clear verification notes before asking for review.
-```
-
-- Assignment-first comment if the project requires assignment:
-
-```text
-I can work on this. Please assign it to me if it is still available; I will wait for assignment before opening a PR.
-```
-
-### Twitter API Core Integration ($2,500)
-
-- URL: https://github.com/Spectral-Finance/lux/issues/58
-- Amount: $2,500
+- URL: https://github.com/dev-kp-eloper/BountyScout/issues/37
+- Amount: $750, $900, $500, $600
 - Claim comment if rules allow:
 
 ```text

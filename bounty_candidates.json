@@ -1,105 +1,15 @@
 [
   {
-    "title": "🎯 Bounty Alert: 6 New Opportunityies found",
-    "url": "https://github.com/dev-kp-eloper/BountyScout/issues/33",
+    "title": "🎯 Bounty Alert: 13 New Opportunityies found",
+    "url": "https://github.com/dev-kp-eloper/BountyScout/issues/37",
     "repository_url": "https://github.com/dev-kp-eloper/BountyScout",
-    "updated_at": "2026-05-27T23:53:34Z",
-    "score": 98,
-    "amount_hint": "$200, $175",
-    "reason": "paid/bounty wording, visible amount, coding scope, low discussion, new issue",
+    "updated_at": "2026-05-28T10:21:21Z",
+    "score": 104,
+    "amount_hint": "$750, $900, $500, $600",
+    "reason": "paid/bounty wording, visible amount, coding scope, low discussion, new issue, fresh update",
     "source": "volume-expander",
     "triage_decision": "keep",
     "triage_reasons": [],
-    "linked_prs": []
-  },
-  {
-    "title": "Telegram Analytics and Monitoring ($1,200)",
-    "url": "https://github.com/Spectral-Finance/lux/issues/67",
-    "repository_url": "https://github.com/Spectral-Finance/lux",
-    "updated_at": "2026-05-28T08:15:37Z",
-    "score": 36,
-    "amount_hint": "$1,200",
-    "reason": "paid/bounty wording, visible amount, coding scope, fresh update",
-    "source": "volume-expander",
-    "triage_decision": "keep",
-    "triage_reasons": [
-      "competition already visible in comments; still allowed in aggressive mode"
-    ],
-    "linked_prs": []
-  },
-  {
-    "title": "Twitter API Core Integration ($2,500)",
-    "url": "https://github.com/Spectral-Finance/lux/issues/58",
-    "repository_url": "https://github.com/Spectral-Finance/lux",
-    "updated_at": "2026-05-28T07:26:18Z",
-    "score": 36,
-    "amount_hint": "$2,500",
-    "reason": "paid/bounty wording, visible amount, coding scope, fresh update",
-    "source": "volume-expander",
-    "triage_decision": "keep",
-    "triage_reasons": [
-      "competition already visible in comments; still allowed in aggressive mode"
-    ],
-    "linked_prs": []
-  },
-  {
-    "title": "Rust Core Integration Setup $500",
-    "url": "https://github.com/Spectral-Finance/lux/issues/94",
-    "repository_url": "https://github.com/Spectral-Finance/lux",
-    "updated_at": "2026-05-28T08:15:34Z",
-    "score": 26,
-    "amount_hint": "$500",
-    "reason": "paid/bounty wording, visible amount, fresh update",
-    "source": "volume-expander",
-    "triage_decision": "keep",
-    "triage_reasons": [
-      "competition already visible in comments; still allowed in aggressive mode"
-    ],
-    "linked_prs": []
-  },
-  {
-    "title": "Rust Component Definition Support $500",
-    "url": "https://github.com/Spectral-Finance/lux/issues/103",
-    "repository_url": "https://github.com/Spectral-Finance/lux",
-    "updated_at": "2026-05-28T07:41:48Z",
-    "score": 26,
-    "amount_hint": "$500",
-    "reason": "paid/bounty wording, visible amount, fresh update",
-    "source": "volume-expander",
-    "triage_decision": "keep",
-    "triage_reasons": [
-      "competition already visible in comments; still allowed in aggressive mode"
-    ],
-    "linked_prs": []
-  },
-  {
-    "title": "LLM Provider Abstraction Layer $600",
-    "url": "https://github.com/Spectral-Finance/lux/issues/99",
-    "repository_url": "https://github.com/Spectral-Finance/lux",
-    "updated_at": "2026-05-28T07:03:04Z",
-    "score": 26,
-    "amount_hint": "$600",
-    "reason": "paid/bounty wording, visible amount, fresh update",
-    "source": "volume-expander",
-    "triage_decision": "keep",
-    "triage_reasons": [
-      "competition already visible in comments; still allowed in aggressive mode"
-    ],
-    "linked_prs": []
-  },
-  {
-    "title": "Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI",
-    "url": "https://github.com/archestra-ai/archestra/issues/4998",
-    "repository_url": "https://github.com/archestra-ai/archestra",
-    "updated_at": "2026-05-27T19:17:03Z",
-    "score": 15,
-    "amount_hint": "amount not obvious",
-    "reason": "paid/bounty wording, coding scope, recent issue",
-    "source": "volume-expander",
-    "triage_decision": "keep",
-    "triage_reasons": [
-      "competition already visible in comments; still allowed in aggressive mode"
-    ],
     "linked_prs": []
   }
 ]
