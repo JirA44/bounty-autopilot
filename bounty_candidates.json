@@ -1,15 +1,90 @@
 [
   {
-    "title": "🎯 Bounty Alert: 13 New Opportunityies found",
-    "url": "https://github.com/dev-kp-eloper/BountyScout/issues/37",
+    "title": "🎯 Bounty Alert: 6 New Opportunityies found",
+    "url": "https://github.com/dev-kp-eloper/BountyScout/issues/33",
     "repository_url": "https://github.com/dev-kp-eloper/BountyScout",
-    "updated_at": "2026-05-28T10:21:21Z",
-    "score": 104,
-    "amount_hint": "$750, $900, $500, $600",
-    "reason": "paid/bounty wording, visible amount, coding scope, low discussion, new issue, fresh update",
+    "updated_at": "2026-05-27T23:53:34Z",
+    "score": 98,
+    "amount_hint": "$200, $175",
+    "reason": "paid/bounty wording, visible amount, coding scope, low discussion, new issue",
     "source": "volume-expander",
     "triage_decision": "keep",
     "triage_reasons": [],
+    "linked_prs": []
+  },
+  {
+    "title": "More thorough benchmarks [$200]",
+    "url": "https://github.com/QuantumSavory/QuantumSavory.jl/issues/131",
+    "repository_url": "https://github.com/QuantumSavory/QuantumSavory.jl",
+    "updated_at": "2026-05-28T07:46:57Z",
+    "score": 36,
+    "amount_hint": "$200",
+    "reason": "paid/bounty wording, visible amount, coding scope, fresh update",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [
+      "competition already visible in comments; still allowed in aggressive mode"
+    ],
+    "linked_prs": []
+  },
+  {
+    "title": "Smart Contract Event Monitoring System $1,500",
+    "url": "https://github.com/Spectral-Finance/lux/issues/75",
+    "repository_url": "https://github.com/Spectral-Finance/lux",
+    "updated_at": "2026-05-28T10:13:29Z",
+    "score": 26,
+    "amount_hint": "$1,500",
+    "reason": "paid/bounty wording, visible amount, fresh update",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [
+      "competition already visible in comments; still allowed in aggressive mode"
+    ],
+    "linked_prs": []
+  },
+  {
+    "title": "LLM Provider Abstraction Layer $600",
+    "url": "https://github.com/Spectral-Finance/lux/issues/99",
+    "repository_url": "https://github.com/Spectral-Finance/lux",
+    "updated_at": "2026-05-28T09:52:14Z",
+    "score": 26,
+    "amount_hint": "$600",
+    "reason": "paid/bounty wording, visible amount, fresh update",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [
+      "competition already visible in comments; still allowed in aggressive mode"
+    ],
+    "linked_prs": []
+  },
+  {
+    "title": "Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI",
+    "url": "https://github.com/archestra-ai/archestra/issues/4998",
+    "repository_url": "https://github.com/archestra-ai/archestra",
+    "updated_at": "2026-05-27T19:17:03Z",
+    "score": 15,
+    "amount_hint": "amount not obvious",
+    "reason": "paid/bounty wording, coding scope, recent issue",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [
+      "competition already visible in comments; still allowed in aggressive mode"
+    ],
+    "linked_prs": []
+  },
+  {
+    "title": "🚀 WebGPU Backend Implementation for LLGI ($2000 Bounty)",
+    "url": "https://github.com/effekseer/EffekseerForWebGL/issues/113",
+    "repository_url": "https://github.com/effekseer/EffekseerForWebGL",
+    "updated_at": "2026-05-28T11:03:11Z",
+    "score": 1,
+    "amount_hint": "$2000",
+    "reason": "paid/bounty wording, visible amount, coding scope, busy discussion, fresh update",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [
+      "competition already visible in comments; still allowed in aggressive mode"
+    ],
     "linked_prs": []
   }
 ]
