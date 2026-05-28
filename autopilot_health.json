@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-28 05:53 UTC",
+  "updated_at": "2026-05-28 09:38 UTC",
   "overall": "degraded",
   "checks": [
     {
@@ -10,27 +10,27 @@
     {
       "name": "Bounty scout scheduler",
       "status": "degraded",
-      "detail": "bounty_worker_queue.md is stale (127 minutes old); dispatch sent."
+      "detail": "bounty_worker_queue.md is stale (112 minutes old); dispatch sent."
     },
     {
       "name": "GitHub claimer scheduler",
       "status": "degraded",
-      "detail": "github_bounty_claim_report.md is stale (73 minutes old); dispatch sent."
+      "detail": "github_bounty_claim_report.md is stale (66 minutes old); dispatch sent."
     },
     {
       "name": "GitHub submitter scheduler",
       "status": "degraded",
-      "detail": "github_bounty_submission_report.md is stale (77 minutes old); dispatch sent."
+      "detail": "github_bounty_submission_report.md is stale (70 minutes old); dispatch sent."
     },
     {
       "name": "TaskBounty scout scheduler",
       "status": "degraded",
-      "detail": "taskbounty_report.md is stale (64 minutes old); dispatch sent."
+      "detail": "taskbounty_report.md is stale (57 minutes old); dispatch sent."
     },
     {
       "name": "TaskBounty worker scheduler",
       "status": "degraded",
-      "detail": "taskbounty_worker_report.md is stale (90 minutes old); dispatch sent."
+      "detail": "taskbounty_worker_report.md is stale (70 minutes old); dispatch sent."
     },
     {
       "name": "Online model solver key",
@@ -45,7 +45,7 @@
     {
       "name": "GitHub bounty claimer",
       "status": "ok",
-      "detail": "Comments tracked: 2"
+      "detail": "No claim comments tracked yet."
     },
     {
       "name": "GitHub patch solver report",
@@ -75,7 +75,7 @@
     {
       "name": "Candidate feeds",
       "status": "ok",
-      "detail": "GitHub candidates: 8; TaskBounty candidates: 1."
+      "detail": "GitHub candidates: 6; TaskBounty candidates: 1."
     }
   ],
   "tracked_prs": [
@@ -83,8 +83,5 @@
     "https://github.com/orchestration-agent/AgentOrchestration/pull/98",
     "https://github.com/orchestration-agent/AgentOrchestration/pull/99"
   ],
-  "tracked_comments": [
-    "https://github.com/SecureBananaLabs/bug-bounty/issues/979#issuecomment-4559646266",
-    "https://github.com/dev-kp-eloper/BountyScout/issues/33#issuecomment-4559646108"
-  ]
+  "tracked_comments": []
 }
