@@ -1,8 +1,8 @@
 # GitHub Bounty Candidate Triage
 
-Last run: 2026-05-28 03:46 UTC
+Last run: 2026-05-28 05:56 UTC
 
-Kept candidates: 9
+Kept candidates: 8
 
 This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-blocked, or false-positive GitHub bounty issues before worker time is spent. Crowded but still-paid issues are allowed with a score penalty.
 
@@ -30,131 +30,135 @@ This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-block
 - Reason: issue is not open
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 4. [BUG] User creation accepts empty payloads and client-controlled IDs
-
-- Decision: keep
-- Score: 104 -> 104
-- Issue: https://github.com/SecureBananaLabs/bug-bounty/issues/979
-
-## 5. 🎯 Bounty Alert: 6 New Opportunityies found
-
-- Decision: keep
-- Score: 104 -> 104
-- Issue: https://github.com/dev-kp-eloper/BountyScout/issues/33
-
-## 6. [BUG BOUNTY] [High] [wstaking/kyc] TransferKycRegion Double-Counts Delegation on Target Validator -- Accounting Drift Blocks Future Delegations
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/openmetaearth/me-hub/issues/103
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 7. fix-forward: drive block-producer duty weights from epoch_enroll.weight (was: #6218 heuristics)
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/Scottcjn/Rustchain/issues/6463
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 8. 🎯 Bounty Alert: 4 New Opportunityies found
-
-- Decision: drop
-- Score: 85 -> 15
-- Issue: https://github.com/dev-kp-eloper/BountyScout/issues/35
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 9. [ Bounty $3k ] [ Research ] Collect and compare AI-generated AGI architecture proposals
+## 4. [ Bounty $3k ] [ Research ] Collect and compare AI-generated AGI architecture proposals
 
 - Decision: keep
 - Score: 81 -> 46
 - Issue: https://github.com/aLexzzz430/Cognitive-OS/issues/5
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 10. [WIKI-DESIGN] Per-universe page substrate + writer-dispatcher universe routing — close the structural gap that causes wrong-place game-project content in Workflow wiki
+## 5. Clarify scope and acceptance criteria for Dart port bounty
 
 - Decision: drop
-- Score: 79 -> -56
-- Issue: https://github.com/Jonnyton/Workflow/issues/1111
+- Score: 79 -> 9
+- Issue: https://github.com/haveno-dex/haveno-ts/issues/435
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 6. Codex project skills break after scaffold/install
+
+- Decision: drop
+- Score: 79 -> 9
+- Issue: https://github.com/H-mmer/pentest-agents/issues/18
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 7. Twitter API Core Integration ($2,500)
+
+- Decision: keep
+- Score: 65 -> 30
+- Issue: https://github.com/Spectral-Finance/lux/issues/58
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 8. [Tutorial] Multi-Party Private State and Contracts Between Two+ Users
+
+- Decision: drop
+- Score: 65 -> -70
+- Issue: https://github.com/midnightntwrk/contributor-hub/issues/303
+- Reason: content bounty has AI-content disqualification risk for autonomous work
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 9. [Tutorial] Verified Math in ZK Circuits: Division, Exchange Rates & Overflow Protection
+
+- Decision: drop
+- Score: 65 -> -70
+- Issue: https://github.com/midnightntwrk/contributor-hub/issues/298
+- Reason: content bounty has AI-content disqualification risk for autonomous work
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 10. LLM Provider Abstraction Layer $600
+
+- Decision: keep
+- Score: 61 -> 26
+- Issue: https://github.com/Spectral-Finance/lux/issues/99
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 11. Timezone startOf DST off-by-one
+
+- Decision: keep
+- Score: 59 -> 24
+- Issue: https://github.com/iamkun/dayjs/issues/1437
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 12. Bounty Claim: 4 UTXO mempool/transaction layer vulns (A1-A4) — 90-150 RTC
+
+- Decision: drop
+- Score: 58 -> -42
+- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/12299
 - Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
-- Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 11. More thorough benchmarks [$200]
-
-- Decision: keep
-- Score: 71 -> 36
-- Issue: https://github.com/QuantumSavory/QuantumSavory.jl/issues/131
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 12. [BOUNTY: 5 RTC] Proof of Antiquity vs Proof of Storage (Filecoin/Chia/Arweave)
+## 13. Feedback: custom BaseTool plugin integration for bounty triage agent
 
 - Decision: drop
-- Score: 69 -> -1
-- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/12444
+- Score: 58 -> -12
+- Issue: https://github.com/hashgraph/hedera-agent-kit-js/issues/867
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 13. [BOUNTY: 5 RTC] wRTC Bridge vs Cross-Chain DEX Architecture Comparison
+## 14. Add maintainer analytics dashboard page
 
 - Decision: drop
-- Score: 69 -> -1
-- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/12443
+- Score: 58 -> -12
+- Issue: https://github.com/ritik4ever/stellar-bounty-board/issues/301
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 14. [BOUNTY: 5 RTC] RustChain vs Helium / DePIN Networks Comparison
+## 15. Developer feedback: three friction points when integrating v4 for the first time
 
 - Decision: drop
-- Score: 69 -> -1
-- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/12442
+- Score: 58 -> -12
+- Issue: https://github.com/hashgraph/hedera-agent-kit-js/issues/836
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 15. Add `usePolling` hook for live bounty status updates
+## 16. Implement the Request Revisions flow on the submission approval panel
 
 - Decision: drop
-- Score: 64 -> -41
-- Issue: https://github.com/ritik4ever/stellar-bounty-board/issues/374
+- Score: 56 -> -49
+- Issue: https://github.com/boundlessfi/bounties/issues/202
 - Reason: no clear open paid bounty signal >= $10 found
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 16. Low Handing Fruit Automation
-
-- Decision: keep
-- Score: 61 -> 26
-- Issue: https://github.com/SecureBananaLabs/bug-bounty/issues/743
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 17. Read write Gentle JSON
-
-- Decision: keep
-- Score: 61 -> 26
-- Issue: https://github.com/hyperaudio/hyperaudio-lite-editor/issues/160
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 18. Implement random card reward generation system
+## 17. [PROGRAM] RustChain Digital Ambassador — Paid in RTC (Humans Only, Verified via Google Meet)
 
 - Decision: drop
-- Score: 60 -> -10
-- Issue: https://github.com/Oscarmle06/Videojuego_Software/issues/17
-- Reason: no clear open paid bounty signal >= $10 found
+- Score: 55 -> -45
+- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/1482
+- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
 
-## 19. [Bug]: Qwen3 235B RL Training: multi-level graph compilation process in full-graph mode hangs
+## 18. Add `autocannon` load test script for the bounty board backend
 
 - Decision: drop
-- Score: 54 -> -16
-- Issue: https://github.com/vllm-project/vllm-ascend/issues/3413
+- Score: 51 -> -19
+- Issue: https://github.com/ritik4ever/stellar-bounty-board/issues/385
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 20. UTXO apply_transaction crashes on malformed transaction payloads
+## 19. UTXO apply_transaction crashes on malformed transaction payloads
 
 - Decision: drop
 - Score: 49 -> -21
 - Issue: https://github.com/Scottcjn/Rustchain/issues/6462
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 21. [Bug]: DeepSeek-R1-W8A8 NPU out of memory on 2*8*910B2(64GB) with 0.7.3.post1 image
+## 20. HAK v4: Plugin registration order affects tool availability in HederaAgentAPI
 
 - Decision: drop
-- Score: 46 -> -24
-- Issue: https://github.com/vllm-project/vllm-ascend/issues/1127
+- Score: 48 -> -22
+- Issue: https://github.com/hashgraph/hedera-agent-kit-js/issues/834
 - Reason: no clear open paid bounty signal >= $10 found
+
+## 21. [WIKI-PATCH] Add plan-level approvals, scoped trust sessions, and batch receipts for fast online Branch authoring
+
+- Decision: drop
+- Score: 47 -> -88
+- Issue: https://github.com/Jonnyton/Workflow/issues/961
+- Reason: issue explicitly indicates no paid bounty or free-only payment status
+- Reason: competition already visible in comments; still allowed in aggressive mode
 
 ## 22. [FEAT] No leaderboard for bounty claimants
 
@@ -171,136 +175,234 @@ This pass removes unpaid, assigned, closed, market-alert, token-cost, HITL-block
 - Issue: https://github.com/javelin-anticheat/py-workedtask/issues/4
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 24. Challenge #4: wrap up 5 previous PRs in a meta-PR
+## 24. 🎯 Bounty Alert: 8 New Opportunityies found
 
 - Decision: drop
-- Score: 46 -> -59
-- Issue: https://github.com/qtop/qtop/issues/357
+- Score: 43 -> -27
+- Issue: https://github.com/dev-kp-eloper/BountyScout/issues/36
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 25. Android app crashes when camera is open for >10 minutes
+
+- Decision: drop
+- Score: 41 -> -64
+- Issue: https://github.com/mrousavy/vision-camera-resize-plugin/issues/73
 - Reason: no clear open paid bounty signal >= $10 found
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 25. Written Content: OpenUI's React Renderer Explained: How Progressive Hydration Works with Streamed Model Output
+## 26. Written Content: OpenUI's React Renderer Explained: How Progressive Hydration Works with Streamed Model Output
 
 - Decision: keep
-- Score: 46 -> 11
+- Score: 40 -> 5
 - Issue: https://github.com/thesysdev/openui-creator-program/issues/3
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 26. LOW: Incomplete JavaDoc coverage on public APIs
+## 27. [BOUNTY] Break the RustChain Mechanism Spec + Falsification Matrix
 
 - Decision: drop
-- Score: 41 -> -29
-- Issue: https://github.com/FlossWare/netbeans-plugins/issues/23
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 27. [Achievement] Bug Hunter - Find a Real Bug - 3 RTC
-
-- Decision: drop
-- Score: 36 -> -69
-- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/520
+- Score: 40 -> -65
+- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/356
 - Reason: no clear open paid bounty signal >= $10 found
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 28. [BOUNTY: 2 RTC each] Upvote Elyan Labs Skills on ClawHub (5 skills)
+## 28. [BOUNTY: 10-15 RTC] RustChain Testnet Faucet — Free Test RTC for Developers
 
 - Decision: drop
-- Score: 36 -> -34
-- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/2571
+- Score: 40 -> -65
+- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/751
+- Reason: no clear open paid bounty signal >= $10 found
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 29. [BOUNTY] Challenge Mode — Bring New Users + Confirm New Miners + Social Articles
+
+- Decision: drop
+- Score: 40 -> -30
+- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/99
 - Reason: no clear open paid bounty signal >= $10 found
 
-## 29. Implement a fully functional Admin Panel
+## 30. [QUEST] Become a RustChain Miner — 5 Steps, 50 RTC Total
+
+- Decision: drop
+- Score: 40 -> -65
+- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/397
+- Reason: no clear open paid bounty signal >= $10 found
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 31. [BOUNTY] Agent-to-Agent Payments: Upvote+Donate, Cross-Wallet RTC↔BottTube, 8004/x402
+
+- Decision: drop
+- Score: 40 -> -65
+- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/35
+- Reason: no clear open paid bounty signal >= $10 found
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 32. [AGENTS] Set `from` address when performing `eth_estimateGas` calls
+
+- Decision: drop
+- Score: 40 -> -65
+- Issue: https://github.com/hyperlane-xyz/hyperlane-monorepo/issues/4585
+- Reason: no clear open paid bounty signal >= $10 found
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 33. json in mcp server args textarea
+
+- Decision: keep
+- Score: 40 -> 5
+- Issue: https://github.com/archestra-ai/archestra/issues/3859
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 34. Bounty: Add I2C Environmental Sensor Module tutorial
+
+- Decision: drop
+- Score: 40 -> -65
+- Issue: https://github.com/tscircuit/docs/issues/602
+- Reason: no clear open paid bounty signal >= $10 found
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 35. [Data API] Supplier Reliability Signal Marketplace API (TDD PRD)
+
+- Decision: drop
+- Score: 40 -> -65
+- Issue: https://github.com/daydreamsai/lucid-agents/issues/181
+- Reason: no clear open paid bounty signal >= $10 found
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 36. [Data API] Data Freshness & Provenance Verification API (TDD PRD)
+
+- Decision: drop
+- Score: 40 -> -65
+- Issue: https://github.com/daydreamsai/lucid-agents/issues/184
+- Reason: no clear open paid bounty signal >= $10 found
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 37. [Data API] Geo Demand Pulse Index for Agent Buyers (TDD PRD)
+
+- Decision: drop
+- Score: 40 -> -65
+- Issue: https://github.com/daydreamsai/lucid-agents/issues/182
+- Reason: no clear open paid bounty signal >= $10 found
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 38. [Data API] Sanctions & PEP Exposure Intelligence API (TDD PRD)
+
+- Decision: drop
+- Score: 40 -> -65
+- Issue: https://github.com/daydreamsai/lucid-agents/issues/185
+- Reason: no clear open paid bounty signal >= $10 found
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 39. [Data API] Regulatory Delta Feed for Agent Compliance (TDD PRD)
+
+- Decision: drop
+- Score: 40 -> -95
+- Issue: https://github.com/daydreamsai/lucid-agents/issues/180
+- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 40. [Data API] Counterparty Risk Graph Intelligence API (TDD PRD)
+
+- Decision: drop
+- Score: 40 -> -65
+- Issue: https://github.com/daydreamsai/lucid-agents/issues/179
+- Reason: no clear open paid bounty signal >= $10 found
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 41. Build Listing Discovery Engine (PWA or React UI)
+
+- Decision: drop
+- Score: 40 -> -65
+- Issue: https://github.com/Nobayprotocol/Nobay-Protocol/issues/2
+- Reason: no clear open paid bounty signal >= $10 found
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 42. Tari Universe terminates external xmrig processes on shutdown
+
+- Decision: drop
+- Score: 40 -> -65
+- Issue: https://github.com/tari-project/universe/issues/3204
+- Reason: no clear open paid bounty signal >= $10 found
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 43. Whitespace is allowed within Header names, should be an Invalid header
 
 - Decision: keep
 - Score: 36 -> 1
-- Issue: https://github.com/SecureBananaLabs/bug-bounty/issues/29
+- Issue: https://github.com/urllib3/urllib3/issues/1362
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 30. [EASY BOUNTY: 2 RTC] Leave an Honest Review of BoTTube on ToolPilot.ai
+## 44. Importers for foreign score writers; here: Encore
 
 - Decision: drop
-- Score: 36 -> -34
-- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/2155
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 31. Feature Request: Copy rule(s) to Private Workspace
-
-- Decision: keep
-- Score: 30 -> -5
-- Issue: https://github.com/requestly/requestly/issues/3825
-- Reason: competition already visible in comments; still allowed in aggressive mode
-
-## 32. [BOUNTY: 3 RTC] Share elyanlabs.ai Launch on Social Media (With Proof)
-
-- Decision: drop
-- Score: 26 -> -44
-- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/2960
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 33. Claim MRG Tokens for Bug Bounty Reports - Comment New Bugs Here Before Opening a PR
-
-- Decision: drop
-- Score: 21 -> -84
-- Issue: https://github.com/mergeos-bounties/mergeos/issues/1
+- Score: 30 -> -75
+- Issue: https://github.com/musescore/MuseScore/issues/24341
 - Reason: no clear open paid bounty signal >= $10 found
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 34. [DevOps] Standardize the package manager and make CI quality gates mandatory
+## 45. When a user returns `return { ... }` from a route instead of `return ctx.json({ ... })`, throw an error telling them to use `ctx.json`
 
 - Decision: drop
-- Score: 16 -> -54
-- Issue: https://github.com/Obiajulu-gif/eduvault/issues/37
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 35. [backend] Implement High-Performance Caching for Marketplace Metadata
-
-- Decision: drop
-- Score: 16 -> -54
-- Issue: https://github.com/Obiajulu-gif/Prompt-Hash-Stellar/issues/114
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 36. Tray: Child menu items of a parent won't display if there is more than one parent item on Linux Mint
-
-- Decision: drop
-- Score: 16 -> -89
-- Issue: https://github.com/fyne-io/fyne/issues/4843
+- Score: 30 -> -75
+- Issue: https://github.com/tscircuit/winterspec/issues/30
 - Reason: no clear open paid bounty signal >= $10 found
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 37. BOUNTY: add support for qdrant vector database in javascript sdk
+## 46. [BOUNTY] Silicon Archaeology: Hardware Scanner Module (10 RTC)
 
 - Decision: drop
-- Score: 11 -> -94
-- Issue: https://github.com/arakoodev/EdgeChains/issues/273
+- Score: 30 -> -105
+- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/269
+- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
+- Reason: competition already visible in comments; still allowed in aggressive mode
+
+## 47. [Bounty] Block Explorer Bug Hunt - 2 RTC
+
+- Decision: drop
+- Score: 30 -> -40
+- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/517
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 48. Cabinet Hunt: Beat 10 Bosses on Any System This Weekend (1 RTC each, max 10 RTC)
+
+- Decision: drop
+- Score: 30 -> -40
+- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/2320
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 49. [BOUNTY: 15-25 RTC] BoTTube Embed Player — Embeddable Video Widget
+
+- Decision: drop
+- Score: 30 -> -75
+- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/746
 - Reason: no clear open paid bounty signal >= $10 found
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 38. BOUNTY: add support for Google Palm2 API in javascript/typescript
+## 50. First Cartridge Relic — Earn the First-Ever Soulbound Mastery Badge (3 RTC)
 
 - Decision: drop
-- Score: 11 -> -94
-- Issue: https://github.com/arakoodev/EdgeChains/issues/279
+- Score: 30 -> -40
+- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/2318
+- Reason: no clear open paid bounty signal >= $10 found
+
+## 51. 🤖 RIP-302: Agent Economy is LIVE — Build on it! (25-100 RTC)
+
+- Decision: drop
+- Score: 30 -> -75
+- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/683
 - Reason: no clear open paid bounty signal >= $10 found
 - Reason: competition already visible in comments; still allowed in aggressive mode
 
-## 39. BCOS v2: Reusable GitHub Action for any repo
+## 52. [BOUNTY] Upload Your First BoTTube Video - 3 RTC
 
 - Decision: drop
-- Score: 11 -> -94
-- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/2291
+- Score: 30 -> -140
+- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/421
 - Reason: no clear open paid bounty signal >= $10 found
-- Reason: competition already visible in comments; still allowed in aggressive mode
+- Reason: content bounty has AI-content disqualification risk for autonomous work
 
-## 40. Support / add `proxy-server` input mode to fuzz / run checks on live traffic
+## 53. [BOUNTY] Review BoTTube on ToolPilot — 2 RTC
 
 - Decision: drop
-- Score: 8 -> -62
-- Issue: https://github.com/projectdiscovery/nuclei/issues/4953
-- Reason: no clear open paid bounty signal >= $10 found
-
-## 41. Typos and small errors in "The Collections Framework" tutorials ( https://dev.java/learn/api/collections-framework/ )
-
-- Decision: drop
-- Score: 6 -> -99
-- Issue: https://github.com/java/devjava-content/issues/206
-- Reason: no clear open paid bounty signal >= $10 found
+- Score: 30 -> -105
+- Issue: https://github.com/Scottcjn/rustchain-bounties/issues/415
+- Reason: false positive claim/cost/market/manual-access issue, not an open coding bounty
 - Reason: competition already visible in comments; still allowed in aggressive mode

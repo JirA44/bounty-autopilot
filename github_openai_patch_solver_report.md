@@ -1,56 +1,38 @@
 # GitHub OpenAI Patch Solver
 
-Last run: 2026-05-28 03:46 UTC
+Last run: 2026-05-28 05:56 UTC
 
 No online model key is configured, so GitHub Actions did not attempt code generation.
 Eligible candidates were queued for the local Codex solver instead of marking the run as failed.
 
-## 1. [BUG] User creation accepts empty payloads and client-controlled IDs
+## 1. Twitter API Core Integration ($2,500)
 
 - Status: local_fallback_queued
-- Repository: SecureBananaLabs/bug-bounty
-- Issue: https://github.com/SecureBananaLabs/bug-bounty/issues/979
+- Repository: Spectral-Finance/lux
+- Issue: https://github.com/Spectral-Finance/lux/issues/58
 - Patch: not ready
 - Metadata: not ready
 - Message: Online model key missing; local Codex automation should inspect, patch, test, and prepare submission metadata.
 
-## 2. 🎯 Bounty Alert: 6 New Opportunityies found
+## 2. LLM Provider Abstraction Layer $600
 
 - Status: local_fallback_queued
-- Repository: dev-kp-eloper/BountyScout
-- Issue: https://github.com/dev-kp-eloper/BountyScout/issues/33
+- Repository: Spectral-Finance/lux
+- Issue: https://github.com/Spectral-Finance/lux/issues/99
 - Patch: not ready
 - Metadata: not ready
 - Message: Online model key missing; local Codex automation should inspect, patch, test, and prepare submission metadata.
 
-## 3. More thorough benchmarks [$200]
+## 3. Timezone startOf DST off-by-one
 
 - Status: local_fallback_queued
-- Repository: QuantumSavory/QuantumSavory.jl
-- Issue: https://github.com/QuantumSavory/QuantumSavory.jl/issues/131
+- Repository: iamkun/dayjs
+- Issue: https://github.com/iamkun/dayjs/issues/1437
 - Patch: not ready
 - Metadata: not ready
 - Message: Online model key missing; local Codex automation should inspect, patch, test, and prepare submission metadata.
 
-## 4. Low Handing Fruit Automation
-
-- Status: local_fallback_queued
-- Repository: SecureBananaLabs/bug-bounty
-- Issue: https://github.com/SecureBananaLabs/bug-bounty/issues/743
-- Patch: not ready
-- Metadata: not ready
-- Message: Online model key missing; local Codex automation should inspect, patch, test, and prepare submission metadata.
-
-## 5. Read write Gentle JSON
-
-- Status: local_fallback_queued
-- Repository: hyperaudio/hyperaudio-lite-editor
-- Issue: https://github.com/hyperaudio/hyperaudio-lite-editor/issues/160
-- Patch: not ready
-- Metadata: not ready
-- Message: Online model key missing; local Codex automation should inspect, patch, test, and prepare submission metadata.
-
-## 6. [Feature] Add Integrity Verification (Hash of Executable/Script)
+## 4. [Feature] Add Integrity Verification (Hash of Executable/Script)
 
 - Status: local_fallback_queued
 - Repository: javelin-anticheat/py-workedtask
@@ -59,7 +41,7 @@ Eligible candidates were queued for the local Codex solver instead of marking th
 - Metadata: not ready
 - Message: Online model key missing; local Codex automation should inspect, patch, test, and prepare submission metadata.
 
-## 7. Written Content: OpenUI's React Renderer Explained: How Progressive Hydration Works with Streamed Model Output
+## 5. Written Content: OpenUI's React Renderer Explained: How Progressive Hydration Works with Streamed Model Output
 
 - Status: local_fallback_queued
 - Repository: thesysdev/openui-creator-program
@@ -68,11 +50,20 @@ Eligible candidates were queued for the local Codex solver instead of marking th
 - Metadata: not ready
 - Message: Online model key missing; local Codex automation should inspect, patch, test, and prepare submission metadata.
 
-## 8. Implement a fully functional Admin Panel
+## 6. json in mcp server args textarea
 
 - Status: local_fallback_queued
-- Repository: SecureBananaLabs/bug-bounty
-- Issue: https://github.com/SecureBananaLabs/bug-bounty/issues/29
+- Repository: archestra-ai/archestra
+- Issue: https://github.com/archestra-ai/archestra/issues/3859
+- Patch: not ready
+- Metadata: not ready
+- Message: Online model key missing; local Codex automation should inspect, patch, test, and prepare submission metadata.
+
+## 7. Whitespace is allowed within Header names, should be an Invalid header
+
+- Status: local_fallback_queued
+- Repository: urllib3/urllib3
+- Issue: https://github.com/urllib3/urllib3/issues/1362
 - Patch: not ready
 - Metadata: not ready
 - Message: Online model key missing; local Codex automation should inspect, patch, test, and prepare submission metadata.

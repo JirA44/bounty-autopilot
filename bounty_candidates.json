@@ -1,38 +1,12 @@
 [
   {
-    "title": "[BUG] User creation accepts empty payloads and client-controlled IDs",
-    "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/979",
-    "repository_url": "https://github.com/SecureBananaLabs/bug-bounty",
-    "updated_at": "2026-05-27T23:53:35Z",
-    "score": 104,
-    "amount_hint": "$50",
-    "reason": "paid/bounty wording, visible amount, coding scope, low discussion, new issue, fresh update",
-    "source": "volume-expander",
-    "triage_decision": "keep",
-    "triage_reasons": [],
-    "linked_prs": []
-  },
-  {
-    "title": "🎯 Bounty Alert: 6 New Opportunityies found",
-    "url": "https://github.com/dev-kp-eloper/BountyScout/issues/33",
-    "repository_url": "https://github.com/dev-kp-eloper/BountyScout",
-    "updated_at": "2026-05-27T23:53:34Z",
-    "score": 104,
-    "amount_hint": "$200, $175",
-    "reason": "paid/bounty wording, visible amount, coding scope, low discussion, new issue, fresh update",
-    "source": "volume-expander",
-    "triage_decision": "keep",
-    "triage_reasons": [],
-    "linked_prs": []
-  },
-  {
-    "title": "More thorough benchmarks [$200]",
-    "url": "https://github.com/QuantumSavory/QuantumSavory.jl/issues/131",
-    "repository_url": "https://github.com/QuantumSavory/QuantumSavory.jl",
-    "updated_at": "2026-05-28T02:47:52Z",
-    "score": 36,
-    "amount_hint": "$200",
-    "reason": "paid/bounty wording, visible amount, coding scope, fresh update",
+    "title": "Twitter API Core Integration ($2,500)",
+    "url": "https://github.com/Spectral-Finance/lux/issues/58",
+    "repository_url": "https://github.com/Spectral-Finance/lux",
+    "updated_at": "2026-05-27T13:50:48Z",
+    "score": 30,
+    "amount_hint": "$2,500",
+    "reason": "paid/bounty wording, visible amount, coding scope",
     "source": "volume-expander",
     "triage_decision": "keep",
     "triage_reasons": [
@@ -41,29 +15,28 @@
     "linked_prs": []
   },
   {
-    "title": "Low Handing Fruit Automation",
-    "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743",
-    "repository_url": "https://github.com/SecureBananaLabs/bug-bounty",
-    "updated_at": "2026-05-28T03:43:19Z",
+    "title": "LLM Provider Abstraction Layer $600",
+    "url": "https://github.com/Spectral-Finance/lux/issues/99",
+    "repository_url": "https://github.com/Spectral-Finance/lux",
+    "updated_at": "2026-05-28T01:59:45Z",
     "score": 26,
-    "amount_hint": "$700",
-    "reason": "paid/bounty wording, visible amount, coding scope, busy discussion, new issue, fresh update",
-    "source": "volume-expander",
-    "triage_decision": "keep",
-    "triage_reasons": [
-      "competition already visible in comments; still allowed in aggressive mode"
-    ],
-    "linked_prs": []
-  },
-  {
-    "title": "Read write Gentle JSON",
-    "url": "https://github.com/hyperaudio/hyperaudio-lite-editor/issues/160",
-    "repository_url": "https://github.com/hyperaudio/hyperaudio-lite-editor",
-    "updated_at": "2026-05-28T03:41:29Z",
-    "score": 26,
-    "amount_hint": "$150",
+    "amount_hint": "$600",
     "reason": "paid/bounty wording, visible amount, fresh update",
     "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [
+      "competition already visible in comments; still allowed in aggressive mode"
+    ],
+    "linked_prs": []
+  },
+  {
+    "title": "Timezone startOf DST off-by-one",
+    "url": "https://github.com/iamkun/dayjs/issues/1437",
+    "repository_url": "https://github.com/iamkun/dayjs",
+    "updated_at": "2026-05-28T05:51:00Z",
+    "score": 24,
+    "amount_hint": "$100",
+    "reason": "mentions bounty/reward, has visible amount",
     "triage_decision": "keep",
     "triage_reasons": [
       "competition already visible in comments; still allowed in aggressive mode"
@@ -90,9 +63,9 @@
     "url": "https://github.com/thesysdev/openui-creator-program/issues/3",
     "repository_url": "https://github.com/thesysdev/openui-creator-program",
     "updated_at": "2026-05-27T23:30:07Z",
-    "score": 11,
+    "score": 5,
     "amount_hint": "amount not obvious",
-    "reason": "paid/bounty wording, coding scope, fresh update",
+    "reason": "paid/bounty wording, coding scope",
     "source": "volume-expander",
     "triage_decision": "keep",
     "triage_reasons": [
@@ -101,13 +74,28 @@
     "linked_prs": []
   },
   {
-    "title": "Implement a fully functional Admin Panel",
-    "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/29",
-    "repository_url": "https://github.com/SecureBananaLabs/bug-bounty",
-    "updated_at": "2026-05-28T02:55:01Z",
+    "title": "json in mcp server args textarea",
+    "url": "https://github.com/archestra-ai/archestra/issues/3859",
+    "repository_url": "https://github.com/archestra-ai/archestra",
+    "updated_at": "2026-05-27T14:50:54Z",
+    "score": 5,
+    "amount_hint": "amount not obvious",
+    "reason": "paid/bounty wording, coding scope",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [
+      "competition already visible in comments; still allowed in aggressive mode"
+    ],
+    "linked_prs": []
+  },
+  {
+    "title": "Whitespace is allowed within Header names, should be an Invalid header",
+    "url": "https://github.com/urllib3/urllib3/issues/1362",
+    "repository_url": "https://github.com/urllib3/urllib3",
+    "updated_at": "2026-05-28T05:51:02Z",
     "score": 1,
-    "amount_hint": "$500",
-    "reason": "paid/bounty wording, visible amount, coding scope, busy discussion, fresh update",
+    "amount_hint": "amount not obvious",
+    "reason": "paid/bounty wording, fresh update",
     "source": "volume-expander",
     "triage_decision": "keep",
     "triage_reasons": [
