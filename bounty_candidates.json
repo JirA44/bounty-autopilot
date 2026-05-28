@@ -1,1 +1,118 @@
-[]
+[
+  {
+    "title": "[BUG] User creation accepts empty payloads and client-controlled IDs",
+    "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/979",
+    "repository_url": "https://github.com/SecureBananaLabs/bug-bounty",
+    "updated_at": "2026-05-27T23:53:35Z",
+    "score": 104,
+    "amount_hint": "$50",
+    "reason": "paid/bounty wording, visible amount, coding scope, low discussion, new issue, fresh update",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [],
+    "linked_prs": []
+  },
+  {
+    "title": "🎯 Bounty Alert: 6 New Opportunityies found",
+    "url": "https://github.com/dev-kp-eloper/BountyScout/issues/33",
+    "repository_url": "https://github.com/dev-kp-eloper/BountyScout",
+    "updated_at": "2026-05-27T23:53:34Z",
+    "score": 104,
+    "amount_hint": "$200, $175",
+    "reason": "paid/bounty wording, visible amount, coding scope, low discussion, new issue, fresh update",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [],
+    "linked_prs": []
+  },
+  {
+    "title": "More thorough benchmarks [$200]",
+    "url": "https://github.com/QuantumSavory/QuantumSavory.jl/issues/131",
+    "repository_url": "https://github.com/QuantumSavory/QuantumSavory.jl",
+    "updated_at": "2026-05-28T02:47:52Z",
+    "score": 36,
+    "amount_hint": "$200",
+    "reason": "paid/bounty wording, visible amount, coding scope, fresh update",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [
+      "competition already visible in comments; still allowed in aggressive mode"
+    ],
+    "linked_prs": []
+  },
+  {
+    "title": "Low Handing Fruit Automation",
+    "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743",
+    "repository_url": "https://github.com/SecureBananaLabs/bug-bounty",
+    "updated_at": "2026-05-28T03:43:19Z",
+    "score": 26,
+    "amount_hint": "$700",
+    "reason": "paid/bounty wording, visible amount, coding scope, busy discussion, new issue, fresh update",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [
+      "competition already visible in comments; still allowed in aggressive mode"
+    ],
+    "linked_prs": []
+  },
+  {
+    "title": "Read write Gentle JSON",
+    "url": "https://github.com/hyperaudio/hyperaudio-lite-editor/issues/160",
+    "repository_url": "https://github.com/hyperaudio/hyperaudio-lite-editor",
+    "updated_at": "2026-05-28T03:41:29Z",
+    "score": 26,
+    "amount_hint": "$150",
+    "reason": "paid/bounty wording, visible amount, fresh update",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [
+      "competition already visible in comments; still allowed in aggressive mode"
+    ],
+    "linked_prs": []
+  },
+  {
+    "title": "[Feature] Add Integrity Verification (Hash of Executable/Script)",
+    "url": "https://github.com/javelin-anticheat/py-workedtask/issues/4",
+    "repository_url": "https://github.com/javelin-anticheat/py-workedtask",
+    "updated_at": "2026-05-28T01:40:11Z",
+    "score": 11,
+    "amount_hint": "amount not obvious",
+    "reason": "paid/bounty wording, coding scope, fresh update",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [
+      "competition already visible in comments; still allowed in aggressive mode"
+    ],
+    "linked_prs": []
+  },
+  {
+    "title": "Written Content: OpenUI's React Renderer Explained: How Progressive Hydration Works with Streamed Model Output",
+    "url": "https://github.com/thesysdev/openui-creator-program/issues/3",
+    "repository_url": "https://github.com/thesysdev/openui-creator-program",
+    "updated_at": "2026-05-27T23:30:07Z",
+    "score": 11,
+    "amount_hint": "amount not obvious",
+    "reason": "paid/bounty wording, coding scope, fresh update",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [
+      "competition already visible in comments; still allowed in aggressive mode"
+    ],
+    "linked_prs": []
+  },
+  {
+    "title": "Implement a fully functional Admin Panel",
+    "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/29",
+    "repository_url": "https://github.com/SecureBananaLabs/bug-bounty",
+    "updated_at": "2026-05-28T02:55:01Z",
+    "score": 1,
+    "amount_hint": "$500",
+    "reason": "paid/bounty wording, visible amount, coding scope, busy discussion, fresh update",
+    "source": "volume-expander",
+    "triage_decision": "keep",
+    "triage_reasons": [
+      "competition already visible in comments; still allowed in aggressive mode"
+    ],
+    "linked_prs": []
+  }
+]
