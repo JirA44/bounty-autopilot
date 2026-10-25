@@ -1,3 +1,13 @@
+## Français
+
+Outil automatisé de repérage et de mise en file de tâches rémunérées. Exemple : surveiller des issues admissibles et examiner les propositions avant toute contribution ou action automatisée.
+
+## English
+
+An automated tool for scouting and queueing paid tasks. Example: monitor eligible issues and review suggestions before contributing or taking automated action.
+
+---
+
 # Bounty Autopilot
 
 Autonomous scout and worker queue for paid coding bounties.
